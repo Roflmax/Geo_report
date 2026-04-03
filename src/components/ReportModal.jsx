@@ -25,14 +25,14 @@ export default function ReportModal({ report, onClose }) {
   if (!report) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center p-4 pt-12 overflow-y-auto" onClick={onClose}>
+    <div className="fixed inset-0 z-50 flex items-start justify-center p-0 sm:p-4 sm:pt-12 overflow-y-auto" onClick={onClose}>
       <div className="fixed inset-0 bg-black/50 backdrop-blur-sm" />
       <div
-        className="relative bg-white rounded-xl shadow-2xl max-w-2xl w-full my-4 animate-in"
+        className="relative bg-white sm:rounded-xl shadow-2xl max-w-2xl w-full min-h-screen sm:min-h-0 sm:my-4 animate-in"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="sticky top-0 bg-white rounded-t-xl border-b border-gray-100 px-6 py-4 flex items-start justify-between gap-4 z-10">
+        <div className="sticky top-0 bg-white sm:rounded-t-xl border-b border-gray-100 px-4 sm:px-6 py-3 sm:py-4 flex items-start justify-between gap-3 z-10">
           <div className="min-w-0">
             <h2 className="text-lg font-semibold text-gray-900 leading-tight">{report.title}</h2>
             <span className={`inline-block mt-1.5 text-xs font-medium px-2.5 py-0.5 rounded-full ${verdictColor(report.maturityVerdict)}`}>
@@ -44,7 +44,7 @@ export default function ReportModal({ report, onClose }) {
           </button>
         </div>
 
-        <div className="px-6 py-5 space-y-5">
+        <div className="px-4 sm:px-6 py-4 sm:py-5 space-y-4 sm:space-y-5">
           {/* Summary */}
           <div>
             <p className="text-sm text-gray-700 leading-relaxed">{report.summary}</p>

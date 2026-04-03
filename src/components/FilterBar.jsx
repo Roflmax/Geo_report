@@ -26,7 +26,7 @@ export default function FilterBar({ search, onSearch, sectionFilter, onSectionFi
       <select
         value={sectionFilter ?? ''}
         onChange={e => onSectionFilter(e.target.value ? Number(e.target.value) : null)}
-        className="py-2 px-3 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-300"
+        className="w-full md:w-auto py-2 px-3 text-sm border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-300"
       >
         <option value="">Все направления</option>
         {sections.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}

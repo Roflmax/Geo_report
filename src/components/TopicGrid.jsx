@@ -53,7 +53,7 @@ export default function TopicGrid({ filteredTopics, onOpenReport }) {
             <h2 className="text-sm font-semibold text-gray-700 uppercase tracking-wide">{g.section.name}</h2>
             <span className="text-xs bg-gray-200 text-gray-600 px-2 py-0.5 rounded-full">{g.topics.length}</span>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
             {g.topics.map(t => <TopicCard key={t.id} topic={t} onOpenReport={onOpenReport} />)}
           </div>
         </div>

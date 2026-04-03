@@ -34,7 +34,7 @@ export default function Analytics() {
   return (
     <div className="mb-8">
       {/* Three insight cards */}
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 
         {/* Card 1: This is not hype */}
         <div className="bg-white border border-gray-200 shadow-sm rounded-xl p-5">
@@ -97,7 +97,7 @@ export default function Analytics() {
             <ResponsiveContainer width="100%" height={175}>
               <BarChart data={d.topCompanies} layout="vertical" margin={{ left: 0, right: 10 }}>
                 <XAxis type="number" hide />
-                <YAxis type="category" dataKey="name" width={130} tick={{ fontSize: 11 }} axisLine={false} tickLine={false} />
+                <YAxis type="category" dataKey="name" width={100} tick={{ fontSize: 10 }} axisLine={false} tickLine={false} />
                 <Tooltip formatter={(v) => [`${v} тем`, 'Покрытие']} />
                 <Bar dataKey="count" fill="#7c3aed" radius={[0, 4, 4, 0]} barSize={14} />
               </BarChart>
