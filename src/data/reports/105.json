@@ -1,0 +1,32 @@
+{
+  "topicId": 105,
+  "title": "AI-оптимизация расхода дизельного топлива парка техники",
+  "summary": "AI снижает расход дизельного топлива карьерных самосвалов через оптимизацию маршрутов, скоростных режимов и автономное управление. Топливо — одна из крупнейших статей операционных затрат рудника, и даже 7-11% экономии дают миллионы долларов.",
+  "howItWorks": "На входе — данные телеметики машин (расход топлива, обороты, скорость, загрузка, уклон), маршруты, состояние дорог, погодные условия. AI-модели оптимизируют маршруты для минимизации перепадов высот, регулируют скоростные режимы и контролируют холостой ход. Автономные самосвалы двигаются по оптимальным траекториям без агрессивного вождения. Система мониторит поведение каждого водителя и формирует рейтинги эко-вождения. На выходе — оптимальные маршруты и режимы движения, снижение расхода топлива, аналитика по водителям.",
+  "companies": [
+    {
+      "name": "Vale (с Caterpillar)",
+      "description": "Автономные самосвалы снижают расход топлива на 7.5-11% по сравнению с пилотируемыми. 90 автономных машин, из них 32 крупных самосвала. Ресурс шин вырос на 35%. Планирует масштабирование до 150 единиц.",
+      "url": "https://im-mining.com/2025/12/03/vale-looks-to-accelerate-autonomous-truck-fleet-to-150-in-next-two-years/"
+    },
+    {
+      "name": "Caterpillar (MineStar)",
+      "description": "Command for Hauling управляет автономной экосистемой для повышения эффективности транспортировки. Оптимизация маршрутов и скоростей снижает расход топлива автономных и пилотируемых парков.",
+      "url": "https://www.cat.com/en_US/by-industry/mining/minexpo2024/news/press-releases/cat-minestar-command-for-hauling-manages-the-autonomous-ecosystem-to-increase-haulage-efficiency-enhance-safety.html"
+    },
+    {
+      "name": "Freeport-McMoRan (с Caterpillar)",
+      "description": "5G+AI логистика повысила эффективность цикла медных рудников на 18%, экономия ~$20M/год. Конвертация парка Cat 793 на руднике Bagdad в автономный режим.",
+      "url": "https://investors.caterpillar.com/news/news-details/2023/Freeport-McMoRan-to-convert-fleet-of-Cat-793-trucks-at-its-Bagdad-mine-in-Arizona-to-autonomous-haulage-using-Cat-MineStar-Command-for-hauling/default.aspx"
+    }
+  ],
+  "businessEffect": "Снижение расхода топлива на 7.5-11% с автономными самосвалами (Vale). 4.5 млн литров экономии топлива в год (BHP). Рост ресурса шин на 35% благодаря оптимальным траекториям (Vale). Экономия ~$20M/год через AI-логистику (Freeport).",
+  "maturityVerdict": "Mainstream — оптимизация расхода топлива является стандартной функцией FMS и автономных систем, с подтверждённой многомиллионной экономией на крупнейших рудниках.",
+  "sources": [
+    "https://im-mining.com/2025/12/03/vale-looks-to-accelerate-autonomous-truck-fleet-to-150-in-next-two-years/",
+    "https://www.cat.com/en_US/by-industry/mining/minexpo2024/news/press-releases/cat-minestar-command-for-hauling-manages-the-autonomous-ecosystem-to-increase-haulage-efficiency-enhance-safety.html",
+    "https://investors.caterpillar.com/news/news-details/2023/Freeport-McMoRan-to-convert-fleet-of-Cat-793-trucks-at-its-Bagdad-mine-in-Arizona-to-autonomous-haulage-using-Cat-MineStar-Command-for-hauling/default.aspx",
+    "https://vale.com/w/vale-caterpillar-and-sotreq-sign-agreement-to-expand-fleet-of-autonomous-trucks-in-the-northern-system-in-para",
+    "https://farmonaut.com/mining/case-studies-of-ai-in-mining-7-top-innovations-2025"
+  ]
+}

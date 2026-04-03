@@ -1,0 +1,38 @@
+{
+  "topicId": 54,
+  "title": "AI-прогнозирование остаточного ресурса компонентов (RUL)",
+  "summary": "AI предсказывает, сколько часов или километров осталось до отказа конкретного компонента горного оборудования. Это позволяет планировать замену точно вовремя — не слишком рано (перерасход) и не слишком поздно (авария).",
+  "howItWorks": "На входе — временные ряды данных сенсоров (вибрация, температура, давление, ток), наработка компонента, результаты масляного анализа, история ремонтов. AI-модели (LSTM, CNN для временных рядов, гибридные методы) обучаются на «здоровой» сигнатуре каждой машины и выявляют тренды деградации. Система фильтрует операционный шум (скорость, нагрузка, условия) и изолирует реальные тренды ухудшения. На выходе — прогноз остаточного ресурса в часах/днях с доверительным интервалом и рекомендацией по сроку замены.",
+  "companies": [
+    {
+      "name": "Razor Labs (DataMind AI)",
+      "description": "Платформа изолирует значимые сигналы от операционного шума через sensor fusion. Обнаруживает деградацию за недели-месяцы до отказа на самосвалах Cat 793D, экскаваторах и другом оборудовании. Не требует установки новых датчиков.",
+      "url": "https://www.razor-labs.com/datamindai/"
+    },
+    {
+      "name": "Caterpillar (MineStar Health)",
+      "description": "Мониторит тысячи каналов данных каждой машины Cat. Equipment Care Advisor приоритизирует оборудование по срочности обслуживания. Прогноз остаточного ресурса критических компонентов (двигатель, трансмиссия, гидравлика).",
+      "url": "https://www.cat.com/en_US/by-industry/mining/minexpo2024/technology/minestar-solutions/minestar-maintenance-solutions.html"
+    },
+    {
+      "name": "Dingo (Newmont Trakka)",
+      "description": "Глобальное партнёрство с Newmont для предиктивного обслуживания тяжёлой техники. Trakka комбинирует масляный анализ с данными сенсоров для конкретных рекомендаций по замене компонентов.",
+      "url": "https://im-mining.com/2020/11/17/dingo-and-newmont-join-forces-to-create-a-global-maintenance-partnership/"
+    },
+    {
+      "name": "BHP",
+      "description": "AI и ML помогают «держать колёса в движении» на парке 300+ самосвалов. Предиктивная аналитика снижает незапланированные простои на 35% и экономит $27M/год.",
+      "url": "https://www.miningmonthly.com/management/news-articles/1461592/ai-machine-learning-help-bhps-wheels"
+    }
+  ],
+  "businessEffect": "Обнаружение деградации за недели-месяцы до отказа без дополнительных сенсоров (Razor Labs). Снижение незапланированных простоев на 35% (BHP). Оптимальный момент замены компонентов вместо фиксированного регламента экономит до 15% затрат на обслуживание.",
+  "maturityVerdict": "Зрелая — прогноз RUL коммерчески развёрнут на крупнейших рудниках (BHP, Newmont) через платформы Razor Labs, Cat Health и Dingo Trakka.",
+  "sources": [
+    "https://www.razor-labs.com/datamindai/",
+    "https://www.cat.com/en_US/by-industry/mining/minexpo2024/technology/minestar-solutions/minestar-maintenance-solutions.html",
+    "https://im-mining.com/2020/11/17/dingo-and-newmont-join-forces-to-create-a-global-maintenance-partnership/",
+    "https://www.miningmonthly.com/management/news-articles/1461592/ai-machine-learning-help-bhps-wheels",
+    "https://razor-labs.com/revolutionizing-mining-operations-with-ai-preidictive-maintenance-imarc2024/",
+    "https://www.razor-labs.com/predictive-maintenance-haul-trucks-ai/"
+  ]
+}

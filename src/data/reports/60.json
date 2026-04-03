@@ -1,0 +1,38 @@
+{
+  "topicId": 60,
+  "title": "AI-прогнозирование содержания металла в концентрате и хвостах",
+  "summary": "AI-модели (soft sensors) непрерывно прогнозируют содержание металла в концентрате и хвостах обогатительной фабрики, заполняя пробелы между редкими лабораторными анализами. Это позволяет оперативно корректировать процесс и снижать потери металла в хвостах.",
+  "howItWorks": "На входе — данные онлайн-XRF анализаторов, камер пенной флотации, датчиков pH, расхода, плотности и уровня пульпы. AI-модели (нейросети, ConvLSTM) обучаются на исторических данных фабрики и строят виртуальные анализаторы, прогнозирующие содержание металла на минуты вперёд. Soft sensors выводят труднодоступные переменные из существующих сигналов без нового оборудования. На выходе — непрерывный прогноз содержания в концентрате и хвостах, рекомендации по корректировке реагентов до появления потерь.",
+  "companies": [
+    {
+      "name": "Metso (Courier XRF)",
+      "description": "Онлайн-анализаторы Courier 5X/6X SL непрерывно измеряют содержание элементов в потоках пульпы. Данные интегрируются с AI-платформой Metso для оптимизации процесса обогащения.",
+      "url": "https://www.metso.com/portfolio/courier-5x6x-sl-analyzer/"
+    },
+    {
+      "name": "ABB (Expert Optimizer, Boliden)",
+      "description": "Система продвинутого управления процессом оптимизирует измельчение и флотацию на Boliden. Прогнозирует содержание и корректирует уставки для максимизации извлечения.",
+      "url": "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-expert-optimizer"
+    },
+    {
+      "name": "Freeport-McMoRan (TROI)",
+      "description": "AI-модели оптимизировали концентраторы: рост извлечения металла и увеличение пропускной способности на 10-15%. Программа цифровой трансформации с McKinsey.",
+      "url": "https://aimagazine.com/news/freeport-mcmoran-uses-ai-to-transform-mining-operations"
+    },
+    {
+      "name": "Imubit",
+      "description": "Промышленный AI строит виртуальные анализаторы, прогнозирующие содержание на минуты вперёд. Типичные фабрики теряют 15% металла в хвостах — AI сокращает потери. Прогноз >3% роста извлечения на сложных цепях.",
+      "url": "https://imubit.com/article/ai-critical-mineral-recovery-plant/"
+    }
+  ],
+  "businessEffect": "Рост пропускной способности концентраторов на 10-15% (Freeport-McMoRan). Сокращение потерь металла в хвостах (типично 15% теряется). Непрерывный прогноз содержания вместо ожидания лабораторных результатов. >3% роста извлечения на сложных цепях (Imubit).",
+  "maturityVerdict": "Зрелая — онлайн-XRF анализаторы (Metso Courier) и APC (ABB Expert Optimizer) коммерчески развёрнуты, AI-soft sensors активно масштабируются.",
+  "sources": [
+    "https://www.metso.com/portfolio/courier-5x6x-sl-analyzer/",
+    "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-expert-optimizer",
+    "https://aimagazine.com/news/freeport-mcmoran-uses-ai-to-transform-mining-operations",
+    "https://imubit.com/article/ai-critical-mineral-recovery-plant/",
+    "https://imubit.com/article/mining-recovery-rate-ai/",
+    "https://www.metso.com/insights/blog/mining-and-metals/artificial-intelligence-for-minerals-processing/"
+  ]
+}

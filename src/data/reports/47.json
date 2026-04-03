@@ -1,0 +1,43 @@
+{
+  "topicId": 47,
+  "title": "AI-отслеживание потоков руды и породы через всю цепочку",
+  "summary": "AI отслеживает движение каждой партии руды и породы от забоя через склады до фабрики, обеспечивая полную трассируемость материалов. Это предотвращает потери руды, ошибки маршрутизации и деградацию качества питания фабрики.",
+  "howItWorks": "На входе — блочная модель месторождения, данные GPS самосвалов (откуда загружен, куда разгружен), данные сканирования складов, показания анализаторов на конвейерах. AI связывает блочную модель с маршрутами самосвалов и данными складов в единую систему трассируемости. Модели динамически прогнозируют содержание и твёрдость на каждом участке цепочки. На выходе — карта потоков материалов в реальном времени, обнаружение ошибок маршрутизации, прогноз качества питания фабрики.",
+  "companies": [
+    {
+      "name": "Caterpillar (MineStar Terrain)",
+      "description": "Отслеживает тип материала в каждом ковше экскаватора и назначает направление самосвала (руда/порода/склад). GPS-трекинг обеспечивает полную трассируемость от забоя до разгрузки.",
+      "url": "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/terrain.html"
+    },
+    {
+      "name": "NTWIST",
+      "description": "AI-платформа связывает блочные модели, данные перевозок и сканирования в единый источник. Обнаруживает ошибки маршрутизации за часы вместо дней. Увеличивает потенциальную прибыль в 42% рабочих часов. До $250/унция скрытой стоимости на золотых рудниках.",
+      "url": "https://ntwist.com/solutions/mining/material-flow-tracking"
+    },
+    {
+      "name": "Hexagon (MineOperate)",
+      "description": "Платформа Foundation объединяет данные планирования, диспетчеризации и мониторинга для обеспечения трассируемости материалов и соответствия плану добычи.",
+      "url": "https://hexagon.com/products/hxgn-mineoperate-op-foundation"
+    },
+    {
+      "name": "BHP",
+      "description": "Внедряет системы отслеживания материалов на железорудных рудниках WAIO с интеграцией автономного флота и электрической техники для полной цифровизации цепочки.",
+      "url": "https://im-mining.com/2022/10/03/bhp-opens-up-on-waios-autonomous-and-electric-fleet-future/"
+    },
+    {
+      "name": "Newmont",
+      "description": "Использует AI для отслеживания качества руды через цепочку mine-to-mill для оптимизации извлечения на своих золотых рудниках.",
+      "url": "https://www.omdena.com/blog/top-24-global-mining-companies-driving-ai-transformation-in-2025"
+    }
+  ],
+  "businessEffect": "AI увеличивает потенциальную прибыль в 42% рабочих часов и корректирует отклонения в 17% (NTWIST). До $250/унция скрытой стоимости на золотых рудниках. Обнаружение ошибок маршрутизации за часы вместо дней.",
+  "maturityVerdict": "Зрелая — системы отслеживания материалов (Cat Terrain, Hexagon) являются стандартом, AI (NTWIST) добавляет предиктивную аналитику и автоматическое обнаружение ошибок.",
+  "sources": [
+    "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/terrain.html",
+    "https://ntwist.com/solutions/mining/material-flow-tracking",
+    "https://hexagon.com/products/hxgn-mineoperate-op-foundation",
+    "https://im-mining.com/2022/10/03/bhp-opens-up-on-waios-autonomous-and-electric-fleet-future/",
+    "https://ntwist.com/blog/ai-stockpile-tracking-mining",
+    "https://ntwist.com/solutions/mining/mine-to-mill-optimization"
+  ]
+}

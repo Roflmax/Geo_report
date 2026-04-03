@@ -1,0 +1,33 @@
+{
+  "topicId": 27,
+  "title": "AI-оптимизация параметров бурения в реальном времени",
+  "summary": "AI автоматически подстраивает параметры бурения (скорость проходки, давление, вращение, угол) под геологические условия в реальном времени. Это повышает производительность бурения, снижает износ инструмента и обеспечивает точное размещение скважин.",
+  "howItWorks": "На входе — данные MWD-сенсоров (скорость проходки, давление подачи, крутящий момент, вибрация), данные лазерных сканеров забоя, геологическая модель. AI-модели анализируют параметры в реальном времени и определяют оптимальные режимы бурения для текущих условий. Системы AutoCycle автоматизируют полный цикл: позиционирование, стабилизацию, бурение и перемещение к следующей скважине. На выходе — автоматически адаптированные параметры бурения, минимизирующие время и износ при максимальном качестве скважин.",
+  "companies": [
+    {
+      "name": "Epiroc",
+      "description": "Совместный проект с Boliden, Algoryx и университетом Эребру: AI-система сканирует забой лазером и автоматически корректирует план бурения. Аналитика данных в реальном времени для автономных буровых станков.",
+      "url": "https://www.epiroc.com/en-us/customer-stories/2024/partnership-makes-perfection"
+    },
+    {
+      "name": "Sandvik",
+      "description": "AutoMine® Surface Fleet (2025) управляет 15+ буровых станков i-series удалённо. AutoCycle автоматизирует полный цикл бурения без вмешательства оператора. FleetFlex обеспечивает одновременное управление несколькими станками.",
+      "url": "https://www.mining.sandvik/en/digital-solutions/automation/automine-autonomous/"
+    },
+    {
+      "name": "Caterpillar",
+      "description": "Система Command for Drilling автоматизирует буровые операции на открытых горных работах. Точное позиционирование и автоматическое бурение по заданным паттернам.",
+      "url": "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/command/command-drilling.html"
+    }
+  ],
+  "businessEffect": "Сокращение времени бурения до 30% за счёт AI-оптимизации параметров. Управление 15+ буровыми станками одним оператором (Sandvik AutoMine Fleet). Полная автоматизация цикла бурения без вмешательства человека (AutoCycle).",
+  "maturityVerdict": "Зрелая — автономное бурение коммерчески внедрено крупнейшими OEM (Epiroc, Sandvik, Caterpillar) на десятках рудников по всему миру.",
+  "sources": [
+    "https://www.epiroc.com/en-us/customer-stories/2024/partnership-makes-perfection",
+    "https://www.mining.sandvik/en/digital-solutions/automation/automine-autonomous/",
+    "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/command/command-drilling.html",
+    "https://www.mining.sandvik/en/news-and-media/news-archive/2025/05/sandvik-introduces-future-of-autonomous-drill-rig-operation-with-automine-surface-fleet/",
+    "https://www.epiroc.com/en-us/customer-stories/2023/epiroc-leads-collaborative-project-for-autonomous-face-drilling",
+    "https://www.researchgate.net/publication/393857603_AI-DRIVEN_DRILLING_OPTIMIZATION_AND_REAL-TIME_DATA_ANALYSIS"
+  ]
+}

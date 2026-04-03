@@ -1,0 +1,32 @@
+{
+  "topicId": 64,
+  "title": "Контроль качества концентрата в потоке (on-stream analysis)",
+  "summary": "Онлайн-анализаторы непрерывно измеряют содержание металлов в потоках пульпы (питание, концентрат, хвосты) без ручного отбора проб. AI использует эти данные для автоматической корректировки параметров обогащения в реальном времени.",
+  "howItWorks": "На входе — потоки пульпы, проходящие через измерительные ячейки анализатора. Рентгенофлуоресцентные (WDXRF) или рентгенодифракционные (XRD) сенсоры измеряют элементный и минеральный состав каждые минуты. AI-модели (APC, MPC) используют непрерывные данные анализатора для корректировки расхода реагентов, уровня пульпы и режима флотации. На выходе — непрерывный контроль содержания металлов с точностью, сопоставимой с лабораторией, и автоматическая оптимизация процесса.",
+  "companies": [
+    {
+      "name": "Metso (Courier)",
+      "description": "Courier 6X SL — высокопроизводительный онлайн XRF-анализатор для многопоточного анализа. Courier 6G SL — прямое измерение золота и платины в потоке. Точность сопоставима с лабораторным анализом при сокращённом времени цикла.",
+      "url": "https://www.metso.com/portfolio/courier-6g-sl-on-stream-analyzer-for-gold/"
+    },
+    {
+      "name": "ABB (Expert Optimizer)",
+      "description": "Система продвинутого управления процессом использует данные онлайн-анализаторов для непрерывной оптимизации флотации и измельчения. MPC и нейросети корректируют уставки в реальном времени.",
+      "url": "https://new.abb.com/mining/digital-applications/advanced-process-control"
+    },
+    {
+      "name": "FLSmidth (ECS/ProcessExpert)",
+      "description": "Система продвинутого управления для обогатительных фабрик. Интегрирует данные онлайн-анализаторов с моделями процесса для оптимизации извлечения и качества концентрата.",
+      "url": "https://www.flsmidth.com/-/media/brochures/brochures-products/process-control-and-optimization/advanced-process-control-for-the-minerals-industry.pdf"
+    }
+  ],
+  "businessEffect": "Непрерывный контроль содержания вместо ожидания лабораторных результатов (часы → минуты). Оптимизация с меньшими циркуляционными нагрузками — рост пропускной способности фабрики. Точность WDXRF сопоставима с рутинным лабораторным анализом.",
+  "maturityVerdict": "Mainstream — онлайн-XRF анализаторы (Metso Courier) являются стандартом на крупных обогатительных фабриках уже десятилетия, AI усиливает использование данных для оптимизации.",
+  "sources": [
+    "https://www.metso.com/portfolio/courier-6g-sl-on-stream-analyzer-for-gold/",
+    "https://new.abb.com/mining/digital-applications/advanced-process-control",
+    "https://www.flsmidth.com/-/media/brochures/brochures-products/process-control-and-optimization/advanced-process-control-for-the-minerals-industry.pdf",
+    "https://www.metso.com/portfolio/courier-5x6x-sl-analyzer/",
+    "https://www.mining.com/metso-outotec-introduces-courier-analyzer-for-direct-measurement-of-gold-concentration/"
+  ]
+}

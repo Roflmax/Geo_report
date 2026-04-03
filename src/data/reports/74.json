@@ -1,0 +1,38 @@
+{
+  "topicId": 74,
+  "title": "AI-выявление опасных действий и поведения работников",
+  "summary": "AI-системы обнаруживают опасное поведение работников и сближение людей с техникой в реальном времени, предотвращая столкновения и инциденты. Это включает детекцию усталости водителей, нахождение в запретных зонах и опасные взаимодействия людей с оборудованием.",
+  "howItWorks": "На входе — данные датчиков приближения (UWB, радар, камеры), сигналы от персональных меток, видео из кабины (для детекции усталости). AI-алгоритмы анализируют контекст ситуации, отличая реальную опасность от нормальной активности. Динамические зоны обнаружения адаптируются к движению техники и персонала. Система детектирует неподвижных работников, падения и нахождение вблизи фиксированных опасностей. На выходе — мгновенные оповещения оператору и работнику, автоматическое торможение при критическом сближении, аналитика инцидентов.",
+  "companies": [
+    {
+      "name": "Caterpillar (MineStar Detect)",
+      "description": "Портфель решений безопасности: Proximity Awareness (peer-to-peer CAS без сетевой инфраструктуры), Driver Safety System (детекция усталости и отвлечения в кабине). Мгновенное оповещение при обнаружении опасности.",
+      "url": "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/detect1.html"
+    },
+    {
+      "name": "Hexagon (CAS)",
+      "description": "Система предотвращения столкновений на 50 000+ машинах по всему миру. 360° обнаружение на расстоянии до 300 м. CAS 10 объединяет GPS, RF, Wi-Fi, LTE и UWB в компактном решении.",
+      "url": "https://blog.hexagonmining.com/en/inside-hexagons-collision-avoidance-system/"
+    },
+    {
+      "name": "Newtrax (Sandvik) ADPS",
+      "description": "Advanced Proximity Detection System с динамическими зонами обнаружения, адаптирующимися к движению. Снижает ложные тревоги через анализ операционных данных. Детекция фиксированных опасностей, упавших и обездвиженных работников.",
+      "url": "https://www.mining.sandvik/en/digital-solutions/safety-and-environment/proximity-detection-and-collision-avoidance/advanced-proximity-detection-system/"
+    },
+    {
+      "name": "Strata Worldwide (HazardAvert)",
+      "description": "Система обнаружения приближения и предотвращения столкновений для подземных и открытых горных работ. Используется также в обучении технике безопасности.",
+      "url": "https://www.strataworldwide.com/news/using-proximity-detection-technology-in-mining-safety-training"
+    }
+  ],
+  "businessEffect": "AI анализирует контекст, отличая реальную опасность от нормальной активности — снижение ложных тревог. Динамические зоны обнаружения адаптируются к скорости и направлению техники. Автоматическое торможение при критическом сближении без участия оператора.",
+  "maturityVerdict": "Mainstream — системы proximity detection и CAS являются обязательными на большинстве крупных рудников, AI добавляет контекстное понимание и снижает ложные тревоги.",
+  "sources": [
+    "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/detect1.html",
+    "https://blog.hexagonmining.com/en/inside-hexagons-collision-avoidance-system/",
+    "https://www.mining.sandvik/en/digital-solutions/safety-and-environment/proximity-detection-and-collision-avoidance/advanced-proximity-detection-system/",
+    "https://www.strataworldwide.com/news/using-proximity-detection-technology-in-mining-safety-training",
+    "https://www.mining-technology.com/features/can-ai-enhance-minings-collision-avoidance-technology/",
+    "https://discoveryalert.com.au/proximity-detection-collision-avoidance-mining-2025/"
+  ]
+}

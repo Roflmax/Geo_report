@@ -1,0 +1,31 @@
+{
+  "topicId": 111,
+  "title": "AI-оптимизация расписания погрузки и отправки продукции",
+  "summary": "AI оптимизирует расписание движения поездов, погрузки в порту и швартовки судов для максимизации отгрузки при минимальных простоях. Для крупных экспортёров (Rio Tinto: 1 млн тонн/день) даже 1% улучшения даёт десятки миллионов долларов.",
+  "howItWorks": "На входе — план добычи по рудникам, расписание поездов, состояние порта (причалы, суда, склады), погодные условия, график обслуживания. AI-платформа оптимизирует тысячи решений одновременно: какой поезд с какого рудника, в какой порт, на какой причал, для какого судна. Алгоритмы адаптируются к погодным сбоям и изменениям спроса в реальном времени. На выходе — оптимальное расписание mine-rail-port с максимизацией отгрузки и минимизацией простоев техники и судов.",
+  "companies": [
+    {
+      "name": "Rio Tinto",
+      "description": "AI-платформа Future Scheduling заменила устаревшие системы для 50 диспетчеров. Удвоила производительность планировщиков, окупилась менее чем за 3 месяца. Крупнейшая в мире полностью интегрированная цепочка mine-rail-port (1 млн тонн/день).",
+      "url": "https://www.riotinto.com/en/news/stories/a-formula-better-decisions"
+    },
+    {
+      "name": "Rio Tinto + BCG X",
+      "description": "Совместная разработка AI-платформы оптимизации. Экономия затрат и капитальных расходов до 5%. Рост производительности диспетчеров до 5 раз. Стабилизация операций при погодных сбоях и колебаниях спроса.",
+      "url": "https://www.bcg.com/x/mark-your-moment/how-an-iron-ore-producer-modernized-mining-operations-with-ai"
+    },
+    {
+      "name": "Fortescue (SolveIT)",
+      "description": "SolveIT Software оптимизирует всю цепочку mine-to-port: шихтование руды, расписание поездов, операции порта, швартовку и управление сценариями обслуживания.",
+      "url": "https://www.prnewswire.com/news-releases/solveit-software-goes-live-on-time-and-on-budget-at-fortescue-metals-group-for-mine-to-port-supply-chain-optimisation-151103855.html"
+    }
+  ],
+  "businessEffect": "Окупаемость AI-платформы менее чем за 3 месяца (Rio Tinto). Экономия затрат до 5% на цепочке mine-rail-port. Рост производительности диспетчеров в 2-5 раз. Значительный рост объёмов отгрузки.",
+  "maturityVerdict": "Зрелая — AI-оптимизация mine-to-port цепочки развёрнута крупнейшими экспортёрами (Rio Tinto, Fortescue) с подтверждённой многомиллионной экономией.",
+  "sources": [
+    "https://www.riotinto.com/en/news/stories/a-formula-better-decisions",
+    "https://www.bcg.com/x/mark-your-moment/how-an-iron-ore-producer-modernized-mining-operations-with-ai",
+    "https://www.prnewswire.com/news-releases/solveit-software-goes-live-on-time-and-on-budget-at-fortescue-metals-group-for-mine-to-port-supply-chain-optimisation-151103855.html",
+    "https://www.bcg.com/publications/2026/the-ai-powered-mining-and-metals-company"
+  ]
+}

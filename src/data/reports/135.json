@@ -1,0 +1,30 @@
+{
+  "topicId": 135,
+  "title": "Автоматизация доменного моделирования при оценке ресурсов",
+  "summary": "ML автоматически определяет геологические домены (литологию, зоны минерализации) при оценке ресурсов, заменяя субъективное ручное разделение. Это ускоряет моделирование и обеспечивает воспроизводимость результатов.",
+  "howItWorks": "На входе — данные бурения (содержания, литология, альтерация), пространственные координаты. ML-алгоритмы (DomainMCF, кластеризация) автоматически выделяют домены по статистическим свойствам данных. Модели учитывают как геохимические, так и геологические границы. На выходе — автоматическое разделение месторождения на домены для последующей оценки ресурсов кригингом.",
+  "companies": [
+    {
+      "name": "Micromine (Grade Copilot)",
+      "description": "AI-ассистент для геологов, помогающий с доменным моделированием и оценкой содержаний через диалоговый интерфейс.",
+      "url": "https://experience.micromine.com/grade-copilot"
+    },
+    {
+      "name": "Dassault (GEOVIA AI)",
+      "description": "Ранние результаты ML для оценки ресурсов показывают перспективы автоматизации доменного моделирования и вариографии.",
+      "url": "https://blog.3ds.com/brands/geovia/ai-for-resource-estimation-early-results-for-machine-learning-techniques/"
+    },
+    {
+      "name": "Seequent (Driver SCM)",
+      "description": "ML-переинтерпретация доменов на наследственных месторождениях для раскрытия скрытой ценности в legacy-данных.",
+      "url": "https://www.seequent.com/unlocking-latent-value-a-machine-learning-reinterpretation-of-a-legacy-gold-deposit/"
+    }
+  ],
+  "businessEffect": "Автоматическое выделение доменов заменяет недели ручной работы геолога. Воспроизводимость результатов устраняет субъективность ручного деления. ML обнаруживает домены, пропущенные при ручном анализе.",
+  "maturityVerdict": "Развивающаяся — Maptek DomainMCF и Micromine Grade Copilot коммерчески доступны, но широкое принятие в ресурсной оценке пока ограничено консерватизмом отрасли.",
+  "sources": [
+    "https://experience.micromine.com/grade-copilot",
+    "https://blog.3ds.com/brands/geovia/ai-for-resource-estimation-early-results-for-machine-learning-techniques/",
+    "https://www.seequent.com/unlocking-latent-value-a-machine-learning-reinterpretation-of-a-legacy-gold-deposit/"
+  ]
+}

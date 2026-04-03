@@ -1,0 +1,38 @@
+{
+  "topicId": 28,
+  "title": "AI-проектирование оптимальных схем взрывов для заданной фрагментации",
+  "summary": "AI оптимизирует схемы взрывов — сетку скважин, навеску ВВ и замедления — для достижения целевой фрагментации породы. Это улучшает извлечение руды, снижает затраты на дробление и повышает безопасность за счёт контроля разлёта и вибраций.",
+  "howItWorks": "На входе — 3D-модель уступа, данные MWD бурения (геология по скважинам), координаты пробуренных скважин, целевой размер фрагментации. AI-алгоритмы анализируют геологию уступа и оптимизируют распределение энергии взрыва: расстояния между скважинами, навеску ВВ, схему замедлений. После взрыва дроны фотографируют развал, а компьютерное зрение измеряет фактическую фрагментацию для обратной связи. На выходе — оптимизированная схема взрыва с прогнозом фрагментации и рекомендациями по корректировке.",
+  "companies": [
+    {
+      "name": "Strayos",
+      "description": "AI-платформа для анализа бурения и взрывов. Комбинирует данные MWD, 3D-аналитику и дроновую съёмку для оптимизации фрагментации. Партнёрства с BME и Trimble для интеграции в полный цикл mine-to-mill.",
+      "url": "https://www.strayos.com/"
+    },
+    {
+      "name": "Orica",
+      "description": "Облачная платформа BlastIQ управляет взрывными работами: проектирование в SHOTPlus, мониторинг в реальном времени, автоматический анализ фрагментации FRAGTrack. Рост извлечения руды на 10%, дополнительная выручка $20M+ в год на отдельных операциях.",
+      "url": "https://www.orica.com/Products---Services/Mining-Services/BlastIQ/Technologies/shotplus"
+    },
+    {
+      "name": "BME (Omnia)",
+      "description": "Альянс с Strayos для AI-оптимизации взрывных работ. Интеграция данных бурения и взрыва для улучшения фрагментации и контроля воздействия.",
+      "url": "https://im-mining.com/2025/10/22/bme-and-strayos-alliance-optimises-blasting-with-ai-driven-insights/"
+    },
+    {
+      "name": "Trimble",
+      "description": "Партнёрство со Strayos для оптимизации цепочки съёмка-бурение-взрыв-геотехника через платформу Trimble Mine Insights.",
+      "url": "https://im-mining.com/2025/11/12/trimble-and-strayos-look-to-optimise-surveying-drilling-blasting-and-geotechnical-workflows-with-trimble-mine-insights/"
+    }
+  ],
+  "businessEffect": "Рост извлечения руды на 10% (Orica BlastIQ). Дополнительная выручка $20M+ в год на отдельных рудниках. 45% из топ-50 горнодобывающих компаний используют AI для проектирования взрывов.",
+  "maturityVerdict": "Зрелая — коммерческие платформы (Orica BlastIQ, Strayos) массово внедрены крупнейшими горнодобывающими компаниями с подтверждённым финансовым эффектом.",
+  "sources": [
+    "https://www.strayos.com/",
+    "https://www.orica.com/Products---Services/Mining-Services/BlastIQ/Technologies/shotplus",
+    "https://im-mining.com/2025/10/22/bme-and-strayos-alliance-optimises-blasting-with-ai-driven-insights/",
+    "https://im-mining.com/2025/11/12/trimble-and-strayos-look-to-optimise-surveying-drilling-blasting-and-geotechnical-workflows-with-trimble-mine-insights/",
+    "https://discoveryalert.com.au/ai-transforming-drilling-blasting-mining-2025/",
+    "https://blog.strayos.com/webinar-summary-optimizing-fragmentation-using-measure-while-drilling-and-3d-analytics-data/"
+  ]
+}

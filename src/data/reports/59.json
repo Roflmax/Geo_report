@@ -1,0 +1,38 @@
+{
+  "topicId": 59,
+  "title": "AI-оптимизация процесса флотации в реальном времени",
+  "summary": "AI управляет параметрами флотации — дозировкой реагентов, расходом воздуха и уровнем пульпы — в реальном времени, адаптируясь к изменениям свойств руды. Это повышает извлечение металла и снижает расход реагентов без участия оператора.",
+  "howItWorks": "На входе — данные камер (анализ пены FrothSense), pH, температура, расход воздуха, уровень пульпы, дозировка реагентов, минеральный состав питания. AI-модели (нейросети, генетические алгоритмы) обучаются на данных фабрики и находят оптимальные уставки для текущего состава руды. Система записывает новые уставки в DCS каждые несколько секунд, реагируя быстрее оператора. На выходе — оптимальные уставки реагентов, воздуха и уровня пульпы, максимизирующие извлечение при заданном качестве концентрата.",
+  "companies": [
+    {
+      "name": "Metso (ACT/FrothSense+)",
+      "description": "FrothSense+ использует AI с глубоким обучением для анализа свойств пены, включая измерение высоты пены и множественные области интереса. ACT оптимизирует весь процесс флотации в замкнутом цикле.",
+      "url": "https://www.metso.com/portfolio/flotation-process-controls/"
+    },
+    {
+      "name": "ABB (Expert Optimizer)",
+      "description": "Система продвинутого управления процессом измельчения и флотации. Оптимизирует параметры в реальном времени через интеграцию с DCS для максимизации извлечения.",
+      "url": "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-expert-optimizer/advanced-process-control-of-grinding-and-flotation"
+    },
+    {
+      "name": "Imubit",
+      "description": "Промышленный AI записывает оптимальные уставки в DCS каждые несколько секунд, одновременно корректируя pH, температуру, расход воздуха и дозировку реагентов. Прогноз >3% роста извлечения металла на сложных флотационных цепях.",
+      "url": "https://imubit.com/articles/industrial-ai-mineral-processing"
+    },
+    {
+      "name": "Freeport-McMoRan (TROI)",
+      "description": "Программа цифровой трансформации с McKinsey, превращающая данные фабрик в ценность через AI-оптимизацию флотации и других процессов обогащения меди.",
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/freeport-mcmoran-turns-data-into-value"
+    }
+  ],
+  "businessEffect": "Рост извлечения металла >3% на сложных флотационных цепях (Imubit). Экономия 5-10% энергии измельчения. AI корректирует уставки каждые несколько секунд — быстрее любого оператора. Адаптация к изменениям химии руды в реальном времени.",
+  "maturityVerdict": "Зрелая — APC для флотации (ABB, Metso ACT) коммерчески используется десятилетиями, AI нового поколения (Imubit, FrothSense+) значительно расширяет возможности.",
+  "sources": [
+    "https://www.metso.com/portfolio/flotation-process-controls/",
+    "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-expert-optimizer/advanced-process-control-of-grinding-and-flotation",
+    "https://imubit.com/articles/industrial-ai-mineral-processing",
+    "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/freeport-mcmoran-turns-data-into-value",
+    "https://www.metso.com/portfolio/frothsense/",
+    "https://imubit.com/article/mining-recovery-rate-ai/"
+  ]
+}

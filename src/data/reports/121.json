@@ -1,0 +1,26 @@
+{
+  "topicId": 121,
+  "title": "Генеративный AI для автоматической генерации отчётов и аналитики",
+  "summary": "LLM автоматически генерируют отчёты и аналитические записки по оперативным данным рудника на естественном языке. Это освобождает инженеров от рутинного написания отчётов и ускоряет доступ к аналитике для руководства.",
+  "howItWorks": "На входе — оперативные данные из SCADA, FMS, ERP, IoT-сенсоров, данные о производительности, безопасности, качестве. LLM (GPT, Copilot) анализируют данные через семантические модели, понимают иерархии и бизнес-правила. Пользователь задаёт запрос на естественном языке: «Покажи производительность по экскаваторам за неделю» или «Что снизило извлечение вчера?». На выходе — текстовые отчёты, визуализации, выявленные тренды и аномалии без написания кода или SQL-запросов.",
+  "companies": [
+    {
+      "name": "Microsoft (Ma'aden Copilot)",
+      "description": "Ma'aden использует Microsoft 365 Copilot для повышения продуктивности, экономя до 2200 часов в месяц на составлении отчётов, документов и анализе данных. Copilot в Power BI генерирует визуализации по запросам на естественном языке.",
+      "url": "https://www.microsoft.com/en-us/industry/blog/energy-and-resources/mining/2025/05/29/embracing-ai-and-adaptive-cloud-to-drive-digital-transformation-in-mining/"
+    },
+    {
+      "name": "Sight Machine",
+      "description": "Платформа производственной аналитики с AI для автоматического обнаружения причин снижения производительности и генерации отчётов по операционным данным.",
+      "url": "https://www.sightmachine.com/"
+    }
+  ],
+  "businessEffect": "Экономия до 2200 часов/месяц на составлении документов и анализе (Ma'aden + Copilot). Генерация отчётов по запросу на естественном языке без программирования. Copilot понимает семантические модели данных, иерархии и бизнес-правила горного предприятия.",
+  "maturityVerdict": "Зрелая — Microsoft Copilot коммерчески доступен и внедрён в горнодобывающих компаниях (Ma'aden), технология быстро масштабируется в отрасли.",
+  "sources": [
+    "https://www.microsoft.com/en-us/industry/blog/energy-and-resources/mining/2025/05/29/embracing-ai-and-adaptive-cloud-to-drive-digital-transformation-in-mining/",
+    "https://www.sightmachine.com/",
+    "https://www.microsoft.com/en-us/microsoft-cloud/blog/2025/07/24/ai-powered-success-with-1000-stories-of-customer-transformation-and-innovation/",
+    "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction"
+  ]
+}

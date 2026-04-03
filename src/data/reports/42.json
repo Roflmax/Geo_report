@@ -1,0 +1,38 @@
+{
+  "topicId": 42,
+  "title": "AI-распознавание и объезд препятствий на транспортных путях",
+  "summary": "Системы обнаружения и объезда препятствий используют LiDAR, радары, камеры и GPS для распознавания объектов на карьерных дорогах и предотвращения столкновений. Это критически важная технология безопасности как для пилотируемой, так и для автономной техники.",
+  "howItWorks": "На входе — данные LiDAR (3D-облака точек), радаров, камер, GPS/GNSS и Ultra-Wide Band сенсоров. AI-алгоритмы обнаруживают и классифицируют объекты: технику, людей, камни, бермы — на расстоянии до 300 м. Для автономных самосвалов система автоматически планирует объезд; для пилотируемых — выдаёт голосовые и визуальные предупреждения оператору. На выходе — 360° обнаружение препятствий в реальном времени с предупреждениями и автоматическим торможением при критическом сближении.",
+  "companies": [
+    {
+      "name": "Caterpillar (LiDAR)",
+      "description": "3D LiDAR на автономных самосвалах Cat идентифицирует металлические и неметаллические препятствия (породные выступы, камни, бермы) без тегов. Интеграция с MineStar Detect Object Detection (радар + камера).",
+      "url": "https://www.cat.com/en_US/blog/truck-lidar.html"
+    },
+    {
+      "name": "Komatsu (FrontRunner ODS)",
+      "description": "Система обнаружения препятствий FrontRunner AHS использует мульти-сенсорный подход (LiDAR, радар, камеры) для безопасной автономной навигации. Более 10 млрд тонн перевезено без фатальных инцидентов.",
+      "url": "https://www.komatsu.com/en-us/technology/smart-mining/loading-and-haulage/autonomous-haulage-system"
+    },
+    {
+      "name": "Hexagon (MineProtect CAS)",
+      "description": "Лидер рынка: 50 000+ горных машин оснащены CAS. 360° обнаружение на расстоянии до 300 м. CAS 10 объединяет GPS, RF, Wi-Fi, LTE и UWB в двух компонентах. Голосовые предупреждения о приближении техники.",
+      "url": "https://hexagon.com/products/hxgn-mineprotect-collision-avoidance-system"
+    },
+    {
+      "name": "Hitachi",
+      "description": "Разрабатывает системы помощи водителю и обнаружения препятствий для карьерных самосвалов с интеграцией в систему управления флотом.",
+      "url": "https://www.hitachicm.com/global/en/news/press-releases/2024/24-02-01/"
+    }
+  ],
+  "businessEffect": "50 000+ машин оснащены Hexagon CAS по всему миру. 360° обнаружение на расстоянии до 300 м во всех условиях. Автономные самосвалы перевезли 10+ млрд тонн без фатальных столкновений (Komatsu FrontRunner).",
+  "maturityVerdict": "Mainstream — системы предотвращения столкновений являются обязательным требованием на большинстве крупных рудников мира.",
+  "sources": [
+    "https://www.cat.com/en_US/blog/truck-lidar.html",
+    "https://www.komatsu.com/en-us/technology/smart-mining/loading-and-haulage/autonomous-haulage-system",
+    "https://hexagon.com/products/hxgn-mineprotect-collision-avoidance-system",
+    "https://www.hitachicm.com/global/en/news/press-releases/2024/24-02-01/",
+    "https://blog.hexagonmining.com/en/introducing-a-better-collision-avoidance-system/",
+    "https://hexagon.com/company/newsroom/press-releases/2022/next-generation-collision-avoidance-technology-mines"
+  ]
+}

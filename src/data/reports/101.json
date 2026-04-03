@@ -1,0 +1,38 @@
+{
+  "topicId": 101,
+  "title": "AI-оптимизация потребления воды на всех стадиях горнодобычи",
+  "summary": "AI оптимизирует использование воды на всех этапах — добыча, обогащение, пылеподавление, рециклинг — для минимизации общего потребления. Горнодобыча требует огромных объёмов воды, а многие рудники расположены в засушливых регионах, где вода — дефицитный ресурс.",
+  "howItWorks": "На входе — данные о расходе воды на каждом этапе (откачка, промывка, флотация, пылеподавление), качество воды в точках использования и сброса, метеоданные, объёмы производства. AI-модели строят водный баланс всего предприятия и выявляют возможности рециклинга. Предиктивная аналитика прогнозирует потребности в воде на основе плана добычи и погоды. Оптимизация минимизирует забор свежей воды через максимальный повторный оборот. На выходе — оптимальное распределение воды по потребителям, графики рециклинга, снижение забора свежей воды.",
+  "companies": [
+    {
+      "name": "Rio Tinto",
+      "description": "Интегрирует AI в управление водными ресурсами на глобальном портфеле рудников. Mine Automation System консолидирует данные с 98% объектов для оптимизации водопользования.",
+      "url": "https://www.klover.ai/rio-tinto-ai-strategy-analysis-of-dominance-in-mining-ai/"
+    },
+    {
+      "name": "BHP",
+      "description": "Один из лидеров AI-трансформации в горнодобыче. Оптимизирует водопользование через интеграцию данных с IoT-сенсоров и предиктивную аналитику на своих операциях.",
+      "url": "https://www.omdena.com/blog/top-24-global-mining-companies-driving-ai-transformation-in-2025"
+    },
+    {
+      "name": "Anglo American",
+      "description": "Стратегия «Using water better» с AI-оптимизацией водных ресурсов. eDNA-мониторинг водных экосистем. Цель — снижение потребления свежей воды на 50% к 2030 году.",
+      "url": "https://aiexpert.network/ai-at-anglo-american/"
+    },
+    {
+      "name": "KETOS",
+      "description": "Автоматизированная платформа водного интеллекта для горнодобычи. AI-оптимизация рециклинга воды без потери извлечения. Снижение расхода химикатов и объёма отходов. Мониторинг 30+ параметров качества воды.",
+      "url": "https://ketos.co/smart-strategies-for-optimizing-water-use-in-mining"
+    }
+  ],
+  "businessEffect": "AI-оптимизация рециклинга позволяет значительно снизить забор свежей воды без потери эффективности обогащения. Снижение расхода химикатов для водоподготовки. Anglo American: цель снижения потребления свежей воды на 50% к 2030.",
+  "maturityVerdict": "Зрелая — крупнейшие горнодобывающие компании (Rio Tinto, BHP, Anglo American) внедряют AI-оптимизацию воды как стратегический приоритет ESG, коммерческие платформы (KETOS) доступны.",
+  "sources": [
+    "https://www.klover.ai/rio-tinto-ai-strategy-analysis-of-dominance-in-mining-ai/",
+    "https://www.omdena.com/blog/top-24-global-mining-companies-driving-ai-transformation-in-2025",
+    "https://aiexpert.network/ai-at-anglo-american/",
+    "https://ketos.co/smart-strategies-for-optimizing-water-use-in-mining",
+    "https://ketos.co/maximizing-water-recovery-in-mining-operations",
+    "https://farmonaut.com/mining/ai-use-cases-in-mining-powerful-water-use-optimization-2025"
+  ]
+}

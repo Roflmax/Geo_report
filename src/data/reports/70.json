@@ -1,0 +1,43 @@
+{
+  "topicId": 70,
+  "title": "AI-оптимизация энергопотребления мельниц и оборудования фабрики",
+  "summary": "AI снижает расход энергии мельниц и другого оборудования обогатительной фабрики, оптимизируя параметры в реальном времени. Измельчение потребляет 56-70% всей энергии фабрики, поэтому даже 5% экономии дают огромный эффект.",
+  "howItWorks": "На входе — данные датчиков мельниц (ток двигателя, вибрация, звук, расход воды), свойства руды (твёрдость, крупность), производительность. AI-модели динамически корректируют скорость подачи, скорость мельницы, расход воды и параметры классификаторов под текущие свойства руды. Мультисенсорные системы (MillSlicerVIP) оценивают внутреннее состояние мельницы: заполнение, износ футеровки, траектории ударов. На выходе — оптимальные параметры, минимизирующие удельный расход энергии при заданной крупности и производительности.",
+  "companies": [
+    {
+      "name": "Schneider Electric",
+      "description": "Предиктивный AI превращает данные IIoT в рекомендации по оптимизации мельниц. Интегрирует управление энергией с оптимизацией процесса обогащения.",
+      "url": "https://blog.se.com/industry/2024/11/26/unlocking-mill-efficiency-leveraging-ai-insights-for-enhanced-mining-benefits/"
+    },
+    {
+      "name": "FLSmidth (LoadIQ)",
+      "description": "Smart-сенсоры и AI для оптимальной загрузки SAG-мельниц. Автоматическая адаптация к износу футеровки и свойствам руды. Рост тоннажа до 6-10%.",
+      "url": "https://www.flsmidth.com/en-gb/products/process-control-and-optimisation/knowledgescape-loadiq"
+    },
+    {
+      "name": "Molycop (OreVia)",
+      "description": "MillSlicerVIP — мультисенсорная система вибромониторинга, оценивающая заполнение, износ футеровки и траектории ударов в реальном времени. Представлена на Minería Digital 2025.",
+      "url": "https://www.molycop.com/information-hub/news/molycop-launches-orevia-ai-powered-insights-for-smarter-mineral-processing"
+    },
+    {
+      "name": "ABB (Expert Optimizer)",
+      "description": "APC снижает удельное энергопотребление измельчения на 10.9% при росте пропускной способности на 2.5%. MPC и нейросети оптимизируют процесс в реальном времени.",
+      "url": "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-expert-optimizer/advanced-process-control-of-grinding-and-flotation"
+    },
+    {
+      "name": "Imubit",
+      "description": "AI-оптимизация SAG-мельниц: снижение энергопотребления на 7.62% при росте производства на 4.42%. Экономия 5-10% энергии измельчения на реальных развёртываниях.",
+      "url": "https://imubit.com/article/grinding-technology-ai-optimization/"
+    }
+  ],
+  "businessEffect": "Снижение энергопотребления измельчения на 5-10.9% (Imubit, ABB). Рост производства SAG-мельниц на 4.42% одновременно со снижением энергии на 7.62% (Imubit). Измельчение = 56-70% энергии фабрики — оптимизация даёт многомиллионную экономию.",
+  "maturityVerdict": "Mainstream — APC для мельниц (ABB, FLSmidth) является стандартом, AI нового поколения (Imubit, Molycop OreVia) активно расширяет возможности.",
+  "sources": [
+    "https://blog.se.com/industry/2024/11/26/unlocking-mill-efficiency-leveraging-ai-insights-for-enhanced-mining-benefits/",
+    "https://www.flsmidth.com/en-gb/products/process-control-and-optimisation/knowledgescape-loadiq",
+    "https://www.molycop.com/information-hub/news/molycop-presents-the-latest-innovation-in-real-time-mill-optimisation-at-mineria-digital-2025",
+    "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-expert-optimizer/advanced-process-control-of-grinding-and-flotation",
+    "https://imubit.com/article/grinding-technology-ai-optimization/",
+    "https://imubit.com/article/energy-management-in-mining/"
+  ]
+}

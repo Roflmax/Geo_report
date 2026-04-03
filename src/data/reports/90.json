@@ -1,0 +1,43 @@
+{
+  "topicId": 90,
+  "title": "AI-оптимизация параметров крепления подземных выработок",
+  "summary": "AI оптимизирует тип и параметры крепления (болты, набрызг-бетон, кабели) подземных выработок на основе данных о качестве горного массива и горном давлении. Это предотвращает как недостаточное крепление (опасность обрушения), так и избыточное (перерасход средств).",
+  "howItWorks": "На входе — классификация горного массива (RMR, Q-system), данные MWD бурения, результаты картирования забоя (трещиноватость, ориентация структур), данные о горном давлении из инструментальных замеров. ML-модели определяют устойчивость выработки и необходимый тип крепи. Численное моделирование (RS2/RS3) рассчитывает давление поддержки и глубину анкерования. На выходе — оптимальные параметры крепления: длина и шаг болтов, толщина набрызг-бетона, необходимость кабелей, с коэффициентом безопасности.",
+  "companies": [
+    {
+      "name": "RockMass Technologies (Epiroc)",
+      "description": "Автоматическая оценка качества массива по фотографиям забоя для определения требуемого типа крепи. Интеграция с Deswik для оптимизации проходки и крепления.",
+      "url": "https://www.rockmasstech.com/deswik"
+    },
+    {
+      "name": "Deswik (Sandvik)",
+      "description": "Оптимизация подземных горных работ, включая проектирование крепления выработок на основе геотехнических данных и моделей горного давления.",
+      "url": "https://www.deswik.com/capabilities/underground-metals/optimization"
+    },
+    {
+      "name": "Epiroc (6th Sense)",
+      "description": "Платформа автоматизации подземных горных работ. Цифровые двойники (ReNAM) моделируют среду и оборудование для валидации стратегий крепления до реализации.",
+      "url": "https://www.epiroc.com/en-us/innovation-and-technology/automation-and-information-management/automation-and-information-management-underground"
+    },
+    {
+      "name": "Rocscience (RS2/RS3/RocTunnel3)",
+      "description": "RocTunnel3 анализирует устойчивость блоков и проектирует набрызг-бетон, болты и давление крепи по стадиям строительства. UnWedge определяет критические клиновидные нестабильности. Оптимальные спецификации: болты 2.2 м, 80 кН, шаг 1.5×1.5 м, КБ>2.",
+      "url": "https://www.rocscience.com/software/rs2"
+    },
+    {
+      "name": "DSI Underground (Sandvik)",
+      "description": "Крупнейший мировой поставщик систем крепления подземных выработок. Разработка решений на основе данных о горном давлении и качестве массива.",
+      "url": "https://www.dsiunderground.com/"
+    }
+  ],
+  "businessEffect": "Оптимальное крепление с коэффициентом безопасности >2 вместо перерасхода или недостаточности. Автоматическая оценка массива по фотографиям забоя ускоряет принятие решений о крепи. Цифровые двойники валидируют стратегии крепления до реализации.",
+  "maturityVerdict": "Зрелая — численное моделирование (Rocscience) и эмпирические системы являются стандартом, AI (RockMass/Epiroc) автоматизирует оценку массива и ускоряет проектирование крепи.",
+  "sources": [
+    "https://www.rockmasstech.com/deswik",
+    "https://www.deswik.com/capabilities/underground-metals/optimization",
+    "https://www.epiroc.com/en-us/innovation-and-technology/automation-and-information-management/automation-and-information-management-underground",
+    "https://www.rocscience.com/software/rs2",
+    "https://www.dsiunderground.com/",
+    "https://www.rocscience.com/software/roctunnel3"
+  ]
+}

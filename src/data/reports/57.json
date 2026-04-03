@@ -1,0 +1,43 @@
+{
+  "topicId": 57,
+  "title": "AI-прогнозирование отказов мельниц и дробилок",
+  "summary": "AI мониторит состояние дробилок и мельниц обогатительной фабрики, прогнозируя отказы до их возникновения. Незапланированная остановка мельницы или дробилки может стоить более $1 млн, поэтому раннее обнаружение критически важно.",
+  "howItWorks": "На входе — данные вибрации, давления гидравлики, состояния масляных фильтров, температуры втулок, тока двигателя. AI-алгоритмы, основанные на десятилетиях экспертизы OEM в минералопереработке, ищут известные паттерны отказов и аномалии в данных подключённого оборудования. Модели отслеживают множество подсистем: привод, гидравлику, подшипники, футеровку. На выходе — ранние предупреждения о конкретных компонентах с рекомендациями по проактивному обслуживанию.",
+  "companies": [
+    {
+      "name": "Metso (Metso Metrics)",
+      "description": "Предиктивное обслуживание дробилок: алгоритмы для подсистем привода и гидравлики, мониторинг вибрации, масляных фильтров и втулок. Обнаружение ослабленной конструкции дробилки, предотвратившее катастрофический отказ стоимостью $1M+.",
+      "url": "https://www.metso.com/insights/blog/mining-and-metals/artificial-intelligence-for-minerals-processing/"
+    },
+    {
+      "name": "Metso + Rockwell Automation",
+      "description": "Совместное решение предиктивного обслуживания для первичных гирационных и конусных дробилок, вибрационных грохотов. Покрытие мельниц запланировано. Глобальная видимость состояния оборудования через облако.",
+      "url": "https://www.rockwellautomation.com/en-us/company/news/press-releases/Metso-in-Collaboration-with-Rockwell-Automation-Introduces-New-Predictive-Maintenance-Solution-for-Mining-Industry.html"
+    },
+    {
+      "name": "FLSmidth",
+      "description": "Предиктивное обслуживание оборудования для переработки минералов. Входит в топ-10 решений предиктивного обслуживания в горнодобыче по версии Mining Digital.",
+      "url": "https://miningdigital.com/top10/top-10-predictive-maintenance-solutions"
+    },
+    {
+      "name": "Falkonry",
+      "description": "AI-платформа автоматического обнаружения аномалий в промышленных данных, применяемая для мониторинга оборудования обогатительных фабрик без ручной разметки.",
+      "url": "https://falkonry.com/mining/"
+    },
+    {
+      "name": "Razor Labs",
+      "description": "DataMind AI для предиктивного обслуживания горного оборудования, включая стационарное оборудование фабрик. Sensor fusion для изоляции реальной деградации от операционного шума.",
+      "url": "https://razor-labs.com/revolutionizing-mining-operations-with-ai-preidictive-maintenance-imarc2024/"
+    }
+  ],
+  "businessEffect": "Предотвращение катастрофического отказа дробилки стоимостью $1M+ (Metso Metrics). Проактивное обслуживание вместо незапланированных остановок. Алгоритмы основаны на десятилетиях OEM-экспертизы в минералопереработке.",
+  "maturityVerdict": "Зрелая — Metso Metrics и FLSmidth коммерчески развёрнуты на обогатительных фабриках, платформа расширяется от дробилок к мельницам и грохотам.",
+  "sources": [
+    "https://www.metso.com/insights/blog/mining-and-metals/artificial-intelligence-for-minerals-processing/",
+    "https://www.rockwellautomation.com/en-us/company/news/press-releases/Metso-in-Collaboration-with-Rockwell-Automation-Introduces-New-Predictive-Maintenance-Solution-for-Mining-Industry.html",
+    "https://miningdigital.com/top10/top-10-predictive-maintenance-solutions",
+    "https://falkonry.com/mining/",
+    "https://razor-labs.com/revolutionizing-mining-operations-with-ai-preidictive-maintenance-imarc2024/",
+    "https://im-mining.com/2025/12/13/metso-and-the-process-plant-optimisation-power-of-geminex/"
+  ]
+}

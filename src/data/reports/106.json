@@ -1,0 +1,38 @@
+{
+  "topicId": 106,
+  "title": "Измерение объёмов штабелей дронами и фотограмметрией/LiDAR",
+  "summary": "Дроны с камерами или LiDAR автоматически измеряют объёмы складов руды и породы с точностью до 2-3%, заменяя ручные съёмки. Это ускоряет инвентаризацию с дней до минут и обеспечивает точный учёт запасов на складах.",
+  "howItWorks": "На входе — аэрофотоснимки или LiDAR-данные с дрона, наземные контрольные точки (AeroPoints или GPS). Фотограмметрия строит 3D-модель поверхности по перекрывающимся снимкам. LiDAR генерирует плотное облако точек напрямую. Облачные платформы автоматически рассчитывают объёмы штабелей по 3D-модели относительно базовой плоскости. На выходе — точные объёмы каждого штабеля с визуализацией, сравнение с предыдущими съёмками, отчёты о движении материалов.",
+  "companies": [
+    {
+      "name": "Propeller Aero",
+      "description": "Облачная платформа для дроновой съёмки с автоматическим расчётом объёмов штабелей. AeroPoints (умные контрольные точки) обеспечивают точность 3 см. Визуализация и отслеживание изменений запасов.",
+      "url": "https://www.propelleraero.com/blog/how-stockpile-volume-measurement-works-in-drone-surveying-with-propeller/"
+    },
+    {
+      "name": "Skycatch",
+      "description": "Корпоративная дроновая платформа для горнодобычи и строительства. Измерение объёмов по запросу с продвинутой обработкой данных и отслеживанием прогресса.",
+      "url": "https://support.skycatch.com/hc/en-us/articles/221773288-On-Demand-Volumetric-Measurement"
+    },
+    {
+      "name": "DroneDeploy",
+      "description": "Удобное ПО для дронового картирования со встроенным расчётом объёмов штабелей. Быстрые и точные измерения земляных работ для горнодобычи и строительства.",
+      "url": "https://www.dronedeploy.com/blog/how-to-get-accurate-stockpile-measurements-in-mining/"
+    },
+    {
+      "name": "DJI Enterprise",
+      "description": "Интегрированное решение: дроны DJI + ПО DJI Terra для геопространственной съёмки и измерения объёмов на горных объектах. Широко доступное и экономичное решение.",
+      "url": "https://enterprise.dji.com/geospatial/mining-survey"
+    }
+  ],
+  "businessEffect": "Точность измерения объёмов ±2-3% — сопоставима с традиционными методами. 10-минутный полёт заменяет дни ручной съёмки. Точность позиционирования до 3 см с AeroPoints. Расхождение между LiDAR и фотограмметрией <3%.",
+  "maturityVerdict": "Mainstream — дроновое измерение объёмов штабелей является стандартной практикой на большинстве крупных рудников, множество платформ доступно для быстрого внедрения.",
+  "sources": [
+    "https://www.propelleraero.com/blog/how-stockpile-volume-measurement-works-in-drone-surveying-with-propeller/",
+    "https://support.skycatch.com/hc/en-us/articles/221773288-On-Demand-Volumetric-Measurement",
+    "https://www.dronedeploy.com/blog/how-to-get-accurate-stockpile-measurements-in-mining/",
+    "https://enterprise.dji.com/geospatial/mining-survey",
+    "https://advexure.com/blogs/news/drone-volumetrics-saving-time-and-enhancing-accuracy-in-stockpile-measurements",
+    "https://www.sphengineering.com/news/drone-lidar-vs-photogrammetry"
+  ]
+}

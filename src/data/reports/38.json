@@ -1,0 +1,38 @@
+{
+  "topicId": 38,
+  "title": "AI-диспетчеризация парка техники в реальном времени",
+  "summary": "Системы управления флотом (FMS) координируют все единицы горной техники — самосвалы, экскаваторы, бульдозеры — назначая оптимальные задания в реальном времени. AI повышает производительность парка, снижает простои и обеспечивает соответствие плану добычи.",
+  "howItWorks": "На входе — GPS-координаты всей техники, статус оборудования (загрузка, движение, простой), план добычи, очереди на погрузке/разгрузке, состояние дорог. AI-диспетчер оптимизирует назначения в реальном времени: какой самосвал к какому экскаватору, какой маршрут, куда везти (дробилка, склад, отвал). Облачные платформы консолидируют данные IoT-сенсоров и обеспечивают удалённый мониторинг. На выходе — оптимальные назначения для каждой единицы техники, аналитика производительности и отклонений от плана.",
+  "companies": [
+    {
+      "name": "Caterpillar (MineStar Fleet)",
+      "description": "Комплексная система управления горными операциями: диспетчеризация, мониторинг здоровья техники, контроль качества руды. Интеграция с автономными системами Command. Одна из крупнейших FMS в мире.",
+      "url": "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/command.html"
+    },
+    {
+      "name": "Hexagon (MineOperate OP Pro)",
+      "description": "Операционный хаб, объединяющий планирование, диспетчеризацию, безопасность и мониторинг. OP Fleet Analytics консолидирует данные из любых FMS-систем в единое озеро данных. Облачные решения для удалённого мониторинга.",
+      "url": "https://hexagon.com/solutions/mine-fleet-management"
+    },
+    {
+      "name": "Komatsu / Modular Mining (DISPATCH)",
+      "description": "DISPATCH — первая и наиболее распространённая диспетчерская система в горнодобыче (с 1979 года). Доминирует на канадском рынке. AI-инструмент Adaptive Config оптимизирует конфигурацию флота автоматически.",
+      "url": "https://www.komatsu.com/en-us/technology/smart-mining/modular"
+    },
+    {
+      "name": "Wenco / Hitachi",
+      "description": "Mine Performance Suite 6 с переработанным интерфейсом диспетчеризации и тесной интеграцией карт. Интеграция с широким спектром данных для более сложного управления парком.",
+      "url": "https://www.wencomine.com/our-solutions/mining-fleet-management"
+    }
+  ],
+  "businessEffect": "Рынок интеллектуальных диспетчерских систем растёт на 14.2% CAGR (2025-2031). Типичный рост производительности парка 10-20% за счёт оптимизации назначений. Снижение простоев и очередей через AI-оптимизацию в реальном времени.",
+  "maturityVerdict": "Mainstream — FMS-системы (DISPATCH, MineStar, Hexagon) являются обязательным элементом на всех крупных карьерах мира, AI усиливает аналитику и оптимизацию.",
+  "sources": [
+    "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/command.html",
+    "https://hexagon.com/solutions/mine-fleet-management",
+    "https://www.komatsu.com/en-us/technology/smart-mining/modular",
+    "https://www.wencomine.com/our-solutions/mining-fleet-management",
+    "https://www.qyresearch.com/news/12064/intelligent-mine-fleet-dispatch-systems",
+    "https://www.hitachi.com/en-us/press/wenco-mine-performance-suite-6-reimagines-dispatching-analytics-and-total-mine-performance/"
+  ]
+}

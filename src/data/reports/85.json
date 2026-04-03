@@ -1,0 +1,38 @@
+{
+  "topicId": 85,
+  "title": "AI-прогнозирование устойчивости бортов карьера (slope stability)",
+  "summary": "AI анализирует данные радаров, инклинометров и геотехнических исследований для прогнозирования оползней и обрушений бортов карьера. Это позволяет эвакуировать персонал и технику до обрушения и оптимизировать углы откосов для максимизации извлечения руды.",
+  "howItWorks": "На входе — данные радаров мониторинга смещений (InSAR, SSR), инклинометров, пьезометров, данные о прочности пород, осадках и геометрии борта. ML-модели (глубокое обучение, gradient boosting, многоцелевая оптимизация) предсказывают коэффициент устойчивости откоса и вероятность обрушения. Радары отслеживают смещения от субмиллиметровых до быстрых деформаций в реальном времени. На выходе — карта смещений борта, прогноз устойчивости, раннее предупреждение об обрушении, рекомендации по углам откосов.",
+  "companies": [
+    {
+      "name": "GroundProbe (Orica)",
+      "description": "Радар SSR-SARx для мониторинга устойчивости откосов карьеров. Обнаруживает субмиллиметровые смещения и быстрые деформации. Часть цифровой экосистемы Orica.",
+      "url": "https://www.orica.com/digital-solutions/geosolutions/groundprobe/slope-stability-radars/groundprobe-ssr-sarx"
+    },
+    {
+      "name": "Maptek (Sentry)",
+      "description": "Система непрерывного мониторинга откосов обнаруживает движение высокой стенки в реальном времени. Позволяет эвакуировать людей и технику до обрушения на руднике в Айдахо.",
+      "url": "https://www.maptek.com/products/sentry/"
+    },
+    {
+      "name": "Reutech Mining",
+      "description": "Радарные системы мониторинга устойчивости откосов для открытых горных работ с высокой точностью измерения смещений.",
+      "url": "https://www.reutechmining.com/slope-stability/"
+    },
+    {
+      "name": "IDS GeoRadar (Hexagon)",
+      "description": "Первый полностью 3D наземный SAR-радар для 360° мониторинга откосов карьера. Проактивный и реактивный мониторинг от медленных движений до обвалов. Интеграция с экосистемой Hexagon.",
+      "url": "https://hexagon.com/solutions/mine-slope-stability-monitoring"
+    }
+  ],
+  "businessEffect": "Раннее предупреждение об обрушении позволяет эвакуировать персонал и технику заблаговременно. ML-оптимизация углов откосов повышает NPV на 52.7% при коэффициенте безопасности >1.25. AI предсказывает геотехнические параметры после муссонных сезонов для превентивных мер.",
+  "maturityVerdict": "Mainstream — радарный мониторинг откосов (GroundProbe, Maptek Sentry, IDS GeoRadar) является стандартом на крупных карьерах, ML активно внедряется для предиктивной аналитики.",
+  "sources": [
+    "https://www.orica.com/digital-solutions/geosolutions/groundprobe/slope-stability-radars/groundprobe-ssr-sarx",
+    "https://www.maptek.com/products/sentry/",
+    "https://www.reutechmining.com/slope-stability/",
+    "https://hexagon.com/solutions/mine-slope-stability-monitoring",
+    "https://www.nature.com/articles/s41598-025-99026-4",
+    "https://www.nature.com/articles/s41598-023-38896-y"
+  ]
+}

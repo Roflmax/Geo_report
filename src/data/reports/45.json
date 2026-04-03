@@ -1,0 +1,32 @@
+{
+  "topicId": 45,
+  "title": "AI-оптимизация схемы черпания экскаватора",
+  "summary": "AI оптимизирует траекторию ковша экскаватора для максимальной производительности погрузки при минимальном расходе энергии и износе. Система помогает менее опытным операторам работать на уровне лучших, а автономным машинам — выполнять цикл копания без участия человека.",
+  "howItWorks": "На входе — 3D-модель забоя (с LiDAR/GPS), параметры ковша и стрелы, данные о нагрузке на гидравлику, целевой объём загрузки самосвала. AI рассчитывает оптимальную траекторию копания: угол врезки, глубину, путь подъёма ковша. Система Intelligent Machine Control автоматически корректирует положение ковша по 3D-модели, предотвращая перекопку. Функция Digging Assist управляет гидроцилиндрами для оптимизации нагрузки. На выходе — оптимизированная траектория копания с автоматическим контролем глубины и нагрузки.",
+  "companies": [
+    {
+      "name": "Komatsu (IMC)",
+      "description": "Intelligent Machine Control программирует 3D-модель непосредственно в экскаватор. Автоматическая коррекция ковша предотвращает перекопку. Менее опытные операторы работают с максимальной эффективностью благодаря AI-ассистированию.",
+      "url": "https://www.komatsu.com/en-us/technology/smart-construction/intelligent-machine-control"
+    },
+    {
+      "name": "Caterpillar (MineStar Terrain)",
+      "description": "Command for Excavating автоматизирует или дистанционно управляет экскаваторами. Terrain Loading обеспечивает точность выемки по 3D-модели. К 2030 году 40% новых экскаваторов Cat будут иметь автономные функции.",
+      "url": "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/terrain/terrain-loading.html"
+    },
+    {
+      "name": "Hitachi (Digging Assist)",
+      "description": "Функция Digging Assist автоматически управляет гидроцилиндрами при избыточной нагрузке на стрелу. Система поддержки операций для сверхкрупных экскаваторов проверена на рудниках Rio Tinto в Австралии.",
+      "url": "https://www.hitachicm.com/global/en/innovations/innovations02/"
+    }
+  ],
+  "businessEffect": "Менее опытные операторы достигают производительности экспертов благодаря AI-ассистированию. Автоматический контроль глубины предотвращает перекопку и экономит топливо. Caterpillar прогнозирует 40% экскаваторов с автономными функциями к 2030 году.",
+  "maturityVerdict": "Зрелая — ассистирующие системы (Komatsu IMC, Cat Terrain, Hitachi Digging Assist) серийно поставляются, полная автономия экскавации в развитии.",
+  "sources": [
+    "https://www.komatsu.com/en-us/technology/smart-construction/intelligent-machine-control",
+    "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/terrain/terrain-loading.html",
+    "https://www.hitachicm.com/global/en/innovations/innovations02/",
+    "https://roboticsandautomationnews.com/2025/09/26/smart-excavator-features-sensor-ai-and-automation-upgrades-in-2025-excavator-models/94826/",
+    "https://www.hitachicm.com/global/en/solutions/mining-business/innovation/ues/"
+  ]
+}

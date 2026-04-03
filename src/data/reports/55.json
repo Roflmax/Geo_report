@@ -1,0 +1,38 @@
+{
+  "topicId": 55,
+  "title": "AI-анализ вибрации подшипников для раннего обнаружения поломок",
+  "summary": "AI анализирует вибрационные сигналы подшипников вращающегося оборудования и обнаруживает дефекты за недели-месяцы до отказа. Подшипники — наиболее частая причина отказов вращающихся машин, и их ранняя диагностика предотвращает катастрофические поломки.",
+  "howItWorks": "На входе — вибрационные сигналы с акселерометров на подшипниковых узлах, данные акустических сенсоров, температура. AI-модели (CNN, LSTM, гибриды ResNet-SVM) обучаются на спектрах вибрации и выявляют характерные частоты дефектов: внутреннего/внешнего кольца, тел качения, сепаратора. Мультиканальные вейвлет-преобразования конвертируют сигналы в признаки для временного анализа. На выходе — диагноз типа дефекта подшипника, оценка степени деградации и прогноз времени до отказа.",
+  "companies": [
+    {
+      "name": "Baker Hughes Bently Nevada + Augury",
+      "description": "Объединение 60+ лет опыта Bently Nevada в тяжёлой промышленности с AI Augury, обученным на десятках тысяч машин. Обнаруживает дефекты, диагностирует причины и рекомендует действия для подшипников роликового типа.",
+      "url": "https://www.bakerhughes.com/bently-nevada/system-1-software/machine-health-powered-augury-updated"
+    },
+    {
+      "name": "Razor Labs",
+      "description": "DataMind AI — система виброанализа, обнаруживающая скрытые дефекты в горном оборудовании. Изолирует деградацию подшипников от операционного шума через sensor fusion на самосвалах, экскаваторах и стационарном оборудовании.",
+      "url": "https://www.razor-labs.com/datamind-ai-vibration-analysis-system/"
+    },
+    {
+      "name": "SKF (Axios)",
+      "description": "Беспроводные датчики Axios для мониторинга вибрации подшипников на карьерном оборудовании. Используются на щебёночных карьерах для предиктивного обслуживания дробилок и грохотов.",
+      "url": "https://www.b2k.co.za/predictive-maintenance-with-skf-axios-at-a-quarry/"
+    },
+    {
+      "name": "Baker Hughes Bently Nevada",
+      "description": "Специализированные системы мониторинга подшипников качения с онлайн-анализом частотных спектров. Платформа Cordant с AI для предиктивного обслуживания вращающегося оборудования.",
+      "url": "https://www.bakerhughes.com/bently-nevada/roller-bearing-condition-monitoring"
+    }
+  ],
+  "businessEffect": "Точность диагностики дефектов подшипников >95% (гибридные AI-модели). Предупреждение за недели-месяцы до отказа. Мультисенсорная интеграция (вибрация + масляный анализ + температура) повышает надёжность диагностики.",
+  "maturityVerdict": "Mainstream — вибромониторинг подшипников является стандартной практикой на рудниках десятилетиями, AI кратно повышает точность и автоматизирует диагностику.",
+  "sources": [
+    "https://www.bakerhughes.com/bently-nevada/system-1-software/machine-health-powered-augury-updated",
+    "https://www.razor-labs.com/datamind-ai-vibration-analysis-system/",
+    "https://www.b2k.co.za/predictive-maintenance-with-skf-axios-at-a-quarry/",
+    "https://www.bakerhughes.com/bently-nevada/roller-bearing-condition-monitoring",
+    "https://f7i.ai/blog/vibration-analysis-from-predictive-data-to-prescriptive-action-in-2025",
+    "https://www.nature.com/articles/s41598-025-93133-y"
+  ]
+}

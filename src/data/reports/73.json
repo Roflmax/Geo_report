@@ -1,0 +1,38 @@
+{
+  "topicId": 73,
+  "title": "Отслеживание местоположения работников в реальном времени (RTLS)",
+  "summary": "Системы реального времени (RTLS) отслеживают местоположение каждого работника в подземных и открытых горных выработках. Это критически важно для эвакуации при авариях, контроля одиночных работников и предотвращения столкновений с техникой.",
+  "howItWorks": "На входе — сигналы от персональных меток (в каске, на одежде) через UWB, WiFi, Bluetooth или RFID-технологии. Инфраструктурные узлы (антенны, моодемы) по выработкам принимают сигналы и определяют координаты. AI-алгоритмы детектируют опасные ситуации: неподвижность, падение, нахождение в запретных зонах. На выходе — карта расположения всех работников в реальном времени, автоматические оповещения об опасности и поддержка эвакуации.",
+  "companies": [
+    {
+      "name": "Newtrax (Sandvik)",
+      "description": "Платформа MDP с модемами MineHop® и 3D-картами для отслеживания персонала и техники в подземных выработках. Повышает ситуационную осведомлённость и безопасность смешанных парков оборудования.",
+      "url": "https://www.mining.sandvik/en/digital-solutions/operations-and-connected-fleet/mixed-fleet-telemetry/location-tracking/"
+    },
+    {
+      "name": "Guardhat (Caterpillar)",
+      "description": "Умные каски с датчиками отслеживания, детекции падений и экологического мониторинга. Интеграция с системой Cat для комплексной безопасности на рудниках.",
+      "url": "https://highways.today/2021/09/15/caterpillar-guardhat/"
+    },
+    {
+      "name": "Strata Worldwide",
+      "description": "Система Strata Protect для предотвращения столкновений в подземных и открытых горных работах. Интеграция обнаружения приближения с отслеживанием персонала.",
+      "url": "https://www.strataworldwide.com/mining/strata-protect-mining/proximity-and-collision-avoidance-mining"
+    },
+    {
+      "name": "Inpixon",
+      "description": "RTLS для горнодобычи с высокоточным позиционированием в GPS-недоступных подземных средах. Автоматический учёт персонала, проверка идентификации и контроль зон сбора при эвакуации.",
+      "url": "https://www.inpixon.com/industries/mining"
+    }
+  ],
+  "businessEffect": "Мгновенный учёт всего персонала при эвакуации вместо ручной переклички. Автоматическое обнаружение падений и неподвижности одиночных работников. Предотвращение столкновений людей с техникой через интеграцию RTLS с CAS.",
+  "maturityVerdict": "Mainstream — RTLS является обязательным требованием безопасности на большинстве подземных рудников мира, технология зрелая и широко развёрнута.",
+  "sources": [
+    "https://www.mining.sandvik/en/digital-solutions/operations-and-connected-fleet/mixed-fleet-telemetry/location-tracking/",
+    "https://highways.today/2021/09/15/caterpillar-guardhat/",
+    "https://www.strataworldwide.com/mining/strata-protect-mining/proximity-and-collision-avoidance-mining",
+    "https://www.inpixon.com/industries/mining",
+    "https://groundhogapps.com/rtls-real-time-location-tracking-for-underground/",
+    "https://www.tandfonline.com/doi/full/10.1080/17538947.2025.2506493"
+  ]
+}

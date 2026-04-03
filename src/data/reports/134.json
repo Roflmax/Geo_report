@@ -1,0 +1,30 @@
+{
+  "topicId": 134,
+  "title": "Обновление уставок мельниц каждые секунды на основе ML-моделей",
+  "summary": "AI-модели корректируют уставки мельниц (подача, скорость, вода) каждые несколько секунд, реагируя на изменения свойств руды быстрее любого оператора. Это обеспечивает стабильную крупность и максимальную пропускную способность.",
+  "howItWorks": "На входе — потоковые данные сенсоров: ток двигателя, акустика, вибрация, расход, плотность пульпы, размер частиц. AI-модели (MPC, нейросети) обучаются на историане и прогнозируют оптимальные уставки на минуты вперёд. Система записывает новые уставки в DCS каждые несколько секунд. На выходе — непрерывно адаптирующиеся параметры мельницы без участия оператора.",
+  "companies": [
+    {
+      "name": "ABB (Expert Optimizer MPC)",
+      "description": "Model Predictive Control обновляет уставки измельчения в реальном времени. Рост пропускной способности 2.5%, снижение энергии 10.9%.",
+      "url": "https://new.abb.com/industrial-software/features/model-predictive-control-mpc/advanced-process-control-of-grinding-and-flotation"
+    },
+    {
+      "name": "Imubit",
+      "description": "Промышленный AI записывает уставки в DCS каждые секунды. Снижение энергии на 7.62% при росте производства на 4.42%.",
+      "url": "https://imubit.com/article/sag-mill/"
+    },
+    {
+      "name": "Molycop (MillSlicerVIP)",
+      "description": "Мониторинг внутреннего состояния мельницы в реальном времени для калибровки ML-моделей.",
+      "url": "https://www.molycop.com/information-hub/news/molycop-presents-the-latest-innovation-in-real-time-mill-optimisation-at-mineria-digital-2025"
+    }
+  ],
+  "businessEffect": "Корректировка уставок каждые секунды вместо ручных изменений раз в час. Снижение энергопотребления 7-11%. Рост производительности 2-4% одновременно со снижением энергии.",
+  "maturityVerdict": "Зрелая — MPC для мельниц (ABB, Imubit) коммерчески работает на десятках фабрик, записывая уставки в DCS каждые секунды.",
+  "sources": [
+    "https://new.abb.com/industrial-software/features/model-predictive-control-mpc/advanced-process-control-of-grinding-and-flotation",
+    "https://imubit.com/article/sag-mill/",
+    "https://www.molycop.com/information-hub/news/molycop-presents-the-latest-innovation-in-real-time-mill-optimisation-at-mineria-digital-2025"
+  ]
+}

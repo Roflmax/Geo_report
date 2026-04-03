@@ -1,0 +1,38 @@
+{
+  "topicId": 50,
+  "title": "AI-прогнозирование износа шин карьерных самосвалов",
+  "summary": "AI мониторит состояние шин карьерных самосвалов с помощью тепловизионных камер и сенсоров давления, прогнозируя износ и обнаруживая повреждения без остановки машины. Шины — одна из крупнейших статей расходов на самосвалах (до $100 000+ за комплект), поэтому оптимизация критична.",
+  "howItWorks": "На входе — тепловизионные снимки шин при проезде через контрольные точки, данные TPMS (давление, температура), пробег, загрузка, скорость, состояние дорог. AI-модели (компьютерное зрение, предиктивные алгоритмы) анализируют термальные профили для обнаружения сепарации, перегрева и повреждений. Предиктивные модели прогнозируют остаточный ресурс шин на основе условий эксплуатации. На выходе — раннее обнаружение повреждений без остановки машины, прогноз замены, рекомендации по ротации и оптимальному давлению.",
+  "companies": [
+    {
+      "name": "Bridgestone (iTrack)",
+      "description": "Система мониторинга шин для горнодобывающей техники с датчиками давления и температуры. Аналитическая платформа для оптимизации ресурса шин и планирования замен.",
+      "url": "https://bmst.bridgestone/"
+    },
+    {
+      "name": "Kal Tire (TireSight + Pitcrew AI)",
+      "description": "KalPRO TireSight — автономная система инспекции шин без остановки самосвала. Тепловизионные камеры и AI Pitcrew.ai обнаруживают перегрев, сепарацию и повреждения в реальном времени. Интеграция с TOMS для управления парком шин.",
+      "url": "https://www.kaltiremining.com/en/news-release/kal-tire-pitcrew-bring-mines-autonomous-inspections/"
+    },
+    {
+      "name": "Bridgestone + Komatsu",
+      "description": "Совместный проект по интеграции данных мониторинга шин Bridgestone с системами управления автономными самосвалами Komatsu для оптимизации эксплуатации шин.",
+      "url": "https://www.komatsu.jp/en/newsroom/2025/20250205_2"
+    },
+    {
+      "name": "Razor Labs",
+      "description": "DataMind AI анализирует данные бортовых сенсоров для предиктивного обслуживания, включая прогноз состояния шин, на самосвалах CAT и Komatsu.",
+      "url": "https://www.razor-labs.com/predictive-maintenance-haul-trucks-ai/"
+    }
+  ],
+  "businessEffect": "Автономная инспекция шин без остановки самосвала повышает время работы. Раннее обнаружение сепарации предотвращает катастрофические разрушения шин стоимостью $100 000+. Предиктивные модели позволяют планировать замену шин, исключая незапланированные простои.",
+  "maturityVerdict": "Зрелая — коммерческие решения (Kal Tire TireSight, Bridgestone iTrack) развёрнуты на действующих рудниках, интеграция с автономными парками активно расширяется.",
+  "sources": [
+    "https://bmst.bridgestone/",
+    "https://www.kaltiremining.com/en/news-release/kal-tire-pitcrew-bring-mines-autonomous-inspections/",
+    "https://www.komatsu.jp/en/newsroom/2025/20250205_2",
+    "https://www.razor-labs.com/predictive-maintenance-haul-trucks-ai/",
+    "https://www.therockwrangler.com/article/tire-checks-without-the-pit-stop-as-ai-thermal-tech-keeps-trucks-rolling-boosts-uptime-and-spots-problems-before-they-blow-out-the-bottom-line",
+    "https://www.canadianminingjournal.com/featured-article/autonomous-tire-inspections-and-artificial-intelligence-can-improve-safety-uptime-and-compliance/"
+  ]
+}

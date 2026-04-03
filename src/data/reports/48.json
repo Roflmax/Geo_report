@@ -1,0 +1,43 @@
+{
+  "topicId": 48,
+  "title": "AI-прогнозирование отказов двигателей самосвалов",
+  "summary": "AI анализирует данные бортовых сенсоров карьерных самосвалов для раннего обнаружения деградации двигателя за недели до отказа. Это предотвращает незапланированные простои стоимостью сотни тысяч долларов за каждый инцидент.",
+  "howItWorks": "На входе — данные сотен бортовых сенсоров: температура двигателя, давление масла, параметры сгорания, давление в шинах, нагрузка гидравлики, вибрация. AI-модели (sensor fusion, нейросети) выявляют тонкие аномалии в паттернах данных, которые не вызывают стандартных OEM-тревог. Система фильтрует операционные факторы и изолирует критические данные для точного диагноза. На выходе — ранние предупреждения об отказах за недели до события с указанием конкретного компонента и рекомендацией по действию.",
+  "companies": [
+    {
+      "name": "Razor Labs",
+      "description": "DataMind AI подключается к существующим системам данных без новых сенсоров. Обнаружил деградацию топливных инжекторов CAT 793D за недели до отказа. Работает с CAT, Komatsu и другими OEM на действующих рудниках.",
+      "url": "https://www.razor-labs.com/case-study-datamind-ai-detects-early-fuel-injector-degradation-in-cat-793d-haul-truck"
+    },
+    {
+      "name": "Caterpillar (MineStar + Uptake)",
+      "description": "Партнёрство с Uptake для создания аналитических решений на базе данных MineStar. Мониторинг здоровья оборудования и прогнозирование отказов для всего парка Cat.",
+      "url": "https://www.caterpillar.com/en/news/corporate-press-releases/h/caterpillar-and-uptake-to-create-analytics-solutions.html"
+    },
+    {
+      "name": "BHP",
+      "description": "Предиктивное обслуживание 300 самосвалов на австралийских рудниках. Снижение незапланированных простоев на 35%. Экономия $27 млн в год. Доступность техники выросла с 78% до 89%.",
+      "url": "https://www.bestpractice.ai/ai-case-study-best-practice/bhp_saves_$5.5m_by_predicting_mining_truck_maintenance_requirements_with_machine_learning"
+    },
+    {
+      "name": "Uptake",
+      "description": "Платформа предиктивного обслуживания для грузового транспорта и горного оборудования. Измеряет ценность предиктивного обслуживания через предотвращённые простои и продление ресурса.",
+      "url": "https://uptake.com/blog/how-we-measure-the-value-of-predictive-maintenance-for-truck-fleets/"
+    },
+    {
+      "name": "Dingo (Newmont)",
+      "description": "Совместное предприятие с Newmont для глобальной платформы мониторинга и обслуживания горного оборудования на основе AI.",
+      "url": "https://www.dingo.com/company-news/dingo-and-newmont-join-forces-to-create-a-global-m/"
+    }
+  ],
+  "businessEffect": "BHP: снижение незапланированных простоев на 35%, экономия $27 млн/год. Доступность техники с 78% до 89%. Обнаружение деградации за недели до отказа и до OEM-тревог (Razor Labs).",
+  "maturityVerdict": "Зрелая — предиктивное обслуживание самосвалов коммерчески развёрнуто на крупнейших рудниках (BHP, Newmont) с подтверждённой многомиллионной экономией.",
+  "sources": [
+    "https://www.razor-labs.com/case-study-datamind-ai-detects-early-fuel-injector-degradation-in-cat-793d-haul-truck",
+    "https://www.caterpillar.com/en/news/corporate-press-releases/h/caterpillar-and-uptake-to-create-analytics-solutions.html",
+    "https://www.bestpractice.ai/ai-case-study-best-practice/bhp_saves_$5.5m_by_predicting_mining_truck_maintenance_requirements_with_machine_learning",
+    "https://uptake.com/blog/how-we-measure-the-value-of-predictive-maintenance-for-truck-fleets/",
+    "https://www.dingo.com/company-news/dingo-and-newmont-join-forces-to-create-a-global-m/",
+    "https://www.razor-labs.com/predictive-maintenance-haul-trucks-ai/"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "topicId": 133,
+  "title": "Оптимизация скорости вращения мельниц для снижения энергозатрат",
+  "summary": "AI оптимизирует скорость вращения SAG-мельниц в реальном времени, адаптируясь к свойствам руды и заполнению. Снижение энергозатрат на 7-8% — это миллионы долларов экономии, так как измельчение потребляет 30-40% энергии рудника.",
+  "howItWorks": "На входе — данные акустических сенсоров мельницы, ток двигателя, заполнение (LoadIQ), твёрдость руды, расход воды. AI-модели оптимизируют скорость вращения для достижения целевой крупности при минимальном удельном расходе энергии. MillSlicerVIP мониторит внутреннее состояние мельницы. На выходе — оптимальная скорость вращения для текущих условий с автоматической адаптацией.",
+  "companies": [
+    {
+      "name": "Imubit",
+      "description": "AI-оптимизация SAG-мельниц: снижение энергопотребления на 7.62% при росте производства на 4.42%. Самообучающиеся модели адаптируются к изменениям руды.",
+      "url": "https://imubit.com/article/sag-mill/"
+    },
+    {
+      "name": "ABB (Expert Optimizer)",
+      "description": "MPC и нейросети для оптимизации измельчения. Снижение удельного энергопотребления на 10.9% при росте пропускной способности на 2.5%.",
+      "url": "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-expert-optimizer/advanced-process-control-of-grinding-and-flotation"
+    },
+    {
+      "name": "Molycop (MillSlicerVIP)",
+      "description": "Мультисенсорная система вибромониторинга мельниц оценивает заполнение, износ футеровки и траектории ударов в реальном времени.",
+      "url": "https://www.molycop.com/information-hub/news/molycop-presents-the-latest-innovation-in-real-time-mill-optimisation-at-mineria-digital-2025"
+    }
+  ],
+  "businessEffect": "Снижение энергопотребления на 7.62% при росте производства на 4.42% (Imubit). Снижение удельного расхода энергии на 10.9% (ABB). Измельчение = 30-40% энергии рудника.",
+  "maturityVerdict": "Зрелая — APC для мельниц (ABB Expert Optimizer, Imubit) коммерчески развёрнут на десятках фабрик.",
+  "sources": [
+    "https://imubit.com/article/sag-mill/",
+    "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-expert-optimizer/advanced-process-control-of-grinding-and-flotation",
+    "https://www.molycop.com/information-hub/news/molycop-presents-the-latest-innovation-in-real-time-mill-optimisation-at-mineria-digital-2025"
+  ]
+}

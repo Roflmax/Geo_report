@@ -1,14 +1,21 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 import { topics } from './data/topics';
+import { getReport } from './data/reports';
 import Header from './components/Header';
 import Analytics from './components/Analytics';
 import FilterBar from './components/FilterBar';
 import TopicGrid from './components/TopicGrid';
+import ReportModal from './components/ReportModal';
 
 export default function App() {
   const [search, setSearch] = useState('');
   const [sectionFilter, setSectionFilter] = useState(null);
   const [maturityFilter, setMaturityFilter] = useState(null);
+  const [activeReport, setActiveReport] = useState(null);
+
+  const handleOpenReport = useCallback((topicId) => {
+    setActiveReport(getReport(topicId));
+  }, []);
 
   const filtered = useMemo(() => {
     let list = topics;
@@ -40,7 +47,11 @@ export default function App() {
           sectionFilter={sectionFilter} onSectionFilter={setSectionFilter}
           maturityFilter={maturityFilter} onMaturityFilter={setMaturityFilter}
         />
-        <TopicGrid filteredTopics={filtered} />
+        <TopicGrid filteredTopics={filtered} onOpenReport={handleOpenReport} />
+
+        {activeReport && (
+          <ReportModal report={activeReport} onClose={() => setActiveReport(null)} />
+        )}
 
         <footer className="mt-12 pt-6 border-t border-gray-200 text-center text-xs text-gray-400">
           Данные собраны на основе обзоров BCG, McKinsey, Deloitte и академических публикаций (2023-2026). Апрель 2026.

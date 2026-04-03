@@ -1,0 +1,37 @@
+{
+  "topicId": 61,
+  "title": "AI-оптимизация дробления и измельчения для заданной крупности",
+  "summary": "AI оптимизирует режимы дробилок и мельниц — скорость вращения, подачу руды, расход воды — для достижения целевой крупности при минимальном расходе энергии. Измельчение потребляет 30-50% всей энергии рудника, поэтому даже небольшая оптимизация даёт огромную экономию.",
+  "howItWorks": "На входе — данные smart-сенсоров (звук мельницы, вибрация, ток двигателя), расход и плотность пульпы, размер частиц на выходе, характеристики руды. AI-модели (MPC, нейросети) обучаются на исторических данных и оптимизируют скорость подачи, скорость мельницы и расход воды в реальном времени. LoadIQ определяет оптимальную загрузку SAG-мельницы через акустические сенсоры и ML. На выходе — оптимальные уставки для достижения целевого распределения крупности при минимальном удельном расходе энергии.",
+  "companies": [
+    {
+      "name": "FLSmidth (LoadIQ)",
+      "description": "Smart-сенсоры и AI для оптимальной загрузки SAG-мельниц. Автоматическая адаптация к износу футеровки и изменениям свойств руды. Рост производительности до 6-10% по тоннажу.",
+      "url": "https://www.flsmidth.com/en-gb/products/process-control-and-optimisation/knowledgescape-loadiq"
+    },
+    {
+      "name": "ABB (Expert Optimizer)",
+      "description": "MPC и нейросети для оптимизации измельчения в реальном времени. Результаты: рост производительности до 2.5%, улучшение распределения крупности на 4.3%, снижение удельного энергопотребления на 10.9%.",
+      "url": "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-expert-optimizer/advanced-process-control-of-grinding-and-flotation"
+    },
+    {
+      "name": "Imubit (SAG mill)",
+      "description": "5 способов повышения эффективности SAG-мельниц через промышленный AI. Самообучающиеся модели непрерывно настраивают подачу, скорость и воду на основе данных историана и живых сенсоров.",
+      "url": "https://imubit.com/article/sag-mill/"
+    },
+    {
+      "name": "Molycop (Digital Engine)",
+      "description": "Цифровая платформа для оптимизации процесса измельчения, включая подбор мелющих тел и режимов работы мельниц на основе данных и моделирования.",
+      "url": "https://www.molycop.com/information-hub/research-papers/molycop-digital-engine"
+    }
+  ],
+  "businessEffect": "Рост производительности SAG-мельниц до 6-10% по тоннажу (FLSmidth LoadIQ). Снижение удельного энергопотребления на 10.9% (ABB Expert Optimizer). Улучшение распределения крупности на 4.3%. Экономия 5-10% энергии измельчения через AI.",
+  "maturityVerdict": "Mainstream — APC для измельчения (ABB Expert Optimizer, FLSmidth) является стандартом на крупных фабриках, AI нового поколения (Imubit) активно масштабируется.",
+  "sources": [
+    "https://www.flsmidth.com/en-gb/products/process-control-and-optimisation/knowledgescape-loadiq",
+    "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-expert-optimizer/advanced-process-control-of-grinding-and-flotation",
+    "https://imubit.com/article/sag-mill/",
+    "https://www.molycop.com/information-hub/research-papers/molycop-digital-engine",
+    "https://www.flsmidth.com/en-gb/mining/grinding-circuit-optimisation-ssamesa"
+  ]
+}

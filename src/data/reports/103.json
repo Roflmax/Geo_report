@@ -1,0 +1,32 @@
+{
+  "topicId": 103,
+  "title": "AI-оптимизация энергопотребления насосных станций и вентиляции",
+  "summary": "AI оптимизирует работу насосных станций водоотлива и вентиляционных систем — крупнейших потребителей электроэнергии на рудниках. Это снижает энергозатраты на 30-50% через адаптивное управление скоростью вентиляторов и насосов в зависимости от реальной потребности.",
+  "howItWorks": "На входе — данные о расходе воды/воздуха, уровнях в выработках, присутствии людей и техники, тарифы на электроэнергию по времени суток. AI-модели (MPC, нейросети) оптимизируют графики работы насосов с учётом тарифов (ночное/дневное электричество) и уровней воды. VFD (частотные приводы) регулируют скорость вентиляторов и насосов по фактической потребности. DCS координирует все системы из центрального пульта. На выходе — оптимальные режимы насосов и вентиляторов, минимизирующие энергозатраты при соблюдении уровней воды и качества воздуха.",
+  "companies": [
+    {
+      "name": "ABB",
+      "description": "Ventilation Optimizer экономит до 50% энергии вентиляции. System 800xA управляет вентиляцией на Boliden Kristineberg и Garpenberg. VFD для насосных станций на Aitik с централизованным мониторингом энергопотоков.",
+      "url": "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-ventilation-optimizer"
+    },
+    {
+      "name": "Schneider Electric",
+      "description": "EcoStruxure Pumping Performance Advisor оптимизирует работу насосных станций. EcoStruxure Foresight объединяет электрические и механические системы с AI-аналитикой — рост эффективности до 50%.",
+      "url": "https://www.se.com/us/en/work/services/field-services/industrial-automation/performance-optimization-services/ecostruxure-pumping-performance-advisor.jsp"
+    },
+    {
+      "name": "ABB (Boliden)",
+      "description": "Интегрированные цифровые системы на руднике Aitik: VFD на насосных станциях, DCS 800xA для автоматизированного мониторинга, предиктивное обслуживание и диагностика в реальном времени.",
+      "url": "https://new.abb.com/news/detail/129737/how-integrated-digital-systems-boost-efficiency-and-cut-energy-use-in-mining"
+    }
+  ],
+  "businessEffect": "Экономия до 50% энергии вентиляции через VoD (ABB). EcoStruxure Foresight повышает эффективность до 50% (Schneider Electric). Насосы и вентиляция = 50-70% энергии шахты — оптимизация даёт многомиллионную экономию.",
+  "maturityVerdict": "Зрелая — VFD и DCS для насосов и вентиляции (ABB, Schneider) коммерчески развёрнуты на множестве рудников (Boliden), AI усиливает адаптивное управление.",
+  "sources": [
+    "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-ventilation-optimizer",
+    "https://www.se.com/us/en/work/services/field-services/industrial-automation/performance-optimization-services/ecostruxure-pumping-performance-advisor.jsp",
+    "https://new.abb.com/news/detail/129737/how-integrated-digital-systems-boost-efficiency-and-cut-energy-use-in-mining",
+    "https://new.abb.com/control-systems/industry-specific-solutions/mining/system-800xa-for-mine-ventilation-control-boliden",
+    "https://roboticsandautomationnews.com/2025/12/20/abb-expands-dam-electrification-and-automation-at-bolidens-aitik-copper-mine/97754/"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "topicId": 31,
+  "title": "Автономные буровые установки без операторов",
+  "summary": "Автономные буровые установки выполняют полный цикл бурения без присутствия оператора в кабине: позиционирование, бурение, перемещение к следующей скважине. Это обеспечивает круглосуточную работу, повышает безопасность и производительность.",
+  "howItWorks": "На входе — план бурения (координаты, глубины, углы скважин), данные GPS/GNSS, лидары и камеры для навигации, геологическая модель. AI-системы автономно управляют всеми операциями: трамминг к забою, позиционирование, стабилизация, бурение по паттерну, возврат на зарядку. Уровень автономии GMG Level 4 — все функции без вмешательства человека в заданных параметрах. На выходе — пробуренные скважины по плану с автоматическим логированием MWD-данных и отчётностью.",
+  "companies": [
+    {
+      "name": "Epiroc",
+      "description": "SmartROC D65 — первый автономный буровой станок Level 4 в США (Luck Stone, Вирджиния, 2025). Крупный контракт с Fortescue на электрические автономные буровые. Совместный проект с Boliden по автономному забойному бурению.",
+      "url": "https://www.epirocgroup.com/en/media/corporate-press-releases/2025/20250107-epiroc-wins-large-order-for-autonomous-surface-mining-equipment-in-australia"
+    },
+    {
+      "name": "Sandvik",
+      "description": "AutoMine® Surface Fleet управляет 15+ станками удалённо. AutoMine Concept Underground Drill — безкабинный электрический станок, планирующий и выполняющий весь цикл бурения автономно, включая возврат на зарядку.",
+      "url": "https://www.mining.sandvik/en/news-and-media/news-archive/2025/05/sandvik-introduces-future-of-autonomous-drill-rig-operation-with-automine-surface-fleet/"
+    },
+    {
+      "name": "Caterpillar",
+      "description": "Система Command for Drilling автоматизирует буровые операции на поверхности. Интеграция с автономными самосвалами Cat для полностью автоматизированного цикла бурение-взрыв-погрузка-транспортировка.",
+      "url": "https://www.cat.com/en_US/news/machine-press-releases/drilling-a-milestone.html"
+    },
+    {
+      "name": "Rio Tinto",
+      "description": "Рудник Gudai-Darri — наиболее технологически продвинутый рудник компании с автономным бурением, самосвалами и поездами как частью полностью интегрированной системы.",
+      "url": "https://www.riotinto.com/en/news/releases/2022/rio-tinto-opens-gudai-darri-its-most-technologically-advanced-mine"
+    },
+    {
+      "name": "Fortescue",
+      "description": "Рекордный контракт с Epiroc на электрические автономные буровые установки. Пионер внедрения автономного бурения на железорудных рудниках Пилбары.",
+      "url": "https://im-mining.com/2025/04/16/epiroc-extends-fortescue-electric-auto-drilling-ties-with-record-contract/"
+    }
+  ],
+  "businessEffect": "Круглосуточная работа без смен операторов. Рынок автоматизации горнодобычи вырастет с $3.96 млрд (2025) до $5.93 млрд (2030). Исключение людей из опасных зон бурения. Управление 15+ станками одним оператором (Sandvik).",
+  "maturityVerdict": "Зрелая — автономное бурение коммерчески развёрнуто на крупнейших рудниках (Rio Tinto, Fortescue) и масштабируется в отрасли.",
+  "sources": [
+    "https://www.epirocgroup.com/en/media/corporate-press-releases/2025/20250107-epiroc-wins-large-order-for-autonomous-surface-mining-equipment-in-australia",
+    "https://www.mining.sandvik/en/news-and-media/news-archive/2025/05/sandvik-introduces-future-of-autonomous-drill-rig-operation-with-automine-surface-fleet/",
+    "https://www.cat.com/en_US/news/machine-press-releases/drilling-a-milestone.html",
+    "https://www.riotinto.com/en/news/releases/2022/rio-tinto-opens-gudai-darri-its-most-technologically-advanced-mine",
+    "https://im-mining.com/2025/04/16/epiroc-extends-fortescue-electric-auto-drilling-ties-with-record-contract/",
+    "https://discoveryalert.com.au/news/epiroc-autonomous-drilling-2025-innovation-mining/"
+  ]
+}

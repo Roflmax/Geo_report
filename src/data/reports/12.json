@@ -1,0 +1,38 @@
+{
+  "topicId": 12,
+  "title": "Картирование минеральной перспективности территорий нейросетями",
+  "summary": "Нейросети анализируют геологические, геохимические, геофизические и спутниковые данные для создания карт вероятности нахождения месторождений. Это позволяет сузить область поиска и направить бурение в наиболее перспективные зоны, что уже привело к реальным открытиям.",
+  "howItWorks": "На входе — многослойные геопространственные данные: геохимия, геофизика, структурная геология, дистанционное зондирование, цифровые модели рельефа. CNN (MobileNet, ResNet, VGG, ViT) и другие нейросети извлекают признаки из каждого слоя и обучаются на известных месторождениях. Современные подходы включают transfer learning и few-shot learning для работы с ограниченными данными. На выходе — вероятностная карта проспективности с ранжированными целями для бурения.",
+  "companies": [
+    {
+      "name": "VRIFY (платформа DORA)",
+      "description": "AI-платформа DORA интегрирует геохимические, геофизические и структурные данные для генерации 3D-карт проспективности. Используется Equinox Gold для открытия зоны Minotaur с содержанием до 22.10 г/т Au.",
+      "url": "https://vrify.com/dora-platform"
+    },
+    {
+      "name": "GoldSpot Discoveries (EarthLabs)",
+      "description": "AI-таргетинг снижает затраты на разведку до 40%. Открытие золотой зоны 92.86 г/т Au на 19 м (New Found Gold). Идентифицировал 19 литиевых целей для Critical Elements.",
+      "url": "https://www.mining-technology.com/contractors/ps-ai/goldspot-discoveries/"
+    },
+    {
+      "name": "Equinox Gold (с VRIFY)",
+      "description": "AI-анализ DORA переприоритизировал зону Minotaur на руднике Valentine. Результаты бурения: 3.12 г/т Au на 63.9 м, 22.10 г/т Au на 6.3 м. Открытие в 8 км от фабрики, минерализация на 700 м по простиранию.",
+      "url": "https://www.equinoxgold.com/news/equinox-gold-announces-significant-new-ai-supported-gold-discovery-8-km-from-valentine-mill-and-additional-high-grade-gold-mineralization-outside-of-resources-at-the-valentine-gold-mine-canada/"
+    },
+    {
+      "name": "Montero Mining (с AI-специалистами)",
+      "description": "Применяет AI для ранней стадии разведки, используя нейросетевое картирование проспективности для сужения поисковых зон на своих проектах.",
+      "url": "https://www.globalminingreview.com/mining/12122025/how-ai-is-reshaping-early-stage-mineral-exploration/"
+    }
+  ],
+  "businessEffect": "Точность CNN-моделей проспективности превышает 94%. AI-поддержка привела к открытию зоны Minotaur (Equinox Gold) с содержанием до 22.10 г/т Au. Запланировано 15-25 тыс. м бурения на AI-выявленных целях в 2026 году.",
+  "maturityVerdict": "Зрелая — нейросетевое картирование проспективности привело к подтверждённым открытиям (Equinox Gold/VRIFY, GoldSpot) и активно масштабируется в индустрии.",
+  "sources": [
+    "https://vrify.com/dora-platform",
+    "https://www.mining-technology.com/contractors/ps-ai/goldspot-discoveries/",
+    "https://www.equinoxgold.com/news/equinox-gold-announces-significant-new-ai-supported-gold-discovery-8-km-from-valentine-mill-and-additional-high-grade-gold-mineralization-outside-of-resources-at-the-valentine-gold-mine-canada/",
+    "https://www.globalminingreview.com/mining/12122025/how-ai-is-reshaping-early-stage-mineral-exploration/",
+    "https://www.nature.com/articles/s41598-024-73357-0",
+    "https://www.mdpi.com/2075-163X/15/10/1042"
+  ]
+}

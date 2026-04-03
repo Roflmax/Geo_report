@@ -1,0 +1,38 @@
+{
+  "topicId": 36,
+  "title": "AI-оптимизация маршрутов самосвалов для минимизации цикла и расхода топлива",
+  "summary": "AI-системы диспетчеризации оптимизируют маршруты карьерных самосвалов в реальном времени, сокращая время цикла, очереди на погрузке/разгрузке и расход топлива. Это одна из наиболее зрелых и экономически значимых AI-технологий в горнодобыче.",
+  "howItWorks": "На входе — GPS-координаты всех машин, состояние дорог, очереди у экскаваторов и дробилок, загруженность самосвалов, погодные условия, качество руды. AI-алгоритмы диспетчеризации назначают каждому самосвалу оптимальный маршрут, пункт погрузки и разгрузки с учётом минимизации ожиданий и общего времени цикла. Система адаптируется в реальном времени при изменении условий. На выходе — оптимальные назначения для каждой единицы техники, снижающие холостые пробеги, простои и расход топлива.",
+  "companies": [
+    {
+      "name": "Caterpillar (MineStar Fleet)",
+      "description": "AI-диспетчеризация учитывает производительность техники, погоду и качество руды. Интеграция с автономными самосвалами Command for Hauling. Одна из наиболее распространённых FMS в мире.",
+      "url": "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/loading-hauling.html"
+    },
+    {
+      "name": "Komatsu / Modular Mining (DISPATCH)",
+      "description": "DISPATCH — пионер диспетчерских систем (с 1979 года). AI-инструмент Adaptive Config оптимизирует флот без дополнительного оборудования. Помогает рудникам оптимизировать транспортировку с доказанными результатами.",
+      "url": "https://www.komatsu.com/en-us/case-studies/dispatch-fleet-management-system-helps-mine-optimize-its-haulage"
+    },
+    {
+      "name": "Hexagon (MineOperate OP Pro)",
+      "description": "Диспетчеризация открытых горных работ с оптимизацией назначений, мониторингом усталости водителей и контролем соответствия плану добычи.",
+      "url": "https://hexagon.com/products/product-groups/hxgn-mineoperate"
+    },
+    {
+      "name": "Wenco / Hitachi",
+      "description": "Система управления флотом с оптимизацией маршрутов, мониторингом производительности и интеграцией с оборудованием Hitachi для комплексного управления горными работами.",
+      "url": "https://www.wencomine.com/our-solutions/mining-fleet-management"
+    }
+  ],
+  "businessEffect": "Рост операционной эффективности на 20%. Снижение расхода топлива на 15%. Рынок интеллектуальных диспетчерских систем растёт на 14.2% CAGR (2025-2031). Сокращение очередей и простоев за счёт оптимального назначения техники.",
+  "maturityVerdict": "Mainstream — диспетчерские системы (DISPATCH, MineStar Fleet, Hexagon) являются стандартом на всех крупных карьерах мира уже десятилетиями, AI усиливает их возможности.",
+  "sources": [
+    "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/loading-hauling.html",
+    "https://www.komatsu.com/en-us/case-studies/dispatch-fleet-management-system-helps-mine-optimize-its-haulage",
+    "https://hexagon.com/products/product-groups/hxgn-mineoperate",
+    "https://www.wencomine.com/our-solutions/mining-fleet-management",
+    "https://www.miningdoc.tech/2025/01/02/optimizing-fleet-management-in-mining-ai-powered-solutions-for-better-productivity/",
+    "https://www.qyresearch.com/news/12064/intelligent-mine-fleet-dispatch-systems"
+  ]
+}

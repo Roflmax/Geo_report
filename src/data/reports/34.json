@@ -1,0 +1,32 @@
+{
+  "topicId": 34,
+  "title": "AI-прогнозирование износа буровых коронок и момента замены",
+  "summary": "Машинное обучение анализирует параметры бурения в реальном времени для прогнозирования износа буровых коронок и определения оптимального момента замены. Это предотвращает как преждевременную замену (перерасход), так и работу изношенным инструментом (потеря производительности и аварии).",
+  "howItWorks": "На входе — данные MWD-сенсоров (давление подачи, скорость вращения, крутящий момент, скорость проходки), наработка коронки (метры, часы), тип породы. ML-модели (нейросети, градиентный бустинг) обучаются на исторических данных износа и выявляют паттерны деградации инструмента. IoT-сенсоры мониторят температуру, давление и вибрацию в реальном времени. На выходе — прогноз остаточного ресурса коронки, рекомендация по моменту замены, автоматическая инициация замены на автономных станках.",
+  "companies": [
+    {
+      "name": "Komatsu",
+      "description": "Платформа KOMTRAX мониторит параметры буровых станков. Система Smart Mining для бурения и взрывных работ интегрирует предиктивную аналитику для оптимизации обслуживания инструмента.",
+      "url": "https://www.komatsu.com/en-us/technology/smart-mining/drilling-and-blasting/"
+    },
+    {
+      "name": "Epiroc",
+      "description": "AI-система Pit Viper автоматически детектирует износ долот и инициирует замену без вмешательства человека. 25 лет развития буровой автоматики, 10 лет автономных операций с непрерывным улучшением точности.",
+      "url": "https://www.epirocgroup.com/en/media/corporate-press-releases/2025/20251022-epiroc-s-ground-breaking-drill-rig-pit-viper-celebrates-25-years-including-a-decade-with-autonomous-operations"
+    },
+    {
+      "name": "BHP",
+      "description": "Внедряет AI для предиктивного обслуживания бурового оборудования на своих рудниках. Использует машинное обучение для оптимизации всех аспектов горных операций, включая управление износом инструмента.",
+      "url": "https://www.bhp.com/news/bhp-insights/2024/08/artificial-intelligence-is-unearthing-a-smarter-future"
+    }
+  ],
+  "businessEffect": "Снижение затрат на обслуживание на 8-15%. Повышение доступности оборудования на 10%. Автоматическая замена долот без вмешательства человека на автономных станках. Предотвращение незапланированных простоев.",
+  "maturityVerdict": "Зрелая — предиктивное обслуживание бурового инструмента коммерчески внедрено на крупнейших рудниках (BHP, Fortescue) через платформы Epiroc, Komatsu и Sandvik.",
+  "sources": [
+    "https://www.komatsu.com/en-us/technology/smart-mining/drilling-and-blasting/",
+    "https://www.epirocgroup.com/en/media/corporate-press-releases/2025/20251022-epiroc-s-ground-breaking-drill-rig-pit-viper-celebrates-25-years-including-a-decade-with-autonomous-operations",
+    "https://www.bhp.com/news/bhp-insights/2024/08/artificial-intelligence-is-unearthing-a-smarter-future",
+    "https://miningdigital.com/digital-transformation/predictive-maintenance-reshaping-mining-operations",
+    "https://aicadata.com/predictive-maintenance-in-mining-reducing-downtime-and-maximising-equipment-life/"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "topicId": 26,
+  "title": "Цифровые двойники шахт и карьеров для симуляции операций",
+  "summary": "Цифровые двойники создают виртуальные копии горнодобывающих предприятий, позволяя моделировать и оптимизировать операции в реальном времени без рисков для реального производства. Это позволяет тестировать сценарии, выявлять узкие места и предотвращать ошибки до их возникновения.",
+  "howItWorks": "На входе — 3D-модели выработок, данные IoT-сенсоров оборудования, блочные модели месторождения, параметры транспортировки и переработки. Платформы интегрируют данные в единую виртуальную модель, обновляемую в реальном времени. AI-алгоритмы анализируют потоки материалов, производительность оборудования и качество руды. Дискретно-событийная и агентная симуляция моделируют работу всей цепочки mine-to-mill. На выходе — рекомендации по оптимизации операций, прогноз производительности и оценка сценариев «что если».",
+  "companies": [
+    {
+      "name": "Maptek (с PETRA Data Science)",
+      "description": "Цифровой двойник интегрирует геологическое моделирование Vulcan, планирование Evolution и AI-аналитику PETRA для оптимизации производительности рудника от забоя до фабрики.",
+      "url": "https://www.maptek.com/forge/september_2019/digital_twin_value_for_mine_performance/"
+    },
+    {
+      "name": "Akselos",
+      "description": "Цифровые двойники для повышения эффективности, безопасности и оптимизации операций в горнодобыче. Структурный анализ крупных инфраструктурных объектов.",
+      "url": "https://akselos.com/the-digital-future-of-mining-digital-twins/"
+    },
+    {
+      "name": "Metallurgical Systems (MI Core)",
+      "description": "Цифровой двойник горнодобывающего предприятия с интеграцией металлургических процессов для оптимизации всей цепочки от руды до продукта.",
+      "url": "https://metallurgicalsystems.com/mining-digital-twin/"
+    },
+    {
+      "name": "Simio",
+      "description": "Платформа для создания процессных цифровых двойников в горнодобыче. Моделирование пропускной способности, выявление узких мест, оценка изменений графика. ROI 20-40X от внедрения.",
+      "url": "https://www.simio.com/benefits-process-digital-twin-technology-mining-industry/"
+    },
+    {
+      "name": "NTWIST (ROM Pad Digital Twin)",
+      "description": "Цифровой двойник приёмного склада руды (ROM pad) для предотвращения потерь руды и оптимизации шихтования. AI-модели отслеживают потоки материалов в реальном времени.",
+      "url": "https://ntwist.com/blog/rom-pad-digital-twin-ore-loss-prevention"
+    }
+  ],
+  "businessEffect": "ROI от цифровых двойников в горнодобыче составляет 20-40X (Simio). Предотвращение ненужных капитальных затрат через тестирование сценариев. Выявление узких мест и оптимизация пропускной способности без остановки производства.",
+  "maturityVerdict": "Развивающаяся — цифровые двойники активно внедряются крупными компаниями, но полная интеграция всех систем mine-to-mill пока является скорее целью, чем стандартом.",
+  "sources": [
+    "https://www.maptek.com/forge/september_2019/digital_twin_value_for_mine_performance/",
+    "https://akselos.com/the-digital-future-of-mining-digital-twins/",
+    "https://metallurgicalsystems.com/mining-digital-twin/",
+    "https://www.simio.com/benefits-process-digital-twin-technology-mining-industry/",
+    "https://ntwist.com/blog/rom-pad-digital-twin-ore-loss-prevention",
+    "https://ntwist.com/blog/digital-twin-roi-mining",
+    "https://www.miningfrontier.com/featured/the-growing-role-of-digital-twins-and-ai-in-mining/"
+  ]
+}

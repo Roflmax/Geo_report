@@ -1,0 +1,44 @@
+{
+  "topicId": 23,
+  "title": "AI-оптимизация смешивания руды для стабильного качества питания фабрики",
+  "summary": "AI оптимизирует смешивание руды из разных забоев и складов для обеспечения стабильного качества питания обогатительной фабрики. Это снижает вариативность содержания и твёрдости на входе, повышая извлечение и производительность переработки.",
+  "howItWorks": "На входе — данные о содержаниях, твёрдости и объёмах руды в забоях и на складах, модель блочных запасов, текущие потоки материалов. ML-модели (soft sensors, регрессия, байесовская оптимизация) отслеживают свойства руды в реальном времени и прогнозируют качество смеси. 3D-модели складов выявляют зоны высокого и низкого содержания. На выходе — рекомендации по пропорциям смешивания из разных источников для достижения целевого качества питания фабрики.",
+  "companies": [
+    {
+      "name": "NTWIST (MineMax)",
+      "description": "AI-платформа стабилизирует качество питания через мониторинг содержания, твёрдости и объёмов. Динамическая адаптация шихтования в реальном времени. Клиенты получают ROI менее чем за 90 дней.",
+      "url": "https://ntwist.com/mining-industry"
+    },
+    {
+      "name": "IntelliSense.io",
+      "description": "3D-моделирование складов для селективной отгрузки. На золотом руднике в Австралии подняли среднее содержание с 0.80 до 0.84 г/т Au, получив AUD$2M+ дополнительной стоимости. Награда Mining Technology Excellence 2025.",
+      "url": "https://www.intellisense.io/applications/stockpile-inventory-optimization/"
+    },
+    {
+      "name": "Micromine (Beyond)",
+      "description": "Решение для оптимизации шихтования в рамках планирования открытых горных работ. Интеграция ограничений по качеству смеси в график добычи.",
+      "url": "https://www.micromine.com/solving-ore-blending-challenges-with-advanced-open-pit-scheduling-software/"
+    },
+    {
+      "name": "Minemax",
+      "description": "Оптимизация шихтования совместно с последовательностью отработки и назначением потоков руда/порода через многопериодный MILP-солвер CPLEX.",
+      "url": "https://www.minemax.com/"
+    },
+    {
+      "name": "OreScanner",
+      "description": "Технология сканирования руды для определения свойств в реальном времени, обеспечивая входные данные для оптимизации смешивания.",
+      "url": "https://orescanner.com/orescanner-technology/"
+    }
+  ],
+  "businessEffect": "Увеличение содержания в питании фабрики с 0.80 до 0.84 г/т Au дало AUD$2M+ дополнительной стоимости (IntelliSense). ROI от AI-шихтования менее чем за 90 дней (NTWIST). Снижение вариативности питания повышает извлечение и производительность фабрики.",
+  "maturityVerdict": "Зрелая — коммерческие AI-решения (NTWIST, IntelliSense) внедрены на действующих рудниках с подтверждённым финансовым эффектом и отраслевыми наградами.",
+  "sources": [
+    "https://ntwist.com/mining-industry",
+    "https://www.intellisense.io/applications/stockpile-inventory-optimization/",
+    "https://www.micromine.com/solving-ore-blending-challenges-with-advanced-open-pit-scheduling-software/",
+    "https://www.minemax.com/",
+    "https://orescanner.com/orescanner-technology/",
+    "https://ntwist.com/blog/ai-rom-pad-blending-optimization",
+    "https://www.mining-technology.com/featured-company/2025-intellisense-io/"
+  ]
+}

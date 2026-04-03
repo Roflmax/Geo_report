@@ -1,0 +1,43 @@
+{
+  "topicId": 71,
+  "title": "Цифровые двойники обогатительной фабрики для тестирования режимов",
+  "summary": "Цифровой двойник создаёт виртуальную копию обогатительной фабрики, позволяя безопасно тестировать изменения параметров и режимов до их применения на реальном оборудовании. Это исключает риск потери производства при экспериментах с новыми режимами.",
+  "howItWorks": "На входе — данные SCADA/DCS фабрики, минералогические модели руды, параметры оборудования (мельницы, флотация, сгущение). Металлургический цифровой двойник объединяет операционные данные с моделями процессов. Пользователь задаёт сценарии «что если» — до 20 параметров одновременно — и симулирует результаты. Сценарии можно запускать периодически или вручную. На выходе — прогноз извлечения, качества концентрата, расхода энергии и реагентов для каждого сценария до реализации на фабрике.",
+  "companies": [
+    {
+      "name": "Metso (Geminex)",
+      "description": "Металлургический цифровой двойник с мультивариантными сценариями (до 20 параметров). Развёрнут на Newmont Lihir (золото), Codelco Gabriela Mistral (медь), Dundee Precious Metals Ada Tepe. Победитель Mining Magazine Awards 2022.",
+      "url": "https://www.metso.com/mining/solutions/geminex/"
+    },
+    {
+      "name": "AVEVA",
+      "description": "Платформа для создания цифровых двойников промышленных предприятий, включая горнодобывающие фабрики. Интеграция с PI System для сбора данных с 98% объектов.",
+      "url": "https://www.aveva.com/en/industries/mining-metal-minerals/mining/"
+    },
+    {
+      "name": "Schneider Electric",
+      "description": "Масштабируемое IIoT и AI-решение для горнодобычи и цементной промышленности. Цифровой двойник для оптимизации энергопотребления и процессов.",
+      "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/schneider-electric-launches-new-scalable-iiot-and-ai-solution-for-mining-and-cement-industries-6279c9a3cd0c7b34f370a374/"
+    },
+    {
+      "name": "Newmont (Geminex at Lihir)",
+      "description": "Многофазное внедрение Geminex на золотой фабрике Lihir (PNG) для оптимизации mine-to-mill-to-mine. Симуляция сценариев окисления в автоклавах.",
+      "url": "https://www.metso.com/insights/case-studies/mining-and-metals/optimizing-from-mine-to-mill-to-mine-with-digital--twin-technology-at-newmont-lihir-gold-mine/"
+    },
+    {
+      "name": "Codelco (Geminex)",
+      "description": "Совместный проект с Metso на руднике Gabriela Mistral для оптимизации переработки меди. Отмечен наградой Mining Magazine за инновации.",
+      "url": "https://www.metso.com/corporate/media/news/2023/1/metso-outotecs-geminextm-digital-twin-and-a-joint-project-with-codelco-gabriela-mistral-voted-winners-of-the-mining-magazine-2022-awards/"
+    }
+  ],
+  "businessEffect": "Безрисковое тестирование до 20 параметров одновременно без остановки фабрики. Оптимизация mine-to-mill-to-mine цепочки через единый цифровой двойник. Победитель Mining Magazine Awards — признание отраслевой ценности.",
+  "maturityVerdict": "Развивающаяся — коммерческие развёртывания (Metso Geminex на Lihir, Codelco, Ada Tepe) подтверждены, но полная интеграция пока требует значительных усилий по настройке.",
+  "sources": [
+    "https://www.metso.com/mining/solutions/geminex/",
+    "https://www.aveva.com/en/industries/mining-metal-minerals/mining/",
+    "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/schneider-electric-launches-new-scalable-iiot-and-ai-solution-for-mining-and-cement-industries-6279c9a3cd0c7b34f370a374/",
+    "https://www.metso.com/insights/case-studies/mining-and-metals/optimizing-from-mine-to-mill-to-mine-with-digital--twin-technology-at-newmont-lihir-gold-mine/",
+    "https://www.metso.com/corporate/media/news/2023/1/metso-outotecs-geminextm-digital-twin-and-a-joint-project-with-codelco-gabriela-mistral-voted-winners-of-the-mining-magazine-2022-awards/",
+    "https://im-mining.com/2025/12/13/metso-and-the-process-plant-optimisation-power-of-geminex/"
+  ]
+}

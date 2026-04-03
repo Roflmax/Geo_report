@@ -1,0 +1,38 @@
+{
+  "topicId": 66,
+  "title": "AI-прогнозирование извлечения на обогатительной фабрике",
+  "summary": "AI-модели прогнозируют извлечение металла на обогатительной фабрике в зависимости от свойств поступающей руды и параметров процесса. Это позволяет проактивно корректировать режимы для максимизации извлечения, а не реагировать на уже потерянный металл.",
+  "howItWorks": "На входе — свойства руды (содержание, минералогия, твёрдость), параметры процесса (расход реагентов, крупность помола, расход воздуха, pH), данные онлайн-анализаторов. AI-модели (нейросети, gradient boosting, цифровые двойники) обучаются на исторических данных фабрики и предсказывают извлечение при различных комбинациях параметров. Цифровой двойник Geminex симулирует до 20 параметров одновременно. На выходе — прогноз извлечения и рекомендации по оптимальным параметрам процесса для каждого типа руды.",
+  "companies": [
+    {
+      "name": "Freeport-McMoRan (TROI)",
+      "description": "AI-программа с McKinsey оптимизировала концентраторы: рост извлечения и пропускной способности на 10-15%. Превращает данные фабрик в ценность через цифровую трансформацию медной добычи.",
+      "url": "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/freeport-mcmoran-turns-data-into-value"
+    },
+    {
+      "name": "ABB (Expert Optimizer)",
+      "description": "MPC и нейросети оптимизируют измельчение и флотацию для максимизации извлечения. Рост пропускной способности до 2.5%, снижение удельного энергопотребления на 10.9%.",
+      "url": "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-expert-optimizer"
+    },
+    {
+      "name": "Newmont (Geminex at Lihir)",
+      "description": "Metso Geminex™ — металлургический цифровой двойник на золотой фабрике Lihir (Папуа-Новая Гвинея). Симулирует различные конфигурации процесса до 20 параметров одновременно для оптимизации извлечения, пропускной способности и затрат.",
+      "url": "https://www.klover.ai/newmont-ai-strategy-analysis-of-dominance-in-mining-ai/"
+    },
+    {
+      "name": "Imubit",
+      "description": "Промышленный AI прогнозирует извлечение на минуты вперёд через виртуальные анализаторы. Типичные фабрики теряют 15% металла в хвостах — AI сокращает эти потери через оптимизацию в реальном времени.",
+      "url": "https://imubit.com/article/ai-critical-mineral-recovery-plant/"
+    }
+  ],
+  "businessEffect": "Рост извлечения и пропускной способности на 10-15% (Freeport-McMoRan). Типичные потери 15% металла в хвостах — AI сокращает их через прогнозирование. Цифровой двойник Geminex симулирует мультивариантные сценарии до реализации на фабрике.",
+  "maturityVerdict": "Зрелая — прогнозирование извлечения коммерчески развёрнуто на крупнейших фабриках (Freeport, Newmont Lihir) с подтверждённым двузначным ростом эффективности.",
+  "sources": [
+    "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/freeport-mcmoran-turns-data-into-value",
+    "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-expert-optimizer",
+    "https://www.klover.ai/newmont-ai-strategy-analysis-of-dominance-in-mining-ai/",
+    "https://imubit.com/article/ai-critical-mineral-recovery-plant/",
+    "https://www.metso.com/insights/case-studies/mining-and-metals/optimizing-from-mine-to-mill-to-mine-with-digital--twin-technology-at-newmont-lihir-gold-mine/",
+    "https://im-mining.com/2025/12/13/metso-and-the-process-plant-optimisation-power-of-geminex/"
+  ]
+}

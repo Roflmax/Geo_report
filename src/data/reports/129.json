@@ -1,0 +1,24 @@
+{
+  "topicId": 129,
+  "title": "Переключение автономных самосвалов между подземным и поверхностным режимами",
+  "summary": "AI позволяет автономным самосвалам работать как на поверхности (GPS-навигация), так и под землёй (SLAM-навигация), переключаясь между режимами автоматически. Это критично для рудников с подземной и открытой добычей.",
+  "howItWorks": "На входе — карта рудника (поверхность + подземные выработки), зоны GPS-покрытия и GPS-denied зоны. При выезде на поверхность самосвал использует GPS/GNSS, при входе в тоннель переключается на LiDAR-SLAM и радар. AI координирует переход между режимами навигации без остановки. На выходе — непрерывная автономная работа самосвала на поверхности и под землёй.",
+  "companies": [
+    {
+      "name": "Sandvik (AutoMine)",
+      "description": "AutoMine для самосвалов обеспечивает автономную работу на поверхности и под землёй. Развёрнут на Boliden Kevitsa. Управление 15+ единицами из одного центра.",
+      "url": "https://www.mining-technology.com/features/sandviks-automine-for-trucks-taking-automated-haulage-to-the-surface/"
+    },
+    {
+      "name": "Caterpillar (Command)",
+      "description": "Command for Hauling масштабируется от поверхностных карьеров к подземным операциям. Цель — 2000+ автономных самосвалов к 2030.",
+      "url": "https://im-mining.com/2025/11/07/caterpillar-sets-out-to-hit-over-2000-autonomous-mining-trucks-by-2030/"
+    }
+  ],
+  "businessEffect": "Непрерывная автономная работа на поверхности и под землёй без ручного переключения. Управление смешанным парком из одного центра. Устранение простоев при переходе между зонами.",
+  "maturityVerdict": "Развивающаяся — Sandvik AutoMine Surface Fleet активно внедряется, полная интеграция поверхность/подземка пока в пилотных проектах.",
+  "sources": [
+    "https://www.mining-technology.com/features/sandviks-automine-for-trucks-taking-automated-haulage-to-the-surface/",
+    "https://im-mining.com/2025/11/07/caterpillar-sets-out-to-hit-over-2000-autonomous-mining-trucks-by-2030/"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "topicId": 9,
+  "title": "AI-анализ спутниковых и аэроснимков для поиска перспективных зон",
+  "summary": "Машинное обучение анализирует мультиспектральные и гиперспектральные спутниковые снимки для выявления зон минерализации по спектральным сигнатурам альтерации. Это позволяет находить скрытые месторождения даже под растительностью и покровными отложениями, сокращая затраты на разведку более чем на 90%.",
+  "howItWorks": "На входе — мультиспектральные и гиперспектральные снимки со спутников и БПЛА, данные магнитной и гравитационной съёмки, цифровые модели рельефа. CNN и другие ML-модели (SVM, Random Forest) обучаются на спектральных сигнатурах зон альтерации — оксидов железа, глин, карбонатов — которые сопровождают минерализацию. Модели сравнивают паттерны с библиотекой известных типов месторождений. На выходе — карта проспективности с ранжированными целями для полевых работ.",
+  "companies": [
+    {
+      "name": "VerAI Discoveries",
+      "description": "AI-платформа находит скрытые месторождения под лесами, ледниками и гравием. Увеличивает вероятность успеха на два порядка, сокращает время таргетинга с лет до месяцев, снижает затраты на 90%. Портфель из 60+ проектов. Привлёк $24M Series B.",
+      "url": "https://ver-ai.com/"
+    },
+    {
+      "name": "KoBold Metals",
+      "description": "Интегрирует спутниковые снимки с геохимическими и геофизическими данными для обнаружения критических минералов. Обнаружил крупное медное месторождение в Замбии. Привлёк $537M.",
+      "url": "https://carboncredits.com/ai-powered-mineral-exploration-billionaires-backed-kobold-metals-raised-491-million/"
+    },
+    {
+      "name": "OreFox",
+      "description": "Система Prospector AI сравнивает спутниковые данные неизученных территорий с паттернами известных месторождений для гринфилд-разведки в Квинсленде (критические минералы).",
+      "url": "https://www.australianmining.com.au/orefox-funding-to-boost-qld-critical-mineral-discoveries/"
+    },
+    {
+      "name": "Earth AI",
+      "description": "Использует спутниковую дистанционную съёмку на континентальном масштабе для предсказания месторождений. Успешность обнаружения минерализации 66% против 0.5% в среднем по отрасли.",
+      "url": "https://www.notboring.co/p/earth-ai"
+    },
+    {
+      "name": "XRTech Group",
+      "description": "Специализируется на AI-анализе спутниковых снимков для поиска золота, выявляя спектральные аномалии альтерации на различных длинах волн.",
+      "url": "https://xrtechgroup.com/ai-powered-satellite-imagery-for-gold/"
+    }
+  ],
+  "businessEffect": "Снижение затрат на таргетинг более чем на 90% (VerAI). Увеличение вероятности успеха разведки на два порядка. Сокращение времени выявления целей с лет до месяцев. Успешность бурения до 66% вместо 0.5% (Earth AI).",
+  "maturityVerdict": "Зрелая — коммерческие платформы (VerAI, KoBold, Earth AI) активно используются с подтверждёнными открытиями и сотнями миллионов долларов инвестиций.",
+  "sources": [
+    "https://ver-ai.com/",
+    "https://carboncredits.com/ai-powered-mineral-exploration-billionaires-backed-kobold-metals-raised-491-million/",
+    "https://www.australianmining.com.au/orefox-funding-to-boost-qld-critical-mineral-discoveries/",
+    "https://www.notboring.co/p/earth-ai",
+    "https://xrtechgroup.com/ai-powered-satellite-imagery-for-gold/",
+    "https://www.prnewswire.com/news-releases/verai-discoveries-secures-24-million-in-series-b-funding-led-by-insight-partners-to-grow-its-global-asset-portfolio-of-ai-based-mineral-discoveries-302386439.html",
+    "https://link.springer.com/article/10.1007/s41064-025-00344-z"
+  ]
+}

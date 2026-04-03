@@ -1,0 +1,40 @@
+{
+  "topicId": 2,
+  "title": "AI-прогнозирование расположения и границ рудных тел",
+  "summary": "Машинное обучение объединяет геофизические (магнитные, гравитационные) и геохимические данные для построения 3D-моделей рудных тел и предсказания их границ. Это сокращает количество необходимых скважин в 5 раз и повышает точность оконтуривания до 97%.",
+  "howItWorks": "На входе — геофизические данные (магнитометрия, гравиметрия, сейсмика), геохимические анализы проб, данные бурения и спутниковые снимки. ML-модели (deep forest, кластеризация, нейросети) обучаются на исторических данных и выявляют корреляции между физическими параметрами и минерализацией. На выходе — 3D-модель рудного тела с границами, глубиной и рекомендациями по бурению. Технология Ambient Noise Tomography позволяет строить модели в реальном времени с минимальным экологическим воздействием.",
+  "companies": [
+    {
+      "name": "KoBold Metals",
+      "description": "Интегрирует столетие геологических данных, спутниковые снимки и геохимические съёмки для выявления скрытых рудных тел. Обнаружил медное месторождение Mingomba в Замбии с помощью AI-анализа паттернов, невидимых для геологов.",
+      "url": "https://spectrum.ieee.org/ai-mining"
+    },
+    {
+      "name": "Rio Tinto (с Fleet Space ExoSphere)",
+      "description": "Использует ExoSphere для построения 3D-карт подповерхности на 100 км² литиевого проекта Rincon. ExoSphere объединяет геофизику, геохимию и данные бурения, ранжируя цели без человеческого предвзятого отношения. Более 40 компаний используют платформу на 5 континентах.",
+      "url": "https://im-mining.com/2024/10/24/rio-tinto-leveraging-fleet-space-exploration-tech-at-rincon-lithium-project/"
+    },
+    {
+      "name": "Novamera",
+      "description": "Разработала технологию Surgical Mining™ с датчиком, собирающим на 4900% больше подповерхностных данных. AI строит цифровые двойники рудных тел для точной добычи узких жил с 95% меньшим количеством отходов.",
+      "url": "https://cleantech.com/rock-solid-ai-how-digital-tools-are-unearthing-a-new-era-of-mining-exploration/"
+    },
+    {
+      "name": "Earth AI",
+      "description": "Предсказывает месторождения на континентальном масштабе, обучая модели на миллионах геологических кейсов. Успешность обнаружения минерализации — 66% при среднеотраслевых 0.5%.",
+      "url": "https://earth-ai.com/technology"
+    }
+  ],
+  "businessEffect": "Точность определения границ рудных тел достигает 97.7% (исследование Bayan Obo). Количество необходимых скважин сокращается в 5 раз (10 вместо 50 для оконтуривания ресурса в 500 000 тонн). Снижение отходов до 95% при точном оконтуривании (Novamera).",
+  "maturityVerdict": "Зрелая — технология коммерчески используется Rio Tinto, KoBold Metals и другими крупными компаниями, подтверждена полевыми испытаниями и академическими исследованиями.",
+  "sources": [
+    "https://spectrum.ieee.org/ai-mining",
+    "https://im-mining.com/2024/10/24/rio-tinto-leveraging-fleet-space-exploration-tech-at-rincon-lithium-project/",
+    "https://cleantech.com/rock-solid-ai-how-digital-tools-are-unearthing-a-new-era-of-mining-exploration/",
+    "https://earth-ai.com/technology",
+    "https://link.springer.com/article/10.1007/s00024-025-03891-z",
+    "https://medium.com/@ambitionmagician/using-ai-and-geochemistry-to-predict-ore-body-boundaries-in-underexplored-terrains-b148e17f2e14",
+    "https://www.fleetspace.com/exosphere",
+    "https://novamerainc.com/surgical-mining/"
+  ]
+}

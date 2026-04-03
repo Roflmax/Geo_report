@@ -1,0 +1,43 @@
+{
+  "topicId": 44,
+  "title": "Автономные экскаваторы и погрузчики",
+  "summary": "Автономные и телеуправляемые экскаваторы и погрузчики (LHD) выполняют погрузку и транспортировку руды в подземных и открытых горных работах без присутствия оператора в кабине. Это повышает безопасность в опасных зонах и обеспечивает непрерывную работу.",
+  "howItWorks": "На входе — 3D-модель выработки, данные лидаров и камер для навигации, задания диспетчерской системы. AI-системы автоматизируют цикл погрузки-транспортировки-разгрузки (LHD): навигация к забою, загрузка ковша, транспортировка к пункту разгрузки, возврат. Оператор может контролировать несколько машин из безопасного пульта. На выходе — автономное выполнение цикла LHD с мониторингом объёма загрузки и производительности.",
+  "companies": [
+    {
+      "name": "Caterpillar (Command)",
+      "description": "Cat Command for Underground автоматизирует трамминг и разгрузку подземных погрузчиков. Оператор управляет машиной из офиса, вне опасной зоны шахты. Масштабирование автономии на открытые горные работы.",
+      "url": "https://www.caterpillar.com/en/news/caterpillarNews/2026/scaling-autonomy-system.html"
+    },
+    {
+      "name": "Sandvik (AutoMine loaders)",
+      "description": "AutoMine Core — платформа полной автономии для массовой добычи. Объединяет связь, сбор данных и парк автоматизированного оборудования для подземных LHD и самосвалов.",
+      "url": "https://www.mining.sandvik/en/digital-solutions/automation/automine-core-for-loading-and-hauling/"
+    },
+    {
+      "name": "Hitachi",
+      "description": "Разрабатывает автономные технологии для карьерных экскаваторов с интеграцией AI для оптимизации цикла копания и загрузки самосвалов.",
+      "url": "https://www.hitachicm.com/global/en/innovations/innovations02/"
+    },
+    {
+      "name": "Epiroc (Scooptram)",
+      "description": "Scooptram ST4 (2025) — компактный погрузчик для узких жил с 20% большей мощностью и 45% быстрым траммингом. Автономные ST18 развёрнуты на LKAB Kiruna. Крупнейший контракт Epiroc на электрическое автономное оборудование.",
+      "url": "https://www.epirocgroup.com/en/media/corporate-press-releases/2025/20250416-epiroc-wins-its-largest-contract-ever--for-autonomous-and-electric-powered-mining-equipment"
+    },
+    {
+      "name": "Komatsu (IMC)",
+      "description": "Intelligent Machine Control для экскаваторов с автоматической коррекцией ковша по 3D-модели. Предотвращает перекопку и обеспечивает точность выемки.",
+      "url": "https://www.komatsu.com/en-us/technology/smart-construction/intelligent-machine-control"
+    }
+  ],
+  "businessEffect": "1243 телеуправляемых и автономных LHD/самосвалов работают в подземных рудниках по всему миру. Скорость трамминга выросла на 45% (Epiroc ST4). Sandvik, Caterpillar и Epiroc контролируют подавляющую долю рынка автономного подземного оборудования.",
+  "maturityVerdict": "Зрелая — автономные погрузчики (Sandvik AutoMine, Epiroc Scooptram, Cat Command) коммерчески развёрнуты на сотнях подземных рудников, автономные экскаваторы на поверхности пока в развитии.",
+  "sources": [
+    "https://www.caterpillar.com/en/news/caterpillarNews/2026/scaling-autonomy-system.html",
+    "https://www.mining.sandvik/en/digital-solutions/automation/automine-core-for-loading-and-hauling/",
+    "https://www.hitachicm.com/global/en/innovations/innovations02/",
+    "https://www.epirocgroup.com/en/media/corporate-press-releases/2025/20250416-epiroc-wins-its-largest-contract-ever--for-autonomous-and-electric-powered-mining-equipment",
+    "https://www.komatsu.com/en-us/technology/smart-construction/intelligent-machine-control",
+    "https://finance.yahoo.com/news/global-underground-mining-tele-remote-135200465.html"
+  ]
+}

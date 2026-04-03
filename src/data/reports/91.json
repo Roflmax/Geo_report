@@ -1,0 +1,38 @@
+{
+  "topicId": 91,
+  "title": "AI-прогнозирование устойчивости хвостохранилищ",
+  "summary": "AI мониторит состояние дамб хвостохранилищ в реальном времени, предсказывая риски прорыва и нестабильности. После 37 крупных аварий за последнее десятилетие это стало критическим приоритетом для отрасли и регуляторов.",
+  "howItWorks": "На входе — данные пьезометров (поровое давление), инклинометров (деформации), экстензометров, метеоданные (осадки), уровни воды в хвостохранилище. AI-модели анализируют тренды в реальном времени и сравнивают с численными моделями поведения грунта (цифровой двойник). Система обнаруживает тонкие изменения в поведении дамбы, предшествующие нестабильности. На выходе — прогноз уровней воды, дренажа, структурной целостности и устойчивости, раннее предупреждение о рисках.",
+  "companies": [
+    {
+      "name": "VROC",
+      "description": "AI-платформа анализирует горные и метеорологические данные для прогноза уровней воды, дренажа, структурной целостности, пылеобразования и сейсмической активности хвостохранилищ.",
+      "url": "https://vroc.ai/ai-for-predictive-monitoring-of-tailings-storage-facilities/"
+    },
+    {
+      "name": "Saalg Geomechanics",
+      "description": "Платформа DAARWIN использует цифровые двойники и анализ в реальном времени для сравнения данных мониторинга с численными моделями поведения грунта. Интеграция инклинометров, пьезометров и экстензометров для раннего обнаружения нестабильности.",
+      "url": "https://www.saalg.com/post/tailing-dams-integrity-monitoring-2"
+    },
+    {
+      "name": "dida",
+      "description": "AI-система мониторинга устойчивости хвостохранилищ на основе анализа данных сенсоров и прогнозирования аномального поведения дамбы.",
+      "url": "https://dida.do/use-cases/tailings-dam-stability-monitoring"
+    },
+    {
+      "name": "Datagrid",
+      "description": "AI-агенты для мониторинга хвостохранилищ, автоматизирующие анализ данных и генерацию предупреждений о рисках.",
+      "url": "https://www.datagrid.com/blog/ai-agents-tailings-dam-monitoring"
+    }
+  ],
+  "businessEffect": "37 крупных аварий за десятилетие — AI-мониторинг критически необходим. Раннее обнаружение тонких изменений в поведении дамбы до перехода в критическое состояние. Соответствие ужесточённым требованиям Global Industry Standard on Tailings Management (GISTM).",
+  "maturityVerdict": "Зрелая — AI-мониторинг хвостохранилищ (VROC, DAARWIN) коммерчески развёрнут и активно внедряется под давлением регуляторов и инвесторов после серии катастроф.",
+  "sources": [
+    "https://vroc.ai/ai-for-predictive-monitoring-of-tailings-storage-facilities/",
+    "https://www.saalg.com/post/tailing-dams-integrity-monitoring-2",
+    "https://dida.do/use-cases/tailings-dam-stability-monitoring",
+    "https://www.datagrid.com/blog/ai-agents-tailings-dam-monitoring",
+    "https://mine.nridigital.com/mine_mar25/ais-rising-role-in-tailings-management",
+    "https://www.petradatascience.com/casestudy/can-machine-learning-predict-tailings-dam-failure/"
+  ]
+}

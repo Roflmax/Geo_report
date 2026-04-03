@@ -1,0 +1,38 @@
+{
+  "topicId": 113,
+  "title": "AI-управление штабелями и складами продукции",
+  "summary": "AI строит динамические 3D-модели штабелей руды, отслеживая содержание и объём в каждой точке склада. Это позволяет селективно извлекать руду нужного качества и оптимизировать шихтование питания фабрики.",
+  "howItWorks": "На входе — GPS-данные самосвалов (откуда привезена руда), данные грейд-контроля блочной модели, топографические сканы дронов, данные LiDAR. AI строит 3D-блочную модель каждого штабеля с вероятностным содержанием, твёрдостью и тоннажем в каждом блоке. Модель обновляется при каждой загрузке/отгрузке. На выходе — 3D-карта содержаний в штабеле, рекомендации по селективной выемке и шихтованию для достижения целевого качества питания.",
+  "companies": [
+    {
+      "name": "IntelliSense.io",
+      "description": "3D-блочные модели штабелей из данных FMS и грейд-контроля. Селективная рекламация подняла содержание с 0.80 до 0.84 г/т Au (AUD$2M+). Награда Mining Technology Excellence 2025. 9 из топ-20 горных компаний в 8 странах.",
+      "url": "https://www.intellisense.io/applications/stockpile-inventory-optimization/"
+    },
+    {
+      "name": "NTWIST",
+      "description": "OreMax строит постоянно обновляемые 3D-профили штабелей из GPS-данных самосвалов, топосъёмки и блочных моделей. Раскрывает до $250/унция скрытой стоимости на золотых карьерах через устранение потерь руды.",
+      "url": "https://ntwist.com/blog/ai-stockpile-tracking-mining"
+    },
+    {
+      "name": "Propeller Aero (Nevada Gold Mines)",
+      "description": "Ежедневная дроновая съёмка для управления штабелями на территории 40 миль. Главный маркшейдер Nevada Gold Mines использует платформу Propeller для инвентаризации и отслеживания объёмов.",
+      "url": "https://www.propelleraero.com/blog/how-nevada-gold-mines-uses-drones-to-measure-stockpiles-on-a-massive-scale/"
+    },
+    {
+      "name": "DroneDeploy",
+      "description": "Платформа для точного измерения и управления штабелями с помощью дронов. Автоматический расчёт объёмов и генерация отчётов по запасам на складах.",
+      "url": "https://www.dronedeploy.com/resources/ebooks/accurate-stockpile-measurement-management-with-drones"
+    }
+  ],
+  "businessEffect": "Рост содержания питания фабрики с 0.80 до 0.84 г/т Au = AUD$2M+ (IntelliSense). До $250/унция скрытой стоимости раскрывается через AI-управление штабелями (NTWIST). 9 из топ-20 горных компаний используют IntelliSense в 8 странах.",
+  "maturityVerdict": "Зрелая — AI-управление штабелями (IntelliSense, NTWIST) коммерчески развёрнуто на крупнейших рудниках с подтверждённым финансовым эффектом и отраслевыми наградами.",
+  "sources": [
+    "https://www.intellisense.io/applications/stockpile-inventory-optimization/",
+    "https://ntwist.com/blog/ai-stockpile-tracking-mining",
+    "https://www.propelleraero.com/blog/how-nevada-gold-mines-uses-drones-to-measure-stockpiles-on-a-massive-scale/",
+    "https://www.dronedeploy.com/resources/ebooks/accurate-stockpile-measurement-management-with-drones",
+    "https://www.mining-technology.com/featured-company/2025-intellisense-io/",
+    "https://ntwist.com/blog/real-time-stockpile-modeling-blending-optimization"
+  ]
+}

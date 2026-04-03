@@ -1,0 +1,44 @@
+{
+  "topicId": 20,
+  "title": "Оптимизация последовательности выемки блоков (mine scheduling)",
+  "summary": "Алгоритмы оптимизации определяют, в каком порядке извлекать блоки породы и руды, чтобы максимизировать NPV при соблюдении всех операционных ограничений. Одношаговая оптимизация увеличивает NPV до 50% по сравнению с традиционными последовательными методами.",
+  "howItWorks": "На входе — блочная модель месторождения, ограничения по мощности добычи/переработки, геотехнические требования к последовательности (предшествующие блоки), целевые показатели качества. Алгоритмы (MILP Branch & Cut, Lerchs-Grossmann, метаэвристики) определяют оптимальную последовательность извлечения блоков по периодам. Одношаговые методы (MiningMath) решают задачу целиком: контуры, фазы, назначение потоков и последовательность одновременно. На выходе — график выемки блоков по периодам с назначением направлений (руда/порода/склад) и максимальным NPV.",
+  "companies": [
+    {
+      "name": "MiningMath",
+      "description": "Одношаговая оптимизация через MILP Branch & Cut. На месторождении La Cocota увеличил NPV с 439 до 519 MUSD (+50% vs традиционный метод LG). Денежный поток ускорен на 2 года. Не требует вложенных контуров.",
+      "url": "https://miningmath.com/"
+    },
+    {
+      "name": "Minemax (Scheduler)",
+      "description": "Многопериодная оптимизация на CPLEX с математической гарантией оптимальности решения. Совместно оптимизирует назначение блоков, бортовые содержания и шихтование.",
+      "url": "https://www.minemax.com/products/scheduler/"
+    },
+    {
+      "name": "Dassault GEOVIA MineSched",
+      "description": "Тактическое планирование с автоматизированным составлением графиков для пушбэков и уступов. Сравнение тысяч сценариев для выбора оптимального по производительности и прибыльности.",
+      "url": "https://www.3ds.com/products/geovia/mine-scheduling-optimization"
+    },
+    {
+      "name": "Epiroc",
+      "description": "Цифровые решения для планирования и оптимизации последовательности горных работ с интеграцией данных автоматизированного оборудования.",
+      "url": "https://www.epiroc.com/en-us/products/digital-solutions/mine-planning/mine-scheduling"
+    },
+    {
+      "name": "Hexagon MinePlan",
+      "description": "Оптимизация графиков для открытых и подземных горных работ с учётом операционных ограничений и целевых показателей качества руды.",
+      "url": "https://hexagon.com/solutions/mine-scheduling-optimising"
+    }
+  ],
+  "businessEffect": "Одношаговая оптимизация увеличивает NPV на ~50% по сравнению с методом LG (MiningMath, La Cocota: 439→519 MUSD). Денежный поток ускоряется на 2 года. Автоматическое сравнение тысяч сценариев вместо ручного перебора.",
+  "maturityVerdict": "Mainstream — оптимизация последовательности выемки блоков является обязательным элементом планирования на всех современных рудниках.",
+  "sources": [
+    "https://miningmath.com/",
+    "https://www.minemax.com/products/scheduler/",
+    "https://www.3ds.com/products/geovia/mine-scheduling-optimization",
+    "https://www.epiroc.com/en-us/products/digital-solutions/mine-planning/mine-scheduling",
+    "https://hexagon.com/solutions/mine-scheduling-optimising",
+    "https://miningmath.com/2025/09/29/miningmath-vs-traditional-methods/",
+    "https://miningmath.com/2025/04/22/mine-planning-optimization-software/"
+  ]
+}

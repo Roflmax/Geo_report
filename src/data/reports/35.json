@@ -1,0 +1,43 @@
+{
+  "topicId": 35,
+  "title": "Автономные самосвалы без водителей",
+  "summary": "Автономные карьерные самосвалы перевозят руду и вскрышу без водителей, работая круглосуточно по оптимальным маршрутам. Это наиболее зрелая и масштабная технология автоматизации в горнодобыче — более 3800 автономных самосвалов работают по всему миру.",
+  "howItWorks": "На входе — высокоточные GPS/GNSS координаты, данные лидаров и радаров для обнаружения препятствий, цифровая карта рудника, задания диспетчерской системы. AI-системы планируют маршруты, управляют движением, координируют взаимодействие с другой техникой и избегают столкновений. Самосвалы автономно выполняют погрузку, транспортировку и разгрузку. На выходе — непрерывная транспортировка материалов без участия водителей с оптимизацией расхода топлива и износа шин.",
+  "companies": [
+    {
+      "name": "Caterpillar (Cat Command for Hauling)",
+      "description": "690 автономных самосвалов в эксплуатации (конец 2024). Цель — более 2000 к 2030 году. Наиболее доказанное решение для крупных самосвалов, лидер по числу развёрнутых единиц среди западных OEM.",
+      "url": "https://im-mining.com/2025/11/07/caterpillar-sets-out-to-hit-over-2000-autonomous-mining-trucks-by-2030/"
+    },
+    {
+      "name": "Komatsu (FrontRunner AHS)",
+      "description": "875+ автономных самосвалов, перевезших более 10 млрд тонн материала. Темп — 6+ млн тонн в день. Первый в мире автономный электрический самосвал с троллейным питанием. Партнёрство с Nevada Gold Mines (Barrick).",
+      "url": "https://www.komatsu.com/en-us/technology/smart-mining/loading-and-haulage/autonomous-haulage-system"
+    },
+    {
+      "name": "Fortescue",
+      "description": "Автономный парк самосвалов превысил 2 млрд тонн перевезённого материала. Пионер внедрения AHS в железорудной добыче Пилбары (Австралия).",
+      "url": "https://metals.fortescue.com/en/articles/fortescuesautonomoushaulfleetsurpassestwobilliontonnesmilestone20210713"
+    },
+    {
+      "name": "BHP (South Flank)",
+      "description": "Внедрил автономный парк Komatsu 930E-5 на железорудном руднике South Flank. Один из крупнейших проектов AHS в мире.",
+      "url": "https://im-mining.com/2022/01/12/bhp-south-flank-iron-ore-mine-komatsu-930e-5-truck-fleet-going-autonomous-sept-2023/"
+    },
+    {
+      "name": "Rio Tinto",
+      "description": "Автономный парк преодолел отметку в 1 млрд тонн перевезённого материала. Интегрирует AHS с автономным бурением и поездами в единую систему.",
+      "url": "https://www.riotinto.com/news/releases/AHS-one-billion-tonne-milestone"
+    }
+  ],
+  "businessEffect": "3832 автономных самосвала в мире (июль 2025). Komatsu FrontRunner: 10+ млрд тонн перевезено, 6+ млн тонн/день. Caterpillar: с 690 до 2000+ единиц к 2030. Круглосуточная работа без смен водителей, снижение затрат на персонал и повышение безопасности.",
+  "maturityVerdict": "Mainstream — автономные самосвалы являются наиболее зрелой и масштабной AI-технологией в горнодобыче с тысячами единиц в эксплуатации.",
+  "sources": [
+    "https://im-mining.com/2025/11/07/caterpillar-sets-out-to-hit-over-2000-autonomous-mining-trucks-by-2030/",
+    "https://www.komatsu.com/en-us/technology/smart-mining/loading-and-haulage/autonomous-haulage-system",
+    "https://metals.fortescue.com/en/articles/fortescuesautonomoushaulfleetsurpassestwobilliontonnesmilestone20210713",
+    "https://im-mining.com/2022/01/12/bhp-south-flank-iron-ore-mine-komatsu-930e-5-truck-fleet-going-autonomous-sept-2023/",
+    "https://www.riotinto.com/news/releases/AHS-one-billion-tonne-milestone",
+    "https://www.globaldata.com/store/report/development-of-autonomous-trucks-in-mining-market-analysis/"
+  ]
+}

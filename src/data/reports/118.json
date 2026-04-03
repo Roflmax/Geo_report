@@ -1,0 +1,37 @@
+{
+  "topicId": 118,
+  "title": "Интеграция данных со всех систем в единую аналитическую платформу",
+  "summary": "Платформы промышленных данных объединяют информацию из разрозненных систем — ERP, SCADA, IoT-сенсоров, GIS, историанов — в единое «озеро данных». Это устраняет информационные силосы и позволяет AI-приложениям работать со всеми данными предприятия.",
+  "howItWorks": "На входе — данные из десятков разнородных источников: SCADA (управление процессами), IoT-сенсоры (оборудование), ERP (финансы, склады), GIS (геопространственные данные), историаны (временные ряды), 3D-CAD модели. Платформы DataOps (Cognite, AVEVA) автоматически извлекают, контекстуализируют и связывают данные через 90+ коннекторов. AI-модели получают доступ к объединённым данным для кросс-системной аналитики. На выходе — единая точка доступа ко всем данным предприятия, готовая для AI-приложений и дашбордов.",
+  "companies": [
+    {
+      "name": "AVEVA",
+      "description": "PI System — отраслевой стандарт сбора данных для горнодобычи. DataHub IoT Gateway соединяет SCADA, IoT и облачные платформы. Развёрнут на тысячах промышленных предприятий.",
+      "url": "https://www.factorysoftware.com/industries/metal-mining"
+    },
+    {
+      "name": "Siemens (MindSphere)",
+      "description": "Облачная IoT-платформа для подключения промышленного оборудования. Агрегация данных с различных типов сенсоров и систем управления для аналитики и AI.",
+      "url": "https://industrialmonitordirect.com/blogs/knowledgebase/understanding-siemens-mindsphere-technical-architecture-and-use-cases"
+    },
+    {
+      "name": "Cognite (Data Fusion)",
+      "description": "Открытая платформа Industrial DataOps с 90+ коннекторами для IT, OT и ET данных. Контекстуализирует данные SCADA, IoT, ERP, 3D-CAD. Партнёрство с Microsoft для интеграции с Azure Fabric.",
+      "url": "https://www.cognite.com/en/product/cognite_data_fusion_industrial_dataops_platform"
+    },
+    {
+      "name": "Microsoft Azure (Boliden)",
+      "description": "Boliden использует Azure IoT Edge и IoT Hub для подключения камер и тысяч сенсоров над и под землёй. Централизация и автоматизация сбора данных для всего рудника.",
+      "url": "https://www.microsoft.com/en-us/industry/blog/energy-and-resources/mining/2025/05/29/embracing-ai-and-adaptive-cloud-to-drive-digital-transformation-in-mining/"
+    }
+  ],
+  "businessEffect": "Устранение информационных силосов — все данные предприятия в одном месте. 90+ готовых коннекторов для быстрого подключения любых систем (Cognite). Boliden подключил тысячи сенсоров над и под землёй через Azure IoT. Основа для всех AI-приложений предприятия.",
+  "maturityVerdict": "Зрелая — платформы промышленных данных (AVEVA PI, Cognite, Azure) коммерчески развёрнуты на крупнейших рудниках, являются фундаментом для AI-трансформации.",
+  "sources": [
+    "https://www.factorysoftware.com/industries/metal-mining",
+    "https://industrialmonitordirect.com/blogs/knowledgebase/understanding-siemens-mindsphere-technical-architecture-and-use-cases",
+    "https://www.cognite.com/en/product/cognite_data_fusion_industrial_dataops_platform",
+    "https://www.microsoft.com/en-us/industry/blog/energy-and-resources/mining/2025/05/29/embracing-ai-and-adaptive-cloud-to-drive-digital-transformation-in-mining/",
+    "https://docs.cognite.com/cdf"
+  ]
+}

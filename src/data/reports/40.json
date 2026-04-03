@@ -1,0 +1,32 @@
+{
+  "topicId": 40,
+  "title": "Оптимизация загрузки самосвалов с помощью компьютерного зрения и сенсоров",
+  "summary": "AI-системы контролируют загрузку карьерных самосвалов в реальном времени, предотвращая перегруз (риск аварий, износ) и недогруз (потеря производительности). Точный контроль массы каждого ковша обеспечивает оптимальную загрузку каждого рейса.",
+  "howItWorks": "На входе — данные датчиков нагрузки на подвеске самосвала, камеры и радары на экскаваторе, данные о целевой загрузке. Системы Payload измеряют массу материала в ковше и кузове в реальном времени. Компьютерное зрение и edge-вычисления обрабатывают данные сенсоров для мгновенной оценки загрузки. Оператор экскаватора видит на мониторе текущую и целевую загрузку. На выходе — сигнал оператору о достижении целевой загрузки, предупреждение о перегрузе, статистика загрузки для аналитики.",
+  "companies": [
+    {
+      "name": "Caterpillar (Cat Payload)",
+      "description": "Встроенная система Payload показывает вес в ковше и кузове в реальном времени. Политика 10/10/20: не более 10% рейсов выше 110% целевой, никогда свыше 120%. Интеграция с MineStar для аналитики загрузки всего парка.",
+      "url": "https://www.cat.com/en_US/products/new/technology/payload/payload/1000030245.html"
+    },
+    {
+      "name": "Hitachi",
+      "description": "Система управления флотом с мониторингом загрузки. Интеграция данных о массе с диспетчеризацией для оптимизации назначения самосвалов к экскаваторам.",
+      "url": "https://www.hitachicm.com/global/en/solutions/solution-linkage/fleet-management-system/"
+    },
+    {
+      "name": "Komatsu (DISPATCH)",
+      "description": "Мониторинг загрузки в рамках диспетчерской системы DISPATCH. Данные о массе используются для оптимизации назначений и контроля производительности экскаваторов.",
+      "url": "https://www.komatsu.com/en-us/case-studies/dispatch-fleet-management-system-helps-mine-optimize-its-haulage"
+    }
+  ],
+  "businessEffect": "Предотвращение перегруза снижает структурный износ, расход топлива и износ шин самосвалов. Устранение недогруза повышает производительность парка без дополнительной техники. Каждый процент перегруза ускоряет износ рамы и трансмиссии — оптимизация экономит миллионы на ремонтах.",
+  "maturityVerdict": "Mainstream — системы контроля загрузки (Cat Payload, Komatsu, Hitachi) являются стандартным оборудованием на карьерных самосвалах всех крупных OEM.",
+  "sources": [
+    "https://www.cat.com/en_US/products/new/technology/payload/payload/1000030245.html",
+    "https://www.hitachicm.com/global/en/solutions/solution-linkage/fleet-management-system/",
+    "https://www.komatsu.com/en-us/case-studies/dispatch-fleet-management-system-helps-mine-optimize-its-haulage",
+    "https://www.cat.com/en_US/blog/scale-studies.html",
+    "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/loading-hauling.html"
+  ]
+}

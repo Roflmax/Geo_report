@@ -1,0 +1,38 @@
+{
+  "topicId": 119,
+  "title": "AI-балансировка всех звеньев цепочки mine-to-mill в реальном времени",
+  "summary": "AI координирует все звенья производственной цепочки — экскавация, транспорт, дробление, измельчение, обогащение — как единую динамическую систему. Это устраняет узкие места, возникающие из-за рассогласования между отдельными звеньями.",
+  "howItWorks": "На входе — данные всех звеньев в реальном времени: производительность экскаваторов, загрузка самосвалов, параметры дробилок, мельниц, флотации. AI-модели рассматривают все единицы как одну динамическую сеть и непрерывно пересчитывают оптимальное распределение потоков, скоростей и уставок. Модели связывают фрагментацию взрыва с пропускной способностью дробления и измельчения. На выходе — согласованные уставки для каждого звена, устраняющие узкие места и максимизирующие общую пропускную способность.",
+  "companies": [
+    {
+      "name": "NTWIST (MineMax)",
+      "description": "Платформа mine-to-mill связывает данные экскаваторов, дробилок и мельниц. Модели фрагментация→пропускная способность объединяют бурение-взрыв, планирование и переработку. Устраняет разрывы координации между отделами.",
+      "url": "https://ntwist.com/solutions/mining/mine-to-mill-optimization"
+    },
+    {
+      "name": "Metso (Geminex, Newmont Lihir)",
+      "description": "Цифровой двойник mine-to-mill-to-mine на золотой фабрике Lihir. Оптимизация всей цепочки через мультивариантные симуляции до 20 параметров одновременно.",
+      "url": "https://www.metso.com/insights/case-studies/mining-and-metals/optimizing-from-mine-to-mill-to-mine-with-digital--twin-technology-at-newmont-lihir-gold-mine/"
+    },
+    {
+      "name": "Imubit",
+      "description": "Plant-wide AI моделирует каждую единицу как часть единой сети. Самообучающиеся модели пересчитывают оптимальные подачи, скорости насосов и реагенты в реальном времени. Рост пропускной способности 10-15% по всему концентратору.",
+      "url": "https://imubit.com/articles/ai-mining-challenges"
+    },
+    {
+      "name": "Maptek (PETRA)",
+      "description": "MAXTA цифровой двойник связывает оптимизацию графика (Evolution) с предиктивными моделями металла, содержания и извлечения для сквозной оптимизации.",
+      "url": "https://www.maptek.com/forge/september_2019/digital_twin_value_for_mine_performance/"
+    }
+  ],
+  "businessEffect": "Рост пропускной способности концентратора на 10-15% (Imubit). Экономия 5-10% энергии измельчения. Рост производительности измельчения на 4-8%. Комминуция = 30-40% энергии рудника — оптимизация критична.",
+  "maturityVerdict": "Зрелая — mine-to-mill оптимизация (NTWIST, Imubit, Metso Geminex) коммерчески развёрнута, но полная автоматическая координация всех звеньев пока в развитии.",
+  "sources": [
+    "https://ntwist.com/solutions/mining/mine-to-mill-optimization",
+    "https://www.metso.com/insights/case-studies/mining-and-metals/optimizing-from-mine-to-mill-to-mine-with-digital--twin-technology-at-newmont-lihir-gold-mine/",
+    "https://imubit.com/articles/ai-mining-challenges",
+    "https://www.maptek.com/forge/september_2019/digital_twin_value_for_mine_performance/",
+    "https://ntwist.com/blog/fixing-mine-to-mill-breakdowns",
+    "https://ntwist.com/blog/coordination-bottlenecks-mining-manufacturing"
+  ]
+}

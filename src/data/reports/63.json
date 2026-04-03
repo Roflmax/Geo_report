@@ -1,0 +1,38 @@
+{
+  "topicId": 63,
+  "title": "AI-сортировка руды на конвейере по качеству (sensor-based ore sorting)",
+  "summary": "Сенсоры (рентген, NIR, цвет, магнитный резонанс) и AI автоматически разделяют руду и пустую породу на конвейере, отбрасывая бедный материал до обогащения. Это снижает объём переработки, расход энергии и воды, продлевая жизнь месторождения.",
+  "howItWorks": "На входе — поток породы на конвейере, данные сенсоров XRT (рентгеновская трансмиссия), NIR (ближний инфракрасный), цветных камер, магнитного резонанса. AI-модели (глубокое обучение, OBTAIN/CONTAIN от TOMRA) анализируют каждый кусок или партию и определяют содержание полезного компонента. Пневматические клапаны или переключатели потока отделяют руду от породы в миллисекунды. На выходе — обогащённый поток руды с отбрасыванием бедной породы до фабрики.",
+  "companies": [
+    {
+      "name": "TOMRA (OBTAIN/CONTAIN)",
+      "description": "Лидер рынка с 14%+ долей. OBTAIN™ удваивает производительность сортировки. CONTAIN™ с глубоким обучением обнаруживает включения олова, вольфрама, меди. Результат: рост производительности на 8%, снижение потерь руды на 33%.",
+      "url": "https://www.tomra.com/mining/media-center/news/2024/obtain---ai-powered-ore-sorting"
+    },
+    {
+      "name": "Steinert (KSS XRT)",
+      "description": "Рентгеновские сортировщики KSS XRT для сортировки по плотности и составу. Применяется для сортировки алмазов, металлических руд и промышленных минералов.",
+      "url": "https://steinertglobal.com/applications/mining/ore-sorting/"
+    },
+    {
+      "name": "NextOre (MR bulk sorting)",
+      "description": "Магнитно-резонансная технология для массовой сортировки руды. Крупнейшая в мире система массовой сортировки развёрнута на First Quantum. Теперь доступна для подземных медных рудников.",
+      "url": "https://im-mining.com/2022/05/24/nextore-first-quantum-fully-commission-worlds-largest-bulk-ore-sorting-system/"
+    },
+    {
+      "name": "Codelco",
+      "description": "Внедряет AI-сортировку меди на своих рудниках для революционного повышения эффективности добычи и снижения экологического следа.",
+      "url": "https://www.epcm.com/projects/implementing-ai-at-codelco-revolutionizes-mine-with-copper-sorting-machine/"
+    }
+  ],
+  "businessEffect": "Рынок сенсорной сортировки — $145M в 2025 году, быстрый рост. Рост производительности на 8% и снижение потерь руды на 33% (TOMRA). OBTAIN удваивает мощность без увеличения размера машины. Снижение расхода энергии, воды и реагентов за счёт отбрасывания пустой породы до фабрики.",
+  "maturityVerdict": "Зрелая — сенсорная сортировка (TOMRA, Steinert, NextOre) коммерчески развёрнута на десятках рудников, AI (OBTAIN/CONTAIN) активно расширяет возможности.",
+  "sources": [
+    "https://www.tomra.com/mining/media-center/news/2024/obtain---ai-powered-ore-sorting",
+    "https://steinertglobal.com/applications/mining/ore-sorting/",
+    "https://im-mining.com/2022/05/24/nextore-first-quantum-fully-commission-worlds-largest-bulk-ore-sorting-system/",
+    "https://www.epcm.com/projects/implementing-ai-at-codelco-revolutionizes-mine-with-copper-sorting-machine/",
+    "https://im-mining.com/2025/06/13/tomra-mining-takes-next-ai-powered-ore-sorting-step-with-contain/",
+    "https://www.gminsights.com/industry-analysis/sensor-based-sorting-machines-for-mining-market"
+  ]
+}

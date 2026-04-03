@@ -1,0 +1,39 @@
+{
+  "topicId": 6,
+  "title": "AI-детекция геохимических аномалий для поиска минерализации",
+  "summary": "Машинное обучение анализирует многомерные геохимические данные проб и выявляет аномалии, указывающие на скрытую минерализацию. Это позволяет обнаруживать слабые геохимические сигналы, невидимые при классическом анализе, и сокращать затраты на разведку до 40%.",
+  "howItWorks": "На входе — многоэлементные геохимические данные проб (почвы, керна, воды), результаты XRF и спектрального анализа. ML-алгоритмы (Isolation Forest, Local Outlier Factor, GAN, свёрточные и рекуррентные нейросети) ищут статистические выбросы и пространственные паттерны в многомерном геохимическом пространстве. Продвинутые методы комбинируют пространственные CNN и спектральные RNN ветви для захвата как геопространственных, так и элементных закономерностей. На выходе — карта проспективности с ранжированными зонами вероятной минерализации.",
+  "companies": [
+    {
+      "name": "KoBold Metals",
+      "description": "Интегрирует геохимические, геофизические и спутниковые данные для обнаружения скрытых месторождений. AI выявил медное месторождение Mingomba в Замбии, пропущенное традиционными геологами. Привлёк $537M инвестиций.",
+      "url": "https://koboldmetals.com/"
+    },
+    {
+      "name": "GoldSpot Discoveries",
+      "description": "AI-таргетинг привёл к открытию золотой зоны с содержанием 92.86 г/т Au на 19 м (New Found Gold, Ньюфаундленд). Снижает затраты на разведку до 40%. Разрабатывает хемостратиграфические классификации для уточнения геологических моделей.",
+      "url": "https://www.mining-technology.com/contractors/ps-ai/goldspot-discoveries/"
+    },
+    {
+      "name": "OreFox",
+      "description": "Австралийский стартап с двумя AI-системами: Prospector (глубокое обучение для гринфилд-разведки) и Hunter (гибрид ML для уточнения целей). Сравнивает неизученные территории с данными известных месторождений.",
+      "url": "https://orefox.com/"
+    },
+    {
+      "name": "MinersAI",
+      "description": "Сравнивает методы детекции аномалий (Isolation Forest, LOF, ABOD) на реальных геохимических данных. ABOD показал наивысшую точность совпадения с известной минерализацией. Открытый код на GitHub.",
+      "url": "https://www.minersai.com/publication/ml-anomaly-detection-for-smarter-mineral-exploration"
+    }
+  ],
+  "businessEffect": "Снижение затрат на разведку до 40% (GoldSpot). Точность GAN-моделей превышает 92% при детекции слабых аномалий. AI-таргетинг открывает зоны с содержанием золота 92.86 г/т, пропущенные традиционными методами.",
+  "maturityVerdict": "Зрелая — коммерчески применяется ведущими компаниями (KoBold Metals, GoldSpot) с подтверждёнными открытиями мирового класса.",
+  "sources": [
+    "https://koboldmetals.com/",
+    "https://www.mining-technology.com/contractors/ps-ai/goldspot-discoveries/",
+    "https://orefox.com/",
+    "https://www.minersai.com/publication/ml-anomaly-detection-for-smarter-mineral-exploration",
+    "https://investingnews.com/daily/resource-investing/precious-metals-investing/gold-investing/goldspot-discoveries-ai-targeted-drilling-discovers-new-gold-zone-in-newfoundland-canada/",
+    "https://jme.shahroodut.ac.ir/article_3494.html",
+    "https://github.com/MinersAI/geochemical_anomaly_detection"
+  ]
+}

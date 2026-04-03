@@ -1,0 +1,38 @@
+{
+  "topicId": 122,
+  "title": "AI-ассистенты для операторов и инженеров (Copilot)",
+  "summary": "LLM-ассистенты (Copilot) позволяют операторам и инженерам задавать вопросы на естественном языке о процедурах, обслуживании и безопасности — и получать мгновенные ответы из технической документации и данных оборудования. Это ускоряет решение проблем и снижает зависимость от экспертов.",
+  "howItWorks": "На входе — техническая документация оборудования, руководства по эксплуатации и ТО, данные мониторинга, процедуры безопасности. LLM обучается на этих данных и отвечает на вопросы оператора на естественном языке. Ассистент имеет доступ к реальным данным оборудования через облачные платформы. Мультиязычная поддержка для глобальных команд. На выходе — мгновенные ответы на вопросы по процедурам, диагностика по данным, рекомендации по обслуживанию без звонка эксперту.",
+  "companies": [
+    {
+      "name": "ABB (GMD Copilot)",
+      "description": "AI-ассистент для мельниц без редуктора (GMD). Доступ к техдокументации и данным мониторинга GMD Connect на естественном языке. Раннее обнаружение проблем, многоязычная поддержка для глобальных команд.",
+      "url": "https://www.mining-technology.com/news/abb-gmd-copilot/"
+    },
+    {
+      "name": "Microsoft (Ma'aden Copilot)",
+      "description": "Microsoft 365 Copilot экономит Ma'aden до 2200 часов/месяц. Помогает инженерам анализировать данные, составлять документы и находить информацию через запросы на естественном языке.",
+      "url": "https://www.microsoft.com/en-us/industry/blog/energy-and-resources/mining/2025/05/29/embracing-ai-and-adaptive-cloud-to-drive-digital-transformation-in-mining/"
+    },
+    {
+      "name": "Siemens (Industrial Copilot)",
+      "description": "Первый генеративный AI-ассистент для промышленных сред. Два режима: Engineering Copilot (создание кода автоматизации) и Operations Copilot (диалог с работающим оборудованием). Помогает преодолеть дефицит квалификации.",
+      "url": "https://seawi.com/2025/04/24/siemens-industrial-copilot/"
+    },
+    {
+      "name": "Micromine (Grade Copilot)",
+      "description": "AI-ассистент для геологов, помогающий с оценкой содержаний и геологическим моделированием через диалоговый интерфейс.",
+      "url": "https://experience.micromine.com/grade-copilot"
+    }
+  ],
+  "businessEffect": "Экономия 2200 часов/месяц на рутинных задачах (Ma'aden + Microsoft Copilot). Мгновенный доступ к техдокументации вместо поиска в руководствах. Преодоление дефицита квалифицированных кадров через AI-поддержку менее опытных работников.",
+  "maturityVerdict": "Зрелая — промышленные Copilot (ABB GMD, Siemens Industrial, Microsoft 365) коммерчески доступны с 2025, быстро масштабируются в горнодобыче.",
+  "sources": [
+    "https://www.mining-technology.com/news/abb-gmd-copilot/",
+    "https://www.microsoft.com/en-us/industry/blog/energy-and-resources/mining/2025/05/29/embracing-ai-and-adaptive-cloud-to-drive-digital-transformation-in-mining/",
+    "https://seawi.com/2025/04/24/siemens-industrial-copilot/",
+    "https://experience.micromine.com/grade-copilot",
+    "https://new.abb.com/mining/campaigns/meet-gmd-copilot-your-ai-powered-virtual-gmd-support-assistant",
+    "https://im-mining.com/2025/03/19/abb-launches-copilot-to-optimise-gmd-operation-maintenance/"
+  ]
+}

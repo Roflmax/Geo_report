@@ -1,0 +1,38 @@
+{
+  "topicId": 30,
+  "title": "AI-минимизация вибрации и разлёта при взрывных работах",
+  "summary": "AI оптимизирует параметры взрыва для минимизации вибрации грунта и разлёта породы при сохранении целевой фрагментации. Это критически важно для работ вблизи зданий, инфраструктуры и границ карьера, где превышение нормативов может остановить добычу.",
+  "howItWorks": "На входе — геологические условия, параметры заряда (навеска, тип ВВ), схема замедлений, расположение чувствительных объектов, исторические данные вибрации. AI-модели (нейросети, XGBoost с объяснимым AI) предсказывают уровни вибрации и вероятность разлёта до взрыва. Системы связывают проект взрыва с моделированием и замерами вибрации в единый цикл оптимизации. На выходе — оптимизированные параметры взрыва, минимизирующие вибрацию и разлёт при заданной фрагментации, с прогнозом воздействия на конкретные объекты.",
+  "companies": [
+    {
+      "name": "Orica",
+      "description": "Advanced Vibration Management (AVM) связывает проектирование, моделирование и замеры вибрации. Предсказывает вибрацию и воздушную волну для защиты критических объектов. Интеграция с BlastIQ для замыкания обратной связи.",
+      "url": "https://www.orica.com/Products-Services/Blasting/BlastIQ/Technologies/advanced-vibration-management-avm"
+    },
+    {
+      "name": "Hexagon",
+      "description": "AI-powered Blast Movement Intelligence (BMI) для 3D-отслеживания движения породы при взрыве. Проверен в реальных горнодобывающих условиях. Мониторинг вибрации для контроля соответствия нормативам.",
+      "url": "https://hexagon.com/solutions/mine-blast-vibration-monitoring"
+    },
+    {
+      "name": "BME (Omnia)",
+      "description": "Детонаторы AXXIS Silver/Titanium обеспечивают точное управление замедлениями для снижения вибрации и разлёта. Аудит взрывов, предиктивное моделирование и симуляция для оптимизации параметров.",
+      "url": "https://bme.co.za/axxis-titanium/"
+    },
+    {
+      "name": "Strayos",
+      "description": "AI-анализ данных бурения и взрыва в партнёрстве с BME для оптимизации всех параметров, включая минимизацию вибрации и контроль разлёта.",
+      "url": "https://www.orica.com/news-media/2024/the-future-of-blasting-in-mining"
+    }
+  ],
+  "businessEffect": "Снижение переборов и разубоживания на 15-20%. Общее сокращение затрат на горные работы на 8-12%. Точный прогноз вибрации позволяет максимизировать навеску при соблюдении нормативов вблизи чувствительных объектов.",
+  "maturityVerdict": "Зрелая — коммерческие системы управления вибрацией (Orica AVM, Hexagon BMI, BME AXXIS) широко внедрены и являются обязательным элементом на рудниках вблизи населённых пунктов.",
+  "sources": [
+    "https://www.orica.com/Products-Services/Blasting/BlastIQ/Technologies/advanced-vibration-management-avm",
+    "https://hexagon.com/solutions/mine-blast-vibration-monitoring",
+    "https://bme.co.za/axxis-titanium/",
+    "https://hexagon.com/company/newsroom/press-releases/2024/global-release-of-hexagons-ai-powered-blast-movement-intelligence",
+    "https://im-mining.com/2021/04/15/latest-orica-software-predicts-vibration-airblast-outcomes-protect-sensitive-structures-maximise-blast-outcomes/",
+    "https://discoveryalert.com.au/ai-transforming-drilling-blasting-mining-2025/"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "topicId": 56,
+  "title": "NLP-анализ наряд-заказов и журналов ТО для выявления повторяющихся проблем",
+  "summary": "NLP автоматически анализирует тысячи наряд-заказов и записей технического обслуживания, выявляя повторяющиеся проблемы, дублирующиеся заявки и скрытые закономерности. Это позволяет устранять корневые причины отказов вместо бесконечного ремонта симптомов.",
+  "howItWorks": "На входе — текстовые описания из наряд-заказов, журналов ТО, отчётов о неисправностях (обычно неструктурированный текст на разговорном языке). NLP-модели извлекают сущности (компонент, тип дефекта, действие), классифицируют записи и находят паттерны. AI выявляет дублирующиеся заявки, кластеризует похожие проблемы и обнаруживает «хронические» неисправности. На выходе — ранжированный список повторяющихся проблем с частотой, затратами и рекомендациями по устранению корневых причин.",
+  "companies": [
+    {
+      "name": "IBM Maximo (Anglo American)",
+      "description": "AI анализирует наряд-заказы на масштабе: обнаруживает недостающую информацию, повторяющиеся проблемы, дублирующиеся заявки. Watsonx с NLP извлекает знания из исторических записей ТО и данных сенсоров. Интеграция с SAP S/4HANA.",
+      "url": "https://www.ibm.com/products/maximo/predictive-maintenance"
+    },
+    {
+      "name": "SAP Predictive Maintenance",
+      "description": "SAP HANA Cloud (2025 Q4) включает Text Log Parse для автоматического извлечения паттернов из текстовых логов. Predictive Analysis Library (PAL) с ML/AI-функциями для анализа записей обслуживания.",
+      "url": "https://www.sap.com/products/scm/apm/what-is-predictive-maintenance.html"
+    },
+    {
+      "name": "Dingo Trakka (Newmont)",
+      "description": "Глобальное партнёрство с Newmont для предиктивного обслуживания. Trakka преобразует результаты масляных анализов и данные сенсоров в конкретные рекомендации по обслуживанию — «Maintenance Advice», а не просто графики.",
+      "url": "https://www.newswire.com/news/dingo-and-newmont-join-forces-to-create-a-global-maintenance-21260862"
+    },
+    {
+      "name": "Falkonry",
+      "description": "AI-платформа для обнаружения аномалий в промышленных данных горнодобычи. Автоматическое выявление паттернов деградации без ручной разметки.",
+      "url": "https://falkonry.com/mining_metals/"
+    }
+  ],
+  "businessEffect": "Автоматическое обнаружение дублирующихся заявок и консолидация задач (IBM Maximo). Выявление хронических проблем, скрытых в тысячах текстовых записей ТО. Переход от реактивного ремонта к устранению корневых причин снижает общие затраты на обслуживание.",
+  "maturityVerdict": "Зрелая — IBM Maximo и SAP являются стандартом EAM в горнодобыче, NLP-функции активно интегрируются в 2025 году.",
+  "sources": [
+    "https://www.ibm.com/products/maximo/predictive-maintenance",
+    "https://www.sap.com/products/scm/apm/what-is-predictive-maintenance.html",
+    "https://www.newswire.com/news/dingo-and-newmont-join-forces-to-create-a-global-maintenance-21260862",
+    "https://falkonry.com/mining_metals/",
+    "https://info.banetti.com/watsonx-predictive-maintenance/",
+    "https://community.sap.com/t5/technology-blog-posts-by-sap/new-machine-learning-nlp-and-ai-features-in-sap-hana-cloud-2025-q4/ba-p/14293152"
+  ]
+}

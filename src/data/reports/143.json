@@ -1,0 +1,30 @@
+{
+  "topicId": 143,
+  "title": "Автоматизация root cause analysis аварий методами NLP",
+  "summary": "AI-агенты автоматизируют анализ корневых причин (RCA) аварий на горных предприятиях, обрабатывая текстовые отчёты, данные сенсоров и журналы событий. Это ускоряет расследование и выявляет системные проблемы, пропущенные при ручном анализе.",
+  "howItWorks": "На входе — отчёты об инцидентах, данные SCADA в момент аварии, журналы обслуживания, показания сенсоров. NLP+ML фреймворк извлекает причинно-следственные связи из текстов и коррелирует с данными оборудования. AI-агенты автоматически формируют «дерево причин» и выявляют системные факторы. На выходе — автоматический RCA-отчёт с идентификацией корневых причин и рекомендациями по предотвращению.",
+  "companies": [
+    {
+      "name": "Datagrid",
+      "description": "AI-агенты автоматизируют расследование инцидентов и root cause analysis. Ускоряют работу следственных групп через автоматическую обработку данных из множества источников.",
+      "url": "https://datagrid.com/blog/ai-agents-automate-safety-incident-root-cause-analysis-investigation-teams"
+    },
+    {
+      "name": "Academic (NLP+ML framework)",
+      "description": "Фреймворк NLP+ML для автоматического анализа корневых причин горных аварий с извлечением причинно-следственных связей из текстовых отчётов.",
+      "url": "https://link.springer.com/article/10.1007/s40789-025-00822-0"
+    },
+    {
+      "name": "Deloitte",
+      "description": "Консалтинговая практика по интеграции AI и автоматизации для повышения безопасности в горнодобыче, включая предиктивный анализ инцидентов.",
+      "url": "https://www.deloitte.com/us/en/Industries/energy/articles/mining-ai-automation-for-health-safety.html"
+    }
+  ],
+  "businessEffect": "Автоматическое построение «дерева причин» вместо недель ручного расследования. Выявление системных факторов, скрытых в разрозненных отчётах. AI-агенты ускоряют работу следственных групп в разы.",
+  "maturityVerdict": "Развивающаяся — NLP-фреймворки для RCA активно исследуются и пилотируются, AI-агенты (Datagrid) появляются на рынке.",
+  "sources": [
+    "https://datagrid.com/blog/ai-agents-automate-safety-incident-root-cause-analysis-investigation-teams",
+    "https://link.springer.com/article/10.1007/s40789-025-00822-0",
+    "https://www.deloitte.com/us/en/Industries/energy/articles/mining-ai-automation-for-health-safety.html"
+  ]
+}

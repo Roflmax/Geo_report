@@ -1,0 +1,38 @@
+{
+  "topicId": 1,
+  "title": "AI-оптимизация точек бурения в геологоразведке",
+  "summary": "Машинное обучение анализирует геологические, геохимические и спутниковые данные для определения наиболее перспективных точек бурения. Это позволяет кратно повысить вероятность обнаружения месторождений и сократить затраты на разведку до 80%.",
+  "howItWorks": "На входе — геологические карты, данные бурения (керн, каротаж), геохимические пробы, спутниковые снимки и геофизические данные. ML-модели (gradient boosting, нейросети, байесовские методы) обучаются на миллионах геологических кейсов и выявляют паттерны, невидимые для человека. На выходе — карта вероятности минерализации с ранжированными целями для бурения. Модели строят 3D-модели подповерхностной геологии и оценивают тысячи возможных сценариев.",
+  "companies": [
+    {
+      "name": "Earth AI",
+      "description": "Австралийский стартап (Y Combinator), использующий континентальные датасеты и спутниковую съёмку для предсказания месторождений. Успешность бурения 66% против 0.5% в среднем по отрасли. Открыл палладиевое месторождение в Австралии и золотую систему в Новом Южном Уэльсе.",
+      "url": "https://www.mining.com/machine-learning-helps-earth-ai-find-high-grade-molybdenum-in-unexpected-place/"
+    },
+    {
+      "name": "Rio Tinto (с Fleet Space)",
+      "description": "Использует AI для создания 3D-карт подповерхности на литиевом проекте Rincon. Определяет цели бурения в 100 раз быстрее традиционных методов с помощью неинвазивных сенсорных данных.",
+      "url": "https://chiefaiofficer.com/blog/rio-tinto-ai-mining-exploration-100x-faster-autonomous-operations/"
+    },
+    {
+      "name": "Giant Mining (с ExploreTech)",
+      "description": "Применяет платформу Engine AI для оценки тысяч подповерхностных сценариев на медно-серебряно-золотом проекте Majuba Hill в Неваде. Интегрирует исторические данные бурения с AI-моделированием.",
+      "url": "https://investingnews.com/giant-mining-re-engages-exploretech-for-ai-driven-2026-drill-targeting-at-majuba-hill-copper-silver-gold-project-in-nevada/"
+    },
+    {
+      "name": "KoBold Metals",
+      "description": "Проанализировал столетие геологических данных и обнаружил крупнейшее медное месторождение Mingomba в Замбии (300 000 тонн меди в год к 2030). Попадание в 8 из 10 скважин — в 10 раз выше среднеотраслевого показателя. Привлёк $537M инвестиций.",
+      "url": "https://chiefaiofficer.com/kobold-metals-ai-copper-discovery-537m-gates-bezos-investment/"
+    }
+  ],
+  "businessEffect": "Успешность бурения выросла с 0.5% до 66-75% (Earth AI). Скорость определения целей увеличилась в 100 раз (Rio Tinto). Потенциальная экономия отрасли $290-390 млрд в год к 2035 году. Стоимость разведки снижается до 80%.",
+  "maturityVerdict": "Зрелая — технология коммерчески применяется ведущими компаниями (Rio Tinto, KoBold Metals) с подтверждёнными результатами открытий и многомиллионными инвестициями.",
+  "sources": [
+    "https://www.mining.com/machine-learning-helps-earth-ai-find-high-grade-molybdenum-in-unexpected-place/",
+    "https://chiefaiofficer.com/blog/rio-tinto-ai-mining-exploration-100x-faster-autonomous-operations/",
+    "https://investingnews.com/giant-mining-re-engages-exploretech-for-ai-driven-2026-drill-targeting-at-majuba-hill-copper-silver-gold-project-in-nevada/",
+    "https://chiefaiofficer.com/kobold-metals-ai-copper-discovery-537m-gates-bezos-investment/",
+    "https://cleantech.com/rock-solid-ai-how-digital-tools-are-unearthing-a-new-era-of-mining-exploration/",
+    "https://www.mining-technology.com/news/earth-ai-20m-ai-driven-mineral-exploration-drilling/"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "topicId": 117,
+  "title": "Симуляция полного цикла горных работ в цифровом двойнике",
+  "summary": "Цифровой двойник всего рудника — от забоя через фабрику до порта — позволяет симулировать полный цикл горных работ и найти оптимальные стратегии до реализации в поле. Это сокращает время планирования на 70% и повышает NPV проекта.",
+  "howItWorks": "На входе — блочная модель месторождения, параметры техники и фабрики, экономические данные, ограничения. Виртуальный двойник объединяет геологическое моделирование, оптимизацию графика, предиктивные модели извлечения и качества. AI-алгоритмы (MILP, нейросети) тестируют тысячи сценариев: последовательности отработки, режимы фабрики, логистику. Динамическая связь планирования с digital twin предсказывает металл, содержание, извлечение и производительность. На выходе — оптимальная стратегия отработки с прогнозом NPV, объёмов и качества по периодам.",
+  "companies": [
+    {
+      "name": "Dassault (GEOVIA)",
+      "description": "Виртуальный двойник моделирует взаимодействия геологии, геотехники, операций и экономики. GMX-движок достигает результатов в пределах 1% от оптимума в 22 раза быстрее. Surpac, MineSched, Whittle — отраслевые стандарты.",
+      "url": "https://blog.3ds.com/brands/geovia/cut-mine-planning-time-by-70-per-cent-and-boost-value-with-integrated-data-virtual-twins-and-smart-algorithms/"
+    },
+    {
+      "name": "Maptek (PETRA MAXTA)",
+      "description": "MAXTA — цифровой двойник всей цепочки создания стоимости. Связывает оптимизацию Evolution с предиктивными моделями PETRA (металл, содержание, извлечение). BlastLogic динамически оптимизирует взрывы через digital twin.",
+      "url": "https://www.maptek.com/forge/september_2019/digital_twin_value_for_mine_performance/"
+    },
+    {
+      "name": "Metso (Geminex, Newmont Lihir)",
+      "description": "Металлургический цифровой двойник для оптимизации mine-to-mill-to-mine на золотой фабрике Lihir. Симуляция до 20 параметров одновременно для тестирования сценариев переработки.",
+      "url": "https://www.metso.com/insights/case-studies/mining-and-metals/optimizing-from-mine-to-mill-to-mine-with-digital--twin-technology-at-newmont-lihir-gold-mine/"
+    },
+    {
+      "name": "Sandvik (Deswik)",
+      "description": "Комплексная платформа планирования подземных и открытых горных работ. Deswik OPS обеспечивает обратную связь план↔факт для калибровки цифрового двойника.",
+      "url": "https://www.deswik.com/software/"
+    }
+  ],
+  "businessEffect": "Сокращение времени планирования на 70% (Dassault GEOVIA). GMX-движок в 22 раза быстрее при результатах в пределах 1% от оптимума. Динамическая связь планирования с digital twin предсказывает реальный выход металла.",
+  "maturityVerdict": "Зрелая — цифровые двойники рудников (GEOVIA, Maptek+PETRA, Metso Geminex) коммерчески развёрнуты, но полная интеграция mine-to-port пока достигнута немногими.",
+  "sources": [
+    "https://blog.3ds.com/brands/geovia/cut-mine-planning-time-by-70-per-cent-and-boost-value-with-integrated-data-virtual-twins-and-smart-algorithms/",
+    "https://www.maptek.com/forge/september_2019/digital_twin_value_for_mine_performance/",
+    "https://www.metso.com/insights/case-studies/mining-and-metals/optimizing-from-mine-to-mill-to-mine-with-digital--twin-technology-at-newmont-lihir-gold-mine/",
+    "https://www.deswik.com/software/",
+    "https://im-mining.com/2019/03/14/maptek-petra-data-science-combine-mine-schedule-optimisation-digital-twin-expertise/"
+  ]
+}

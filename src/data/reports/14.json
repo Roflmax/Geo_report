@@ -1,0 +1,39 @@
+{
+  "topicId": 14,
+  "title": "Геологические графы знаний из неструктурированных данных",
+  "summary": "AI строит графы знаний — структурированные сети связей между геологическими сущностями (минералами, породами, структурами, месторождениями) — из неструктурированных текстов и разнородных баз данных. Это позволяет выявлять скрытые связи между геологическими явлениями и генерировать новые гипотезы для разведки.",
+  "howItWorks": "На входе — неструктурированные геологические отчёты, научные публикации, базы данных бурения и геохимии. NLP-модели и LLM извлекают именованные сущности (минералы, породы, структуры, возраст) и связи между ними. Алгоритмы строят тройки «субъект-предикат-объект» и объединяют их в граф знаний. Семантический анализ решает проблемы терминологических вариаций. На выходе — граф знаний с возможностью семантического поиска, логического вывода и генерации карт проспективности.",
+  "companies": [
+    {
+      "name": "Deep-time Digital Earth (DDE)",
+      "description": "Международная программа IUGS, построившая граф знаний по 20 геонаучным дисциплинам с более чем 150 миллионами троек. Платформа GeoOpenKG содержит 106 тыс. узлов и 6.9 млн троек знаний.",
+      "url": "https://link.springer.com/article/10.1007/s11442-025-2361-0"
+    },
+    {
+      "name": "Viridien",
+      "description": "Применяет генеративный AI для оцифровки геологических документов и извлечения структурированной информации. Интегрирует NLP с геофизическими данными для построения графов знаний.",
+      "url": "https://www.viridiengroup.com/sites/default/files/2025-02/advancing-geologic-document-digitalization-Information-retrieval-gen-ai-viridien-tle-article-feb-2025.pdf"
+    },
+    {
+      "name": "MinersAI",
+      "description": "Платформа для AI-анализа геонаучных данных с интеграцией текстового анализа и построения графов знаний для поддержки решений в разведке.",
+      "url": "https://www.minersai.com/platform"
+    },
+    {
+      "name": "USGS (MinMod/GeoDeepDive)",
+      "description": "Проект MinMod создаёт AI-готовый граф знаний, объединяющий данные по 679 000+ участков и 190 видов сырья из десятков тысяч документов для поиска критических минералов.",
+      "url": "https://www.usgs.gov/centers/cegis/science/artificial-intelligence-ai"
+    }
+  ],
+  "businessEffect": "F1-score извлечения троек знаний достигает 0.82, извлечения сущностей — 0.88. Граф MinMod (USGS) объединяет данные по 679 000 участков и 190 видам сырья. Повышение точности обнаружения минерализации до 45% за счёт интеграции знаний из разнородных источников.",
+  "maturityVerdict": "Развивающаяся — крупные международные проекты (DDE, USGS MinMod) активно строят графы знаний, но коммерческое внедрение в горнодобыче находится на ранней стадии.",
+  "sources": [
+    "https://link.springer.com/article/10.1007/s11442-025-2361-0",
+    "https://www.viridiengroup.com/sites/default/files/2025-02/advancing-geologic-document-digitalization-Information-retrieval-gen-ai-viridien-tle-article-feb-2025.pdf",
+    "https://www.minersai.com/platform",
+    "https://www.usgs.gov/centers/cegis/science/artificial-intelligence-ai",
+    "https://www.isi.edu/news/80189/ai-is-powering-the-search-for-americas-critical-minerals/",
+    "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2025.1738096/full",
+    "https://www.mdpi.com/2075-163X/15/12/1257"
+  ]
+}

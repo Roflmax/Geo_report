@@ -1,0 +1,33 @@
+{
+  "topicId": 81,
+  "title": "AI-прогнозирование вероятности аварий по данным инцидентов и near-miss",
+  "summary": "AI анализирует данные о произошедших инцидентах и «почти авариях» (near-miss) для прогнозирования будущих аварий до их возникновения. Это позволяет сфокусировать превентивные меры на наиболее рисковых зонах и сменах.",
+  "howItWorks": "На входе — база данных инцидентов и near-miss (тип, место, время, условия), данные об усталости водителей, показания датчиков оборудования, погодные условия, сменные графики. ML-модели анализируют опережающие индикаторы и исторические паттерны для предсказания вероятности будущих инцидентов. NLP обрабатывает текстовые описания инцидентов для извлечения корневых причин. На выходе — карта рисков по зонам и сменам, прогноз вероятности инцидентов, рекомендации по превентивным мерам.",
+  "companies": [
+    {
+      "name": "Newmont (GE Digital APM)",
+      "description": "GE Digital APM мониторит тысячи сенсоров для прогнозирования отказов оборудования и снижения риска аварий. Глобальное партнёрство с Dingo для предиктивного обслуживания на всех объектах.",
+      "url": "https://www.klover.ai/newmont-ai-strategy-analysis-of-dominance-in-mining-ai/"
+    },
+    {
+      "name": "Intelex",
+      "description": "SafetyNet Predictive Solutions — предиктивная аналитика безопасности на основе опережающих индикаторов. Input AI и Insight AI (2025) ускоряют сбор данных и обнаруживают риски до инцидентов. Фокус на EHSQ для горнодобычи.",
+      "url": "https://www.intelex.com/industries/metals-and-mining/"
+    },
+    {
+      "name": "Fatigue Science (Readi, Glencore)",
+      "description": "Платформа Readi прогнозирует усталость персонала по данным сна и сменных графиков. Внедрена на Glencore Lomas Bayas для проактивного управления рисками, связанными с усталостью.",
+      "url": "https://fatiguescience.com/blog/glencore-lomas-bayas-incorporates-readi-fmis"
+    }
+  ],
+  "businessEffect": "Проактивное обнаружение рисков до возникновения инцидентов через анализ опережающих индикаторов (Intelex). Снижение рецидивов аварий через выявление корневых причин из данных near-miss. Интеграция данных усталости, погоды и оборудования для комплексной оценки риска.",
+  "maturityVerdict": "Зрелая — платформы предиктивной безопасности (Intelex SafetyNet, GE APM) коммерчески развёрнуты на крупных рудниках, AI усиливает прогностические возможности.",
+  "sources": [
+    "https://www.klover.ai/newmont-ai-strategy-analysis-of-dominance-in-mining-ai/",
+    "https://www.intelex.com/industries/metals-and-mining/",
+    "https://fatiguescience.com/blog/glencore-lomas-bayas-incorporates-readi-fmis",
+    "https://www.intelex.com/predictivesolutions",
+    "https://blog.intelex.com/2025/11/25/input-ai-insight-ai/",
+    "https://www.deloitte.com/us/en/Industries/energy/articles/mining-ai-automation-for-health-safety.html"
+  ]
+}

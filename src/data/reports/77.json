@@ -1,0 +1,38 @@
+{
+  "topicId": 77,
+  "title": "AI-обнаружение утечек и аномальных концентраций газов в шахтах",
+  "summary": "AI-системы мониторят концентрации опасных газов (метан, CO, H2S) в подземных выработках в реальном времени и обнаруживают аномалии до достижения опасных уровней. Это критически важно для предотвращения взрывов и отравлений — главных причин гибели шахтёров.",
+  "howItWorks": "На входе — данные стационарных и портативных газовых сенсоров (O2, CO, CO2, CH4, H2S, NH3), размещённых по выработкам. IoT-узлы передают данные в реальном времени в центр управления. AI-алгоритмы анализируют тренды концентраций, выявляют аномалии и предсказывают рост содержания газов. Дроны с высокочувствительными лазерными спектрометрами обследуют труднодоступные зоны. На выходе — карта газовой обстановки в реальном времени, ранние предупреждения об утечках, автоматическое управление вентиляцией.",
+  "companies": [
+    {
+      "name": "ABB (HoverGuard)",
+      "description": "Первая дроновая система непрерывного измерения метана, CO2 и водяного пара. Чувствительность в 1000 раз выше обычных детекторов. Покрывает в 15 раз больше площади в час. Генерирует цифровые отчёты в реальном времени.",
+      "url": "https://global.abb/group/en/technology/did-you-know/hoverguard-gas-leak-detection-solution"
+    },
+    {
+      "name": "Draeger",
+      "description": "Мировой лидер в детекции опасных газов для шахт. Стационарные и портативные детекторы метана, CO и H2S с интеграцией в системы безопасности.",
+      "url": "https://www.draeger.com/en-us_us/Safety/Hazmat-Handling/Methane-Gas-Detection"
+    },
+    {
+      "name": "MineARC Systems",
+      "description": "GuardIAN Gas Node — цифровой IoT-узел газового мониторинга для монтажа на стенки выработок. Сенсоры O2, CO, CO2, CH4, H2S, NH3, Cl. Часть интеллектуальной сети GuardIAN Intelligence Network для подземных рудников.",
+      "url": "https://minearc.com/digital-gas-monitoring-for-underground-environments/"
+    },
+    {
+      "name": "Maestro Digital Mine",
+      "description": "Цифровые решения для мониторинга атмосферы подземных рудников с интеграцией данных газовых, вентиляционных и климатических сенсоров.",
+      "url": "https://www.maestrodigitalmine.com/"
+    }
+  ],
+  "businessEffect": "ABB HoverGuard: чувствительность в 1000 раз выше обычных детекторов, покрытие в 15 раз больше площади/час. Непрерывный мониторинг вместо периодических замеров. Раннее обнаружение утечек до достижения опасных концентраций предотвращает взрывы и эвакуации.",
+  "maturityVerdict": "Mainstream — газовый мониторинг является обязательным на всех подземных рудниках, AI и дроны (ABB HoverGuard) расширяют возможности до непрерывного мониторинга с предиктивной аналитикой.",
+  "sources": [
+    "https://global.abb/group/en/technology/did-you-know/hoverguard-gas-leak-detection-solution",
+    "https://www.draeger.com/en-us_us/Safety/Hazmat-Handling/Methane-Gas-Detection",
+    "https://minearc.com/digital-gas-monitoring-for-underground-environments/",
+    "https://www.maestrodigitalmine.com/",
+    "https://minearc.com/real-time-gas-monitoring-solutions-with-guardian/",
+    "https://new.abb.com/news/detail/75959/abb-launches-worlds-fastest-most-sensitive-drone-based-gas-leak-detection-and-greenhouse-gas-measuring-system"
+  ]
+}

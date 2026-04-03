@@ -1,0 +1,44 @@
+{
+  "topicId": 17,
+  "title": "AI-прогнозирование качества и сорта руды по данным бурения",
+  "summary": "Машинное обучение предсказывает содержание полезных компонентов и геомеханические свойства руды на основе данных бурения ещё до начала добычи. Это позволяет оптимизировать планирование добычи и переработки, снижая разубоживание и потери.",
+  "howItWorks": "На входе — данные бурения: MWD-параметры (скорость, давление, крутящий момент), геохимические анализы керна, каротажные данные. ML-модели (Random Forest, Gradient Boosting, CNN+LSTM, ANN) обучаются на результатах лабораторных анализов и предсказывают содержание на неопробованных интервалах. Данные MWD-сенсоров позволяют обнаруживать изменения качества руды в реальном времени при бурении. На выходе — 3D-модель распределения содержаний с прогнозом качества руды по всему месторождению.",
+  "companies": [
+    {
+      "name": "Maptek (DomainMCF)",
+      "description": "ML-решение для автоматического моделирования месторождений. Испытания показали возможность ускорения построения доменных моделей для оценки содержаний с сохранением геологической достоверности.",
+      "url": "https://im-mining.com/2022/06/07/maptek-machine-learning-trial-points-to-future-of-mineral-deposit-modelling/"
+    },
+    {
+      "name": "Earth AI",
+      "description": "Предсказывает высококачественную минерализацию на стадии разведки. Обнаружил высокосортный молибден в неожиданном месте с помощью ML-анализа данных бурения.",
+      "url": "https://www.mining.com/machine-learning-helps-earth-ai-find-high-grade-molybdenum-in-unexpected-place/"
+    },
+    {
+      "name": "PETRA Data Science",
+      "description": "Продукт ROCKRay® превращает сотни результатов анализов керна в тысячи прогнозов геомеханических и геометаллургических параметров (UCS, BWi). Платформа MAXTA интегрирует геологические, взрывные и транспортные данные. Приобретена Maptek.",
+      "url": "https://www.petradatascience.com/"
+    },
+    {
+      "name": "Datarock / IMDEX",
+      "description": "AI-платформа автоматически извлекает геотехнические параметры (RQD, трещиноватость) из фотографий керна для прогноза качества породы и руды.",
+      "url": "https://datarock.com.au/applying-ai-to-mineral-exploration-datarock-at-pdac-2026/"
+    },
+    {
+      "name": "GeologicAI",
+      "description": "Мультисенсорное сканирование керна (LIBS, гиперспектральное, XRF) с AI-анализом для количественного прогноза содержаний и качества руды в реальном времени.",
+      "url": "https://www.geologicai.com/"
+    }
+  ],
+  "businessEffect": "Точность классификации высокосортной руды — 92%, отходов — 89% (гибридный CNN+LSTM). Сотни лабораторных анализов превращаются в тысячи прогнозов по неопробованным интервалам (PETRA ROCKRay). Прогноз качества в реальном времени при бурении с помощью MWD-сенсоров и edge-вычислений.",
+  "maturityVerdict": "Зрелая — коммерческие решения (PETRA/Maptek, GeologicAI, Datarock) активно используются на действующих рудниках с подтверждённой точностью прогнозов.",
+  "sources": [
+    "https://im-mining.com/2022/06/07/maptek-machine-learning-trial-points-to-future-of-mineral-deposit-modelling/",
+    "https://www.mining.com/machine-learning-helps-earth-ai-find-high-grade-molybdenum-in-unexpected-place/",
+    "https://www.petradatascience.com/",
+    "https://datarock.com.au/applying-ai-to-mineral-exploration-datarock-at-pdac-2026/",
+    "https://www.geologicai.com/",
+    "https://farmonaut.com/mining/machine-learning-for-ore-grade-prediction-2025-trends/",
+    "https://www.mdpi.com/2076-3417/15/22/12222"
+  ]
+}

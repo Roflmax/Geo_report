@@ -1,0 +1,27 @@
+{
+  "topicId": 37,
+  "title": "Автономный железнодорожный транспорт (AutoHaul)",
+  "summary": "Автономные поезда перевозят руду от рудников до портов без машинистов, управляясь AI-системой. Rio Tinto управляет крупнейшей в мире автономной железнодорожной сетью протяжённостью 2000 км в Западной Австралии.",
+  "howItWorks": "На входе — расписание перевозок, данные GPS и сигнализации, состояние путей, информация о загрузке вагонов. AI-система AutoHaul (уровень автоматизации GoA4) полностью управляет движением поездов длиной до 2.5 км и массой 28 000 тонн. Поезда автономно следуют от карьера до порта с интервалом до 18 минут, 24 часа в сутки. Система координирует до 53 поездов одновременно на сети из 18 рудников и 2 портов. На выходе — непрерывная доставка руды без присутствия машинистов.",
+  "companies": [
+    {
+      "name": "Rio Tinto (AutoHaul)",
+      "description": "Крупнейшая автономная железная дорога в мире: 2000 км путей, до 53 поездов одновременно, 326+ млн тонн в год. Поезда длиной 2.5 км (240 вагонов, 28 000 тонн) курсируют между 18 рудниками и портами Dampier и Cape Lambert. Полностью автономная эксплуатация с 2019 года.",
+      "url": "https://www.riotinto.com/en/about/innovation/automation"
+    },
+    {
+      "name": "Hitachi Rail",
+      "description": "Разработчик технологии автономного управления поездами для Rio Tinto. Обеспечил систему управления движением GoA4 для тяжёлых грузовых поездов в горнодобывающих условиях.",
+      "url": "https://www.hitachi.com.au/social-innovation/Rio-Tinto-fully-autonomous-train-technology.html"
+    }
+  ],
+  "businessEffect": "326+ млн тонн руды перевозится автономно в год. До 53 поездов одновременно без машинистов. Снижение расхода топлива локомотивов. Круглосуточная работа с интервалом 18 минут — один из крупнейших роботов в мире.",
+  "maturityVerdict": "Зрелая — AutoHaul Rio Tinto работает в промышленной эксплуатации с 2019 года, но технология уникальна и пока не тиражирована другими компаниями.",
+  "sources": [
+    "https://www.riotinto.com/en/about/innovation/automation",
+    "https://www.hitachi.com.au/social-innovation/Rio-Tinto-fully-autonomous-train-technology.html",
+    "https://www.railjournal.com/in_depth/autohaul-drives-efficiencies-at-rio-tinto/",
+    "https://www.railwaygazette.com/australasia/rio-tinto-completes-autohaul-autonomous-train-project/47822.article",
+    "https://www.riotinto.com/en/news/stories/how-did-worlds-biggest-robot"
+  ]
+}

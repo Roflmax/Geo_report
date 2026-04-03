@@ -1,0 +1,44 @@
+{
+  "topicId": 10,
+  "title": "AI-обработка данных LiDAR и фотограмметрии с дронов для цифровых моделей рельефа",
+  "summary": "Дроны с LiDAR-сенсорами и камерами сканируют карьеры, шахты и отвалы, а AI автоматически строит высокоточные 3D-модели рельефа. Это заменяет ручные съёмки, сокращая время с часов до минут при сантиметровой точности.",
+  "howItWorks": "На входе — облака точек LiDAR (миллионы точек с координатами и интенсивностью) и перекрывающиеся аэрофотоснимки с дронов. Алгоритмы SLAM (Simultaneous Localization and Mapping) позволяют дронам навигировать без GPS в шахтах. AI автоматически фильтрует шум, классифицирует поверхности, генерирует плотные облака точек и строит цифровые модели рельефа. На выходе — 3D-модели поверхности с точностью 3-8 см по вертикали, объёмные расчёты, карты изменений.",
+  "companies": [
+    {
+      "name": "Maptek",
+      "description": "Интегрированная система i-Site объединяет наземный LiDAR и дроновую съёмку для полного цикла маркшейдерии. Автоматическая обработка данных для планирования горных работ в платформе Vulcan.",
+      "url": "https://www.maptek.com/i-site/integrated-lidar-and-drone-technologies-for-mine-survey/"
+    },
+    {
+      "name": "Exyn Technologies",
+      "description": "Создатели первого в мире автономного дрона Level 4 для подземных пространств без GPS. LiDAR-SLAM навигация с миллиметровой точностью. Картирование за минуты вместо 2-4 часов ручной съёмки. Клиенты: Ascot Resources и другие.",
+      "url": "https://www.exyn.com/underground-drone-mapping"
+    },
+    {
+      "name": "ROCK Robotic",
+      "description": "Производит LiDAR-системы для дронов с автоматической обработкой облаков точек. Интеграция с популярными дронами DJI для быстрого развёртывания на горных объектах.",
+      "url": "https://www.rockrobotic.com/"
+    },
+    {
+      "name": "SimActive",
+      "description": "ПО Correlator3D генерирует плотные облака точек из дроновых снимков на горных объектах. Автоматизирует объёмные расчёты и анализ изменений рельефа в реальном времени.",
+      "url": "https://lidarmag.com/2025/09/08/simactive-enables-3d-calculations-from-drone-imagery-at-mining-sites/"
+    },
+    {
+      "name": "SafeSight Exploration",
+      "description": "Специализируется на LiDAR-дронах для горнодобычи с фокусом на безопасность. AI-дроны для инспекции опасных зон без присутствия персонала.",
+      "url": "https://safesightxp.com/2025/06/24/ai-drones-in-mining/"
+    }
+  ],
+  "businessEffect": "Время съёмки сокращается с 2-4 часов до минут (Exyn). Вертикальная точность 3-8 см, горизонтальная 5-15 см. Миллиметровая точность облаков точек в подземных выработках. Полное исключение рисков для персонала при съёмке опасных зон.",
+  "maturityVerdict": "Mainstream — дроновая LiDAR-съёмка стала стандартной практикой на крупных горнодобывающих предприятиях по всему миру.",
+  "sources": [
+    "https://www.maptek.com/i-site/integrated-lidar-and-drone-technologies-for-mine-survey/",
+    "https://www.exyn.com/underground-drone-mapping",
+    "https://www.rockrobotic.com/",
+    "https://lidarmag.com/2025/09/08/simactive-enables-3d-calculations-from-drone-imagery-at-mining-sites/",
+    "https://safesightxp.com/2025/06/24/ai-drones-in-mining/",
+    "https://safesightxp.com/2025/06/22/lidar-drones-for-mining-surveys/",
+    "https://inertiallabs.com/the-future-of-efficient-and-safe-mining-with-lidar-technology/"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "topicId": 39,
+  "title": "AI-прогнозирование времени цикла транспортировки и выявление узких мест",
+  "summary": "AI анализирует данные флота для прогнозирования времени цикла самосвалов и автоматического выявления узких мест: очередей на погрузке, медленных участков дорог, задержек на разгрузке. Это позволяет проактивно устранять проблемы до потери производительности.",
+  "howItWorks": "На входе — исторические и реальные данные FMS: время погрузки, движения, разгрузки, ожидания; скорости на участках дорог, загрузка техники, погодные условия. ML-модели предсказывают ожидаемое время цикла для каждого самосвала и выявляют аномалии — отклонения от нормы, указывающие на узкие места. Предиктивное моделирование прогнозирует будущие заторы и деградацию производительности. На выходе — прогноз времени цикла, карта узких мест, рекомендации по перераспределению техники и улучшению дорог.",
+  "companies": [
+    {
+      "name": "Hexagon (MineOperate Fleet Analytics)",
+      "description": "Аналитическая платформа консолидирует данные из любых FMS в единое хранилище. Предиктивное моделирование для выявления узких мест и оптимизации цикла. Интеграция планирования и операций для данных-ориентированных решений.",
+      "url": "https://hexagon.com/products/hxgn-mineoperate-op-fleet-analytics"
+    },
+    {
+      "name": "Caterpillar (MineStar Fleet)",
+      "description": "Мониторинг времени цикла и производительности всех единиц техники. AI-аналитика выявляет отклонения и узкие места в режиме реального времени для оперативного реагирования.",
+      "url": "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/loading-hauling.html"
+    },
+    {
+      "name": "Wenco / Hitachi",
+      "description": "Доказанный рост выработки на 11%+ без дополнительной техники. Dynamic Dispatch анализирует расположение экскаваторов, скорости, время погрузки для оптимизации назначений и минимизации простоев.",
+      "url": "https://www.wencomine.com/vision/boost-mine-payloads-and-productivity"
+    },
+    {
+      "name": "Komatsu / Modular Mining (DISPATCH)",
+      "description": "Аналитика времени цикла и производительности флота. Adaptive Config использует AI для автоматической оптимизации конфигурации диспетчеризации на основе фактических данных.",
+      "url": "https://www.mining-technology.com/products/dispatch-fleet-management/"
+    }
+  ],
+  "businessEffect": "Рост выработки на 11%+ без дополнительной техники (Wenco). AI-движки прогнозируют отказы, оптимизируют циклы и автоматизируют диспетчеризацию. Предиктивное моделирование устраняет узкие места до их возникновения.",
+  "maturityVerdict": "Mainstream — аналитика времени цикла является стандартной функцией всех FMS, AI усиливает предиктивные возможности и автоматизацию.",
+  "sources": [
+    "https://hexagon.com/products/hxgn-mineoperate-op-fleet-analytics",
+    "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/loading-hauling.html",
+    "https://www.wencomine.com/vision/boost-mine-payloads-and-productivity",
+    "https://www.mining-technology.com/products/dispatch-fleet-management/",
+    "https://hexagon.com/solutions/mine-fleet-management",
+    "https://farmonaut.com/mining/fleet-management-systems-in-mining-2025-key-innovations"
+  ]
+}

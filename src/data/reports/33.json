@@ -1,0 +1,32 @@
+{
+  "topicId": 33,
+  "title": "Адаптивное бурение с подстройкой к геологическим условиям в реальном времени",
+  "summary": "AI-системы автоматически адаптируют параметры бурения при изменении горно-геологических условий: твёрдости породы, трещиноватости, обводнённости. Это максимизирует скорость проходки при сохранении качества скважин и ресурса инструмента.",
+  "howItWorks": "На входе — данные MWD-сенсоров в реальном времени (скорость проходки, давление, крутящий момент, вибрация), 3D-геологическая модель, параметры бурового инструмента. Алгоритмы адаптивного бурения (smart Autodrill) анализируют изменения породных условий по откликам буровой колонки и автоматически корректируют давление подачи, скорость вращения и продувку. AI определяет износ долота и инициирует замену без вмешательства человека. На выходе — автоматически оптимизированные параметры бурения для каждого интервала скважины.",
+  "companies": [
+    {
+      "name": "Epiroc",
+      "description": "Pit Viper с smart Autodrill адаптирует параметры бурения к породным условиям. За 10 лет автономной работы: точность глубины скважин выросла на 85%, пространственная точность на 60%. AI-детектор износа долот автоматически инициирует замену.",
+      "url": "https://www.epirocgroup.com/en/media/corporate-press-releases/2025/20251022-epiroc-s-ground-breaking-drill-rig-pit-viper-celebrates-25-years-including-a-decade-with-autonomous-operations"
+    },
+    {
+      "name": "Sandvik",
+      "description": "AutoMine Surface Fleet с адаптивной оптимизацией параметров через оценку геологии в реальном времени. Развёрнут на руднике Boliden Kevitsa (Финляндия) со сложной минералогией и пластичными породами.",
+      "url": "https://www.mining.sandvik/en/digital-solutions/automation/automine-drill-fleet/"
+    },
+    {
+      "name": "Caterpillar",
+      "description": "Command for Drilling с автоматической адаптацией параметров бурения на открытых горных работах. Интеграция с системой управления парком для координации буровых и транспортных операций.",
+      "url": "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/command/command-drilling.html"
+    }
+  ],
+  "businessEffect": "Точность глубины скважин выросла на 85%, пространственная точность на 60% за 10 лет автономного бурения (Epiroc Pit Viper). Автоматическая замена долот без вмешательства человека. Оптимизация бурения в сложных геологических условиях (смешанная минералогия, пластичные породы).",
+  "maturityVerdict": "Зрелая — адаптивное бурение коммерчески развёрнуто на крупнейших рудниках (Boliden, Fortescue) и является стандартной функцией современных буровых станков.",
+  "sources": [
+    "https://www.epirocgroup.com/en/media/corporate-press-releases/2025/20251022-epiroc-s-ground-breaking-drill-rig-pit-viper-celebrates-25-years-including-a-decade-with-autonomous-operations",
+    "https://www.mining.sandvik/en/digital-solutions/automation/automine-drill-fleet/",
+    "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/command/command-drilling.html",
+    "https://im-mining.com/2025/12/19/epirocs-pit-viper-the-past-present-and-future/",
+    "https://discoveryalert.com.au/sandvik-autonomous-surface-drilling-large-scale-mining-2026/"
+  ]
+}

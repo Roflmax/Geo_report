@@ -1,0 +1,37 @@
+{
+  "topicId": 109,
+  "title": "Обнаружение изменений ландшафта и деформаций по серии съёмок",
+  "summary": "AI сравнивает последовательные 3D-съёмки карьера или подземных выработок и автоматически выявляет изменения: оседание поверхности, конвергенцию выработок, рост/убыль штабелей. Это обеспечивает раннее обнаружение деформаций и точный контроль горных работ.",
+  "howItWorks": "На входе — серия 3D-сканов одного участка (LiDAR, фотограмметрия), выполненных в разное время. Алгоритмы автоматически совмещают сканы с учётом упругих деформаций (non-rigid alignment) и вычисляют разницу между моделями поверхности. DEM Differencing количественно оценивает объёмные изменения (оседания, обрушения, рост штабелей). На выходе — карта изменений с количественной оценкой смещений и объёмов, тренды деформации по времени, предупреждения об аномалиях.",
+  "companies": [
+    {
+      "name": "Emesent",
+      "description": "Change Detection и Convergence Monitoring объединяют мобильный LiDAR-SLAM с автоматическим совмещением сканов. Неригидное выравнивание сохраняет локальную точность при дрейфе. Применяется для мониторинга конвергенции, объёмов и геотехнической устойчивости.",
+      "url": "https://emesent.com/solution/change-detection-and-convergence-monitoring/"
+    },
+    {
+      "name": "Propeller Aero",
+      "description": "Облачная платформа для отслеживания изменений рельефа между дроновыми съёмками. Автоматический расчёт изменений объёмов штабелей и хода горных работ для горнодобывающих рабочих процессов.",
+      "url": "https://www.propelleraero.com/industry/mining-workflows/"
+    },
+    {
+      "name": "Stantec",
+      "description": "Дистанционное зондирование для мониторинга изменений ландшафта на горных объектах. Мультитемпоральный анализ спутниковых и дроновых данных.",
+      "url": "https://www.stantec.com/en/services/remote-sensing"
+    },
+    {
+      "name": "Skycatch",
+      "description": "Автоматизированная 3D-съёмка с повторяемым качеством для точного сравнения последовательных моделей и обнаружения изменений на строительных и горных объектах.",
+      "url": "https://blog.skycatch.com/automated-capture-one-reason-skycatch-provides-best-quality-3d-models"
+    }
+  ],
+  "businessEffect": "Автоматическое обнаружение конвергенции подземных выработок без ручных замеров. Количественная оценка объёмных изменений (оседание, обрушение, рост штабелей) между съёмками. Неригидное выравнивание LiDAR-сканов обеспечивает точность даже при дрейфе датчиков.",
+  "maturityVerdict": "Зрелая — change detection (Emesent, Propeller) коммерчески развёрнут на рудниках, технология активно совершенствуется для подземных применений.",
+  "sources": [
+    "https://emesent.com/solution/change-detection-and-convergence-monitoring/",
+    "https://www.propelleraero.com/industry/mining-workflows/",
+    "https://www.stantec.com/en/services/remote-sensing",
+    "https://blog.skycatch.com/automated-capture-one-reason-skycatch-provides-best-quality-3d-models",
+    "https://emesent.com/blog/2024/08/16/beyond-the-surface-emesent-innovates-convergence-monitoring"
+  ]
+}

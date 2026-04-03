@@ -1,0 +1,38 @@
+{
+  "topicId": 83,
+  "title": "AI-управление вентиляцией шахт по данным о людях и газах",
+  "summary": "AI управляет вентиляцией шахт по принципу «воздух по требованию» (Ventilation on Demand), подавая свежий воздух только туда, где есть люди или техника. Вентиляция потребляет до 50% энергии шахты, и VoD может сократить этот расход вдвое.",
+  "howItWorks": "На входе — данные RTLS о местоположении людей и техники, показания газовых сенсоров (CO, CH4, пыль), температура, влажность, давление, статус оборудования. AI-система динамически рассчитывает потребность в вентиляции для каждой зоны и управляет вентиляторами и заслонками. При входе людей в зону — увеличивает подачу воздуха; при выходе — снижает до минимума. На выходе — оптимальное распределение воздуха с минимальным энергопотреблением при гарантированной безопасности.",
+  "companies": [
+    {
+      "name": "ABB (Ventilation Optimizer)",
+      "description": "Модульная система VoD с экономией энергии до 50%. Интегрируется с системой управления 800xA. Развёрнута на Garpenberg (Швеция), Borden (Канада), Chuquicamata (Чили). Продлевает срок службы шахты и ресурс оборудования.",
+      "url": "https://new.abb.com/mining/mineoptimize/digital-applications/advanced-process-control/abb-ability-ventilation-optimizer"
+    },
+    {
+      "name": "Howden",
+      "description": "Разработка продвинутых решений VoD с оптимизацией на основе реальных данных. Стремится к дальнейшей оптимизации через интеграцию AI и аналитики.",
+      "url": "https://im-mining.com/2023/07/11/howden-strives-for-further-ventilation-on-demand-optimisation/"
+    },
+    {
+      "name": "Maestro Digital Mine",
+      "description": "Станции мониторинга качества воздуха Vigilante AQS измеряют воздушный поток и загрязнители в реальном времени. Установлены в ключевых точках вентиляционной сети для обеспечения данных VoD.",
+      "url": "https://www.maestrodigitalmine.com/"
+    },
+    {
+      "name": "Newtrax (Sandvik)",
+      "description": "RTLS-отслеживание персонала и техники обеспечивает входные данные для VoD-систем — где находятся люди и оборудование, требующие вентиляции.",
+      "url": "https://www.mining.sandvik/en/digital-solutions/safety-and-environment/worker-safety/"
+    }
+  ],
+  "businessEffect": "Экономия энергии до 50% — вентиляция потребляет половину энергии шахты (ABB). Развёрнуто на ведущих рудниках мира: Garpenberg, Borden, Chuquicamata. AI-интеграция открывает дополнительные возможности оптимизации сверх базового VoD.",
+  "maturityVerdict": "Зрелая — VoD (ABB, Howden) коммерчески развёрнута на множестве подземных рудников, AI активно интегрируется для дальнейшей оптимизации.",
+  "sources": [
+    "https://new.abb.com/mining/mineoptimize/digital-applications/advanced-process-control/abb-ability-ventilation-optimizer",
+    "https://im-mining.com/2023/07/11/howden-strives-for-further-ventilation-on-demand-optimisation/",
+    "https://www.maestrodigitalmine.com/",
+    "https://www.mining.sandvik/en/digital-solutions/safety-and-environment/worker-safety/",
+    "https://www.mdpi.com/1424-8220/26/3/1042",
+    "https://new.abb.com/news/detail/106016/abb-on-extending-mine-production-and-asset-life-with-ventilation-on-demand"
+  ]
+}

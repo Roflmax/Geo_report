@@ -1,0 +1,39 @@
+{
+  "topicId": 3,
+  "title": "3D-моделирование месторождений с интеграцией разнородных данных",
+  "summary": "AI объединяет данные сейсмики, магнитометрии, гравиметрии, бурения и спутников в единую 3D-модель месторождения. Это ускоряет геологическое моделирование с недель до часов и повышает точность оценки запасов.",
+  "howItWorks": "На входе — разнородные геофизические данные (сейсмические профили, магнитные и гравитационные аномалии), данные керна (спектроскопия, гиперспектральные снимки, XRF), геохимические анализы. ML-модели (свёрточные нейросети, vision transformers, RBF-интерполяция) обучаются на размеченных геологических данных и строят вероятностные 3D-карты минерализации. На выходе — интерактивная 3D-модель с литологиями, структурами, зонами рудной минерализации и рекомендациями по бурению.",
+  "companies": [
+    {
+      "name": "Maptek",
+      "description": "Разработала DomainMCF — ML-решение для автоматического геологического моделирования. GeologyCore 2025 строит полные модели с интрузиями, жилами и стратиграфией в едином окружении, включая загрузку 2D/3D сейсмических данных.",
+      "url": "https://www.maptek.com/video/the-future-of-geological-modelling-with-ai-machine-learning/"
+    },
+    {
+      "name": "GeologicAI",
+      "description": "Сканирует керн с помощью LIBS, гиперспектральной съёмки и 3D-визуализации, анализируя данные нейросетями. Привлёк $60M от BHP Ventures и Rio Tinto. Ускоряет моделирование ресурсов на 22% (пилот BHP на Jansen Potash Mine).",
+      "url": "https://discoveryalert.com.au/ai-transforming-mining-exploration-2025/"
+    },
+    {
+      "name": "VRIFY",
+      "description": "AI-платформа DORA использует vision transformers для генерации вероятностных 3D-карт подповерхностной минерализации. Превращает многомерные датасеты в карты проспективности с координатами X, Y, Z.",
+      "url": "https://vrify.com"
+    },
+    {
+      "name": "BHP (с GeologicAI)",
+      "description": "Пилотное внедрение на руднике Jansen показало 22% ускорение моделирования ресурсов. BHP Ventures инвестировал в GeologicAI как стратегическую технологию для ускорения разведки.",
+      "url": "https://www.rbc.com/en/thought-leadership/the-growth-project/from-rock-to-roi-how-calgarys-geologicai-turns-core-samples-into-knowledge/"
+    }
+  ],
+  "businessEffect": "Сокращение времени геологического моделирования с недель до часов (GeologicAI). Ускорение моделирования ресурсов на 22% (BHP/GeologicAI). GeologicAI привлёк $60M инвестиций от крупнейших горнодобывающих компаний мира.",
+  "maturityVerdict": "Зрелая — коммерческие продукты (Maptek GeologyCore, GeologicAI, VRIFY DORA) активно используются крупнейшими горнодобывающими компаниями мира.",
+  "sources": [
+    "https://www.maptek.com/video/the-future-of-geological-modelling-with-ai-machine-learning/",
+    "https://discoveryalert.com.au/ai-transforming-mining-exploration-2025/",
+    "https://vrify.com",
+    "https://www.rbc.com/en/thought-leadership/the-growth-project/from-rock-to-roi-how-calgarys-geologicai-turns-core-samples-into-knowledge/",
+    "https://www.maptek.com/products/geologycore/",
+    "https://www.mining-technology.com/news/geologicai-series-b-funding/",
+    "https://vrify.com/platform"
+  ]
+}

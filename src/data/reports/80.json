@@ -1,0 +1,38 @@
+{
+  "topicId": 80,
+  "title": "Мониторинг усталости и сонливости операторов техники",
+  "summary": "Камеры в кабине и AI отслеживают признаки усталости и отвлечения водителей карьерных самосвалов в реальном времени: закрытие глаз, наклон головы, отвлечение взгляда. Это предотвращает аварии, вызванные засыпанием за рулём — одной из главных причин смертельных инцидентов.",
+  "howItWorks": "На входе — видеопоток с инфракрасной камеры, направленной на лицо оператора. AI-алгоритмы компьютерного зрения отслеживают длительность закрытия глаз (PERCLOS), положение головы, направление взгляда и выражение лица. При обнаружении микросна, засыпания или длительного отвлечения система мгновенно оповещает оператора вибрацией сиденья и звуковым сигналом. Данные передаются в центр мониторинга 24/7. На выходе — мгновенные оповещения оператору, запись инцидентов, аналитика усталости по водителям и сменам.",
+  "companies": [
+    {
+      "name": "Caterpillar DSS (Seeing Machines)",
+      "description": "Driver Safety System с алгоритмами отслеживания глаз и головы. DSS 5.0 с улучшенным распознаванием лиц и закрытия глаз. Рост развёрнутых систем на 80% с 2021 года. Вибрация сиденья + звук при обнаружении усталости.",
+      "url": "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/detect1/fatigue.html"
+    },
+    {
+      "name": "Hexagon (OAS)",
+      "description": "Operator Alertness System детектирует сонливость, микросны и отвлечение в кабинах самосвалов, вспомогательной техники и автобусов. Результат: снижение аварий от усталости на 91% (Gold Fields Ghana). Удалённый мониторинг 24/7.",
+      "url": "https://hexagon.com/products/hxgn-mineprotect-operator-alertness-system"
+    },
+    {
+      "name": "Seeing Machines",
+      "description": "Австралийский разработчик технологии отслеживания глаз и лица. Эксклюзивный поставщик для Caterpillar Global Mining. Технология используется в горнодобыче, авиации и автомобильной промышленности.",
+      "url": "https://www.prnewswire.com/news-releases/seeing-machines-and-caterpillar-sign-global-agreement-for-product-development-licensing-and-distribution-300142076.html"
+    },
+    {
+      "name": "Fatigue Science (Readi)",
+      "description": "Платформа Readi прогнозирует усталость на основе данных о сне (носимые устройства) и сменных графиков, позволяя проактивно управлять рисками до выхода оператора на смену.",
+      "url": "https://fatiguescience.com/readi"
+    }
+  ],
+  "businessEffect": "Снижение аварий от усталости на 91% (Hexagon OAS, Gold Fields Ghana). Рост развёрнутых систем Cat DSS на 80% с 2021 года. MMG — первый подземный рудник Австралии с OAS, трансформационные результаты за 3 месяца.",
+  "maturityVerdict": "Mainstream — системы мониторинга усталости (Cat DSS, Hexagon OAS) являются стандартом на крупных рудниках и обязательным требованием многих горнодобывающих компаний.",
+  "sources": [
+    "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/detect1/fatigue.html",
+    "https://hexagon.com/products/hxgn-mineprotect-operator-alertness-system",
+    "https://www.prnewswire.com/news-releases/seeing-machines-and-caterpillar-sign-global-agreement-for-product-development-licensing-and-distribution-300142076.html",
+    "https://fatiguescience.com/readi",
+    "https://im-mining.com/2024/02/08/cat-dss-evolving-and-growing-rapidly/",
+    "https://www.miningmagazine.com/partners/partner-content/1379865/hexagons-operator-alertness-combats-fatigue-distraction"
+  ]
+}

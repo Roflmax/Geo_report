@@ -1,0 +1,32 @@
+{
+  "topicId": 98,
+  "title": "AI-мониторинг биоразнообразия в зоне влияния горного предприятия",
+  "summary": "AI анализирует экологическую ДНК (eDNA) из проб воды и почвы, спутниковые снимки и акустические записи для мониторинга биоразнообразия вокруг рудников. Это заменяет дорогие полевые обследования с привлечением специалистов и обеспечивает соответствие растущим требованиям «nature positive».",
+  "howItWorks": "На входе — пробы воды/почвы для eDNA-анализа, спутниковые снимки (растительность, водные объекты), акустические записи (биоакустика), данные о высоте и типах местообитаний. AI-модели анализируют eDNA-последовательности для идентификации видов, обрабатывают спутниковые данные для оценки состояния экосистем, распознают звуки животных. Геопространственные данные комбинируются с наземными пробами для прогноза биоразнообразия. На выходе — перечень видов в зоне влияния, оценка состояния экосистемы, тренды изменения биоразнообразия.",
+  "companies": [
+    {
+      "name": "NatureMetrics",
+      "description": "Лидер eDNA-мониторинга для горнодобычи. AI комбинирует геопространственные данные с eDNA для прогноза биоразнообразия до начала полевых работ. Клиенты: Anglo American, Rio Tinto, De Beers. 16 проектов в 11 странах.",
+      "url": "https://www.naturemetrics.com/sectors/extractives"
+    },
+    {
+      "name": "Anglo American (с NatureMetrics)",
+      "description": "Развернул eDNA-мониторинг на рудниках по всему миру с 2020 года. Сокращение полевых обследований специалистами на 90%+. Трансформация мониторинга биоразнообразия на всех стадиях проекта, включая Woodsmith.",
+      "url": "https://www.angloamerican.com/futuresmart/stories/our-world/environment/biodiversity-conservation"
+    },
+    {
+      "name": "Rio Tinto (с NatureMetrics)",
+      "description": "Партнёрство с NatureMetrics для мониторинга биоразнообразия на глобальном портфеле объектов. Использует eDNA и дистанционное зондирование для оценки воздействия на экосистемы.",
+      "url": "https://www.naturemetrics.com/sectors/extractives"
+    }
+  ],
+  "businessEffect": "Сокращение полевых обследований специалистами на 90%+ (Anglo American). 16 проектов в 11 странах с eDNA-мониторингом. Прогноз биоразнообразия до полевых работ по геопространственным данным и eDNA. Соответствие требованиям TNFD и «nature positive» без масштабных экспедиций.",
+  "maturityVerdict": "Зрелая — eDNA-мониторинг (NatureMetrics) коммерчески развёрнут крупнейшими горнодобывающими компаниями, AI усиливает аналитику и прогнозирование.",
+  "sources": [
+    "https://www.naturemetrics.com/sectors/extractives",
+    "https://www.angloamerican.com/futuresmart/stories/our-world/environment/biodiversity-conservation",
+    "https://www.naturemetrics.com/news/harnessing-ai-for-biodiversity",
+    "https://www.naturemetrics.com/news/anglo-american-leveraging-naturemetrics-edna-solution-to-improve-biodiversity-knowledge-at-woodsmith",
+    "https://www.naturemetrics.com/news/nature-techs-role-in-minings-nature-positive-future"
+  ]
+}

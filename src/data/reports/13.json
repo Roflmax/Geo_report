@@ -1,0 +1,33 @@
+{
+  "topicId": 13,
+  "title": "NLP и text mining для извлечения знаний из геологических отчётов",
+  "summary": "AI-системы на основе обработки естественного языка автоматически анализируют миллионы страниц геологических отчётов, извлекая описания пород, минерализации и структур. Это позволяет находить скрытые закономерности в архивных данных и выявлять пропущенные месторождения.",
+  "howItWorks": "На входе — неструктурированные тексты: геологические отчёты, описания керна, научные публикации, патенты. NLP-модели (геонаучные языковые модели, LLM, word embeddings) преобразуют текстовые описания в числовые векторы. Алгоритмы извлекают именованные сущности (минералы, породы, структуры, возраст), строят графы знаний и находят ассоциации между геологическими признаками. На выходе — карты проспективности, ранжированные цели для бурения, структурированные базы данных из ранее неоцифрованных архивов.",
+  "companies": [
+    {
+      "name": "RadiXplore",
+      "description": "Анализирует 50+ миллионов страниц архивных отчётов с помощью NLP. Идентифицировал 201 потенциальную порфировую систему в Саскачеване. Работает с ARIS-отчётами Британской Колумбии для поиска медных месторождений.",
+      "url": "https://radixplore.com/blog/unlocking-british-columbias-aris-reports-radixplores-new-ai-tool-for-discovering-porphyry-copper-deposits/"
+    },
+    {
+      "name": "Viridien",
+      "description": "Подразделение AI-сервисов для геонаук, применяющее NLP и глубокое обучение для извлечения информации из геологической документации и интеграции с геофизическими данными.",
+      "url": "https://www.viridiengroup.com/expertise/digital-services/artificial-intelligence-ai"
+    },
+    {
+      "name": "GeoDocA (Geoscience Australia)",
+      "description": "Система text mining для быстрого анализа геологического содержания в отчётах по разведке. Извлекает описания пород, стратиграфию, минерализацию из текстовых документов.",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S016913681930157X"
+    }
+  ],
+  "businessEffect": "Анализ миллионов страниц отчётов за часы вместо месяцев ручной работы. Обнаружение 201 скрытой порфировой системы в одном регионе (RadiXplore/Саскачеван). Повышение точности обнаружения минерализации до 45% за счёт интеграции текстовых данных с геопространственными.",
+  "maturityVerdict": "Развивающаяся — коммерческие решения (RadiXplore, Viridien) уже используются, но широкое внедрение ограничено качеством архивных данных и необходимостью доменной адаптации моделей.",
+  "sources": [
+    "https://radixplore.com/blog/unlocking-british-columbias-aris-reports-radixplores-new-ai-tool-for-discovering-porphyry-copper-deposits/",
+    "https://www.viridiengroup.com/expertise/digital-services/artificial-intelligence-ai",
+    "https://www.sciencedirect.com/science/article/abs/pii/S016913681930157X",
+    "https://blog.radixplore.com/ai-porphyry-copper-exploration-case-study/",
+    "https://link.springer.com/article/10.1007/s11053-023-10216-1",
+    "https://link.springer.com/article/10.1007/s11004-025-10231-3"
+  ]
+}

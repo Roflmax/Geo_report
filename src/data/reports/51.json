@@ -1,0 +1,43 @@
+{
+  "topicId": 51,
+  "title": "AI-планирование обслуживания по состоянию вместо регламента",
+  "summary": "AI переводит обслуживание горного оборудования с фиксированного расписания (каждые N часов) на обслуживание по фактическому состоянию. Это исключает как преждевременное обслуживание (перерасход), так и работу на износ (аварии), оптимизируя затраты и доступность техники.",
+  "howItWorks": "На входе — данные масляного анализа, показания IoT-сенсоров (температура, вибрация, давление, ток), наработка в часах, история ремонтов. AI-модели обучаются на «здоровом» состоянии каждой машины и выявляют малейшие отклонения (No-Model AI от AVEVA). Платформы приоритизируют оборудование по срочности вмешательства. На выходе — ранжированный список техники, требующей внимания, с указанием конкретного компонента и рекомендуемого действия вместо фиксированного графика ТО.",
+  "companies": [
+    {
+      "name": "Rio Tinto (AVEVA)",
+      "description": "AVEVA PI System — отраслевой стандарт сбора данных. Predictive Analytics использует No-Model AI для обучения на здоровом состоянии машин. Votorantim сэкономил $5.5M на корректирующем обслуживании на 6 горных объектах.",
+      "url": "https://www.aveva.com/en/perspectives/success-stories/rio-tinto/"
+    },
+    {
+      "name": "Anglo American (IBM Maximo)",
+      "description": "IBM Maximo для управления активами с AI-аналитикой для перехода от регламентного к предиктивному обслуживанию на рудниках Anglo American.",
+      "url": "https://miningdigital.com/digital-transformation/predictive-maintenance-reshaping-mining-operations"
+    },
+    {
+      "name": "Caterpillar (MineStar Health)",
+      "description": "MineStar Health встроен в ДНК машин Cat, мониторит тысячи каналов данных. Equipment Care Advisor предоставляет удалённым техникам приоритизированный список машин, требующих внимания.",
+      "url": "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/health.html"
+    },
+    {
+      "name": "Dingo (Newmont Trakka)",
+      "description": "Trakka специализируется на тяжёлой мобильной технике. Комбинирует результаты масляного анализа с данными сенсоров для выдачи конкретных рекомендаций по обслуживанию, а не просто графиков.",
+      "url": "https://www.dingo.com/solutions/trakka/"
+    },
+    {
+      "name": "BHP",
+      "description": "Внедряет AI для предиктивного обслуживания 300+ самосвалов. Снижение незапланированных простоев на 35%, экономия $27M/год.",
+      "url": "https://www.bhp.com/news/bhp-insights/2024/08/artificial-intelligence-is-unearthing-a-smarter-future"
+    }
+  ],
+  "businessEffect": "Экономия $5.5M на корректирующем обслуживании на 6 объектах (AVEVA/Votorantim). Снижение затрат на обслуживание на 8-10%. Рост доступности техники на 10% (с 78% до 89% у BHP). Экономия $27M/год на парке 300 самосвалов (BHP).",
+  "maturityVerdict": "Mainstream — обслуживание по состоянию является стратегическим приоритетом всех крупных горнодобывающих компаний, коммерческие платформы (Cat Health, AVEVA, Dingo Trakka) широко развёрнуты.",
+  "sources": [
+    "https://www.aveva.com/en/perspectives/success-stories/rio-tinto/",
+    "https://miningdigital.com/digital-transformation/predictive-maintenance-reshaping-mining-operations",
+    "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-technology/health.html",
+    "https://www.dingo.com/solutions/trakka/",
+    "https://www.bhp.com/news/bhp-insights/2024/08/artificial-intelligence-is-unearthing-a-smarter-future",
+    "https://www.mining-technology.com/features/predictive-maintenance-and-the-rise-of-ai-in-mining/"
+  ]
+}

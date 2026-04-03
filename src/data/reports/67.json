@@ -1,0 +1,32 @@
+{
+  "topicId": 67,
+  "title": "AI-анализ текстуры пены флотации (froth image analysis)",
+  "summary": "Камеры и AI анализируют внешний вид пены флотации — размер пузырьков, цвет, скорость движения, стабильность — для оценки состояния процесса в реальном времени. Это заменяет субъективную оценку оператора объективными количественными данными.",
+  "howItWorks": "На входе — видеопоток с камер, установленных над флотационными ячейками. CNN и нейросети с глубоким обучением сегментируют изображение на отдельные пузырьки и извлекают признаки: размер, распределение, цвет, текстуру поверхности, скорость и направление движения пены, высоту пены. Множественные области интереса позволяют анализировать разные зоны ячейки. На выходе — количественные характеристики пены в реальном времени с корреляцией к содержанию и извлечению, рекомендации по корректировке параметров.",
+  "companies": [
+    {
+      "name": "Metso (FrothSense+)",
+      "description": "Объединяет лучшие функции FrothSense и VisioFroth. AI с глубоким обучением определяет свойства флотации. Измеряет скорость, направление, размер пузырьков, стабильность, цвет и высоту пены. Множественные области интереса.",
+      "url": "https://www.metso.com/portfolio/frothsense/"
+    },
+    {
+      "name": "Woodgrove Technologies (PFC)",
+      "description": "Система характеристики пены Woodgrove для оценки состояния флотационного процесса через анализ визуальных свойств пены.",
+      "url": "http://woodgrovetech.com/woodgrove-froth-characterization-system/"
+    },
+    {
+      "name": "ABB",
+      "description": "Интегрирует данные анализа пены с системой Expert Optimizer для автоматической оптимизации параметров флотации на основе визуальной обратной связи.",
+      "url": "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-expert-optimizer/advanced-process-control-of-grinding-and-flotation"
+    }
+  ],
+  "businessEffect": "Замена субъективной оценки оператора объективными данными 24/7. Непрерывный мониторинг вместо периодических визуальных проверок. AI-корреляция между характеристиками пены и извлечением позволяет проактивно корректировать процесс.",
+  "maturityVerdict": "Зрелая — системы анализа пены (Metso FrothSense+, Woodgrove PFC) коммерчески развёрнуты на множестве фабрик, AI с глубоким обучением значительно повышает точность.",
+  "sources": [
+    "https://www.metso.com/portfolio/frothsense/",
+    "http://woodgrovetech.com/woodgrove-froth-characterization-system/",
+    "https://new.abb.com/mining/digital-applications/advanced-process-control/abb-ability-expert-optimizer/advanced-process-control-of-grinding-and-flotation",
+    "https://www.sciencedirect.com/science/article/abs/pii/S0952197625002830",
+    "https://im-mining.com/2022/05/12/metso-outotec-consolidates-adds-to-minerals-and-hydromet-digital-tools-with-sense-series/"
+  ]
+}

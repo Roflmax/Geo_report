@@ -1,0 +1,38 @@
+{
+  "topicId": 43,
+  "title": "AI-оптимизация расхода топлива и электроэнергии транспортного парка",
+  "summary": "AI анализирует стиль вождения, маршруты, загрузку и состояние техники для минимизации расхода топлива и электроэнергии горнодобывающего парка. Топливо — одна из крупнейших статей операционных затрат, поэтому даже небольшая оптимизация даёт значительную экономию.",
+  "howItWorks": "На входе — данные телеметики машин (обороты двигателя, скорость, загрузка, уклон), маршруты, состояние дорог, погодные условия. ML-модели выявляют паттерны неэффективного расхода: излишний холостой ход, агрессивное вождение, неоптимальные маршруты. Для электрических машин AI оптимизирует потребление энергии, адаптируя скорость и ускорение для максимизации пробега. На выходе — рекомендации по маршрутам и режимам движения, рейтинги водителей, прогноз расхода и графики зарядки электротехники.",
+  "companies": [
+    {
+      "name": "Caterpillar (MineStar Fleet)",
+      "description": "Система мониторинга эффективности топлива для карьерных самосвалов. Интеграция с автономными системами Command снижает расход до 7.5%. Лидер по автономному парку (~600 самосвалов на нескольких континентах).",
+      "url": "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-equipment/mining-trucks/fuel-efficiency.html"
+    },
+    {
+      "name": "Hexagon (MineOperate)",
+      "description": "Мониторинг расхода топлива в рамках комплексного управления флотом. Идентификация холостого хода, неэффективных маршрутов и агрессивного вождения для снижения затрат и выбросов.",
+      "url": "https://hexagon.com/products/product-groups/hxgn-mineoperate"
+    },
+    {
+      "name": "Wenco / Hitachi",
+      "description": "Fuel and Activity Dispatch оптимизирует назначения с учётом расхода топлива. Мониторинг эффективности каждой единицы техники для выявления аномалий потребления.",
+      "url": "https://www.wencomine.com/our-solutions/mining-fleet-management"
+    },
+    {
+      "name": "ABB (Energy Management)",
+      "description": "AI-обновление системы управления энергией оптимизирует промышленную энергоэффективность. Применяется к конвейерам, вентиляции и электрическому горному оборудованию.",
+      "url": "https://new.abb.com/news/detail/116444/ai-upgrade-to-abb-energy-management-system-optimizes-industrial-energy-efficiency"
+    }
+  ],
+  "businessEffect": "Снижение расхода топлива на 15% через AI-оптимизацию (австралийский рудник). Автономные самосвалы экономят до 7.5% топлива. Рост операционной эффективности на 20% за счёт комплексной AI-оптимизации флота.",
+  "maturityVerdict": "Mainstream — мониторинг и оптимизация расхода топлива является стандартной функцией всех FMS, AI усиливает эффект через предиктивные модели и поведенческую аналитику.",
+  "sources": [
+    "https://www.cat.com/en_US/by-industry/mining/surface-mining/surface-equipment/mining-trucks/fuel-efficiency.html",
+    "https://hexagon.com/products/product-groups/hxgn-mineoperate",
+    "https://www.wencomine.com/our-solutions/mining-fleet-management",
+    "https://new.abb.com/news/detail/116444/ai-upgrade-to-abb-energy-management-system-optimizes-industrial-energy-efficiency",
+    "https://www.miningdoc.tech/2025/01/02/optimizing-fleet-management-in-mining-ai-powered-solutions-for-better-productivity/",
+    "https://www.klover.ai/caterpillar-ai-strategy-analysis-of-dominance-in-construction-mining-energy-rail/"
+  ]
+}

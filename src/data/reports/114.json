@@ -1,0 +1,37 @@
+{
+  "topicId": 114,
+  "title": "AI-координация всей цепочки поставок mine-to-port",
+  "summary": "AI координирует всю цепочку от забоя до порта как единую систему: добыча, транспортировка, переработка, железная дорога, порт. Интегрированные операционные центры управляют тысячами решений в реальном времени для максимизации отгрузки.",
+  "howItWorks": "На входе — данные со всех звеньев цепочки: состояние забоев, FMS-данные техники, качество руды на складах, расписание поездов, доступность причалов, позиции судов, погода. AI-платформа оптимизирует всю цепочку одновременно, балансируя мощности каждого звена и предотвращая узкие места. Интегрированный операционный центр (The Hive, Perth IOC) управляет автономной техникой, поездами и портами из одной точки. На выходе — согласованное расписание всех операций от забоя до погрузки судна, максимизирующее отгрузку.",
+  "companies": [
+    {
+      "name": "Rio Tinto + BCG X",
+      "description": "AI-платформа Future Scheduling для крупнейшей в мире интегрированной цепочки (1 млн тонн/день). Окупаемость <3 месяцев. Экономия затрат до 5%. Удвоение производительности планировщиков. Рекордная добыча Q2 2025.",
+      "url": "https://www.bcg.com/x/mark-your-moment/how-an-iron-ore-producer-modernized-mining-operations-with-ai"
+    },
+    {
+      "name": "Fortescue (The Hive)",
+      "description": "Центр интегрированных операций в Перте управляет всей цепочкой pit-to-port: 200+ автономных самосвалов, 4000 вагонов, 6 фабрик, рудник Iron Bridge. В 2024 — более 4 млрд тонн руды перемещено автономно.",
+      "url": "https://im-mining.com/2020/06/30/fortescue-integrates-wa-iron-ore-supply-chain-into-the-hive/"
+    },
+    {
+      "name": "Fortescue (SolveIT)",
+      "description": "ПО оптимизации mine-to-port: шихтование руды, расписание поездов, портовые операции, швартовка и управление сценариями обслуживания в единой системе.",
+      "url": "https://www.prnewswire.com/news-releases/solveit-software-goes-live-on-time-and-on-budget-at-fortescue-metals-group-for-mine-to-port-supply-chain-optimisation-151103855.html"
+    },
+    {
+      "name": "Rio Tinto",
+      "description": "Mine Automation System на 98% объектов. Автономные самосвалы, поезда (AutoHaul), буровые — все интегрированы в единую цепочку. Smart Mining с AI-оптимизацией всех звеньев.",
+      "url": "https://www.riotinto.com/en/about/innovation/smart-mining"
+    }
+  ],
+  "businessEffect": "4+ млрд тонн перемещено автономно за год (Fortescue The Hive). Окупаемость AI-платформы <3 месяцев, экономия до 5% (Rio Tinto). Рекордная добыча Q2 2025 в Пилбаре благодаря AI-оптимизации цепочки (Rio Tinto).",
+  "maturityVerdict": "Зрелая — интегрированные операционные центры (Rio Tinto Perth, Fortescue The Hive) управляют крупнейшими в мире цепочками mine-to-port с подтверждёнными рекордными результатами.",
+  "sources": [
+    "https://www.bcg.com/x/mark-your-moment/how-an-iron-ore-producer-modernized-mining-operations-with-ai",
+    "https://im-mining.com/2020/06/30/fortescue-integrates-wa-iron-ore-supply-chain-into-the-hive/",
+    "https://www.prnewswire.com/news-releases/solveit-software-goes-live-on-time-and-on-budget-at-fortescue-metals-group-for-mine-to-port-supply-chain-optimisation-151103855.html",
+    "https://www.riotinto.com/en/about/innovation/smart-mining",
+    "https://discoveryalert.com.au/rio-tintos-mining-operations-performance-2025/"
+  ]
+}
